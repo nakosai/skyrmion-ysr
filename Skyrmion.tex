@@ -21,6 +21,7 @@
 
 \date{\today}
 
+
 \begin{abstract}
 Skyrmions are nice
 \end{abstract}
@@ -48,9 +49,32 @@ Discuss the results and what it means, how big the signal is etc. Unfortunately 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Skyrmions in ferromagnetic films} \label{sec:skyrmion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Define skyrmions.  Write topological number. Define magnetic moments of the skyrmion (anapole,monopole etc). Discuss different types of skyrmions and that they are equivalent for electrons. 
 
-Added more info
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure} \centering
+(a) \includegraphics[width=0.4\linewidth]{SkyrmA}  
+(b) \includegraphics[width=0.4\linewidth]{SkyrmB} 
+\caption{(Color online.) Ferromagnetic field with skyrmion configuration of magnetism on top of a superconductor. (a) Monopole skyrmion.  (b) Anapole skyrmion. } \label{fig:skyrmion}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+Let the three-dimensional vector $S(\bm r) = (S_x,S_y,S_z)$ describe the configuration of the ferromagnetic vector in a two-dimensional ferromagnetic film $\bm r = (x,y)$. The configurations of the field $S(\bm r)$ shown in Fig. \ref{fig:skyrmion}(a) and (b) are referred to as skyrmions. The skyrmion configuration of the field is characterized by the topological charge 
+
+\begin{align}
+	Q = \frac{1}{4\pi} \int d^2r \, \hat {\bm S}\cdot (\nabla_x\hat {\bm S}\times\nabla_y\hat {\bm S}), \quad \hat {\bm S}= \frac{\bm S}{S}, 
+	\label{topCharge}
+\end{align}
+which cannot be altered by the continuous transfomation of the field.  We also characterize the skyrmion fields by the zeroth and first moments
+\begin{align}
+	S^{(0)}_i = \int  d^2r \, \left[S_i(\bm r)-S_i(\infty)\right], \\
+	S^{(1)}_{ij} = \int  d^2r \, \left[S_i(\bm r)-S_i(\infty)\right] r_j.
+	\label{moments}
+\end{align}
+The zeroth moment defines the average moment of the skyrmion and it is equal for the two skyrmions shown in Fig.~{\ref{fig:skyrmion}}(a) and (b). For the cylindrically symmetric field $S(\bm r)$, the first order moment can be expanded in the symmetric and antisymmetric parts $S^{(1)}_{ij}=S^{(1)}_{\rm monopole}\,\delta_{ij} + S^{(1)}_{\rm anapole}\,\epsilon_{ijz}$. The skyrmions shown in Fig.~\ref{fig:skyrmion}(a) and (b) have monopole and anapole moments correspondingly, hence the name of the skyrmions. However the two types of the skyrmions have the same topological charge~(\ref{topCharge}) and thus can be continuosly deformed into each other. 
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -58,17 +82,7 @@ Added more info
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Superconductor-ferromagnet heterostructures were recently proposed as a viable platform for realizing topological superconductivity (TS) \cite{Lutchyn2010,Oreg2010, Sau2010}, which can host Majorana fermion quasiparticles at vortex cores and boundaries \cite{Kitaev2001, Alicea, Beenakker2013}. Majorana fermions obey non-Abelian statistics and may be utilized for topological quantum computation \cite{Read2000, Ivanov2001, Nayak2008}.  The key ingredients driving these systems in the topologically non-trivial regime are the spin-orbit coupling (SOC) and magnetism. Recently, the search for experimental realizations of TS has also led to engineering the impurity bands of the Yu-Shiba-Rusinov (YSR) states \cite{Yu,Shiba,Rusinov}, induced by magnetic atoms on the surface of a superconductor \cite{Choy2011, Nadj-Perge2013, Klinovaja2013, Vazifeh2013, Braunecker2013, Pientka2013, Nakosai2013, Poyhonen2014, Reis2014, Brydon2015, Rontynen2014, Li2015}. Following this recipe, zero-energy peaks in the tunneling spectrum were recently measured at the ends of a one-dimensional (1D) chain of magnetic atoms \cite{Yazdani2014}. Such a tunneling spectrum could be the evidence of Majorana edge states, although alternative explanations are also possible \cite{Sau2015}.
 
-The interplay of SOC and magnetism has another remarkable consequence. Consider a two-dimensional (2D) surface of a 3D superconductor. The effective Hamiltonian of the surface $h(\bm p) = \frac{{\bm p}^2}{2m} + \lambda\left( \bm\sigma\times\bm p\right)_z$ contains Rashba SOC due to the absence of inversion symmetry at the surface. Then, the velocity operator $\bm v= {\frac{dh(\bm p)}{d\bm p} =\frac{\bm p}{m}+ \lambda \,\hat{\bm z}\times\bm\sigma}$ contains a spin-dependent term that gives an extra contribution to the current
-\begin{equation}
-	\bm j_{\rm extra} = \lambda\,  \hat{\bm z}\times\langle\bm\sigma\rangle . \label{main}
-\end{equation}
-A ferromagnet proximity-coupled to the superconductor would render a finite spin polarization $\langle \bm \sigma \rangle \neq 0$ and thus generate a current as schematically shown in Fig. The phenomenon of driving a current with magnetism is known as the magnetoelectric effect. This effect may vanish in metals due to dissipation but survives in superconductors lacking inversion symmetry \cite{Levitov1985, Edelstein1989, Edelstein1995, Yip2001, BauerSigrist2012}. The magnetoelectric effect was also recently discussed in a pure 1D model of TS \cite{Ojanen2012}. 
 
-t-matrix is good too.
-
-very very good.
-
-very very very good.
 
 
 \begin{equation}
