@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{32}%
+\begin{thebibliography}{26}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -337,59 +337,4 @@
   {Brydon}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Bound states of
   a ferromagnetic wire in a superconductor}},}\ }\href@noop {} {\ }\Eprint
   {http://arxiv.org/abs/1501.03149} {arXiv:1501.03149} \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Levitov}\ \emph {et~al.}(1985)\citenamefont
-  {Levitov}, \citenamefont {Nazarov},\ and\ \citenamefont
-  {Eliashberg}}]{Levitov1985}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.S.}\ \bibnamefont
-  {Levitov}}, \bibinfo {author} {\bibfnamefont {Yu.V.}\ \bibnamefont
-  {Nazarov}}, \ and\ \bibinfo {author} {\bibfnamefont {G.M.}\ \bibnamefont
-  {Eliashberg}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Magnetostatics of superconductors without an inversion center}},}\ }\href
-  {http://www.jetpletters.ac.ru/ps/1467/article\_22366.shtml} {\bibfield
-  {journal} {\bibinfo  {journal} {JETP Lett.}\ }\textbf {\bibinfo {volume}
-  {41}},\ \bibinfo {pages} {445} (\bibinfo {year} {1985})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Edelstein}(1989)}]{Edelstein1989}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~M.}\ \bibnamefont
-  {Edelstein}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Characteristics of the Cooper pairing in two-dimensional noncentrosymmetric
-  electron systems}},}\ }\href
-  {http://www.jetp.ac.ru/cgi-bin/e/index/e/68/6/p1244?a=list} {\bibfield
-  {journal} {\bibinfo  {journal} {Sov. Phys. JETP}\ }\textbf {\bibinfo {volume}
-  {68}},\ \bibinfo {pages} {1244} (\bibinfo {year} {1989})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Edelstein}(1995)}]{Edelstein1995}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~M.}\ \bibnamefont
-  {Edelstein}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Magnetoelectric effect in polar superconductors}},}\ }\href {\doibase
-  10.1103/PhysRevLett.75.2004} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages}
-  {2004} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Yip}(2001)}]{Yip2001}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont
-  {Yip}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Two-dimensional
-  superconductivity with strong spin-orbit interaction}},}\ }\href {\doibase
-  10.1103/PhysRevB.65.144508} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {65}},\ \bibinfo {pages} {144508}
-  (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Bauer}\ and\ \citenamefont
-  {Sigrist}(2012)}]{BauerSigrist2012}%
-  \BibitemOpen
-  \bibinfo {editor} {\bibfnamefont {E.}~\bibnamefont {Bauer}}\ and\ \bibinfo
-  {editor} {\bibfnamefont {M.}~\bibnamefont {Sigrist}},\ eds.,\ \href {\doibase
-  10.1007/978-3-642-24624-1} {\emph {\bibinfo {title} {{Non-Centrosymmetric
-  Superconductors}}}},\ Vol.\ \bibinfo {volume} {847}\ (\bibinfo  {publisher}
-  {Springer Berlin Heidelberg},\ \bibinfo {year} {2012})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Ojanen}(2012)}]{Ojanen2012}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Ojanen}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Magnetoelectric
-  Effects in Superconducting Nanowires with Rashba Spin-Orbit Coupling}},}\
-  }\href {\doibase 10.1103/PhysRevLett.109.226804} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {109}},\
-  \bibinfo {pages} {226804} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
 \end{thebibliography}%
