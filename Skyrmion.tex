@@ -73,7 +73,11 @@ which cannot be altered by the continuous transfomation of the field.  We also c
 	S^{(0)}_i = \int  d^2r \, \left[S_i(\bm r)-S_i(\infty)\right],\,\, i\in \{x,y,z\}, \label{S0} \\
 	S^{(1)}_{ij} = \int  d^2r \, \left[S_i(\bm r)-S_i(\infty)\right] r_j,\,\, j\in \{x,y\}. \label{S1}
 \end{align}
-The zeroth moment $\bm S^{(0)} = S_{\rm eff} \hat{\bm z}$ characterizes the effective out-of-plane magnetic moment of the skyrmion and is equal for the two skyrmions shown in Fig.~{\ref{fig:skyrmion}}(a) and (b). Whereas, the first-order moment $S^{(1)}_{ij}$ characterizes the in-plane pattern of the ferromagnetic vector $\bm S(\bm r)$. Note that for the cylindrically symmetric field $S(\bm r)$, the first order moment defined in Eq.~(\ref{S1}) can be expanded in the symmetric and antisymmetric parts $S^{(1)}_{ij}=S_{\rm mono}\,\delta_{ij} + S_{\rm ana}\,\epsilon_{ijz}$. The skyrmions shown in Fig.~\ref{fig:skyrmion}(a) and (b) have monopole $S_{\rm mono}$ and anapole $S_{\rm ana}$ moments correspondingly, hence the name of the skyrmions. However the two types of the skyrmions have the same topological charge~(\ref{topCharge}) and thus can be continuosly deformed into each other. 
+The zeroth moment $\bm S^{(0)} = S_{\rm e} \hat{\bm z}$ characterizes the effective out-of-plane magnetic moment of the skyrmion and is equal for the two skyrmions shown in Fig.~{\ref{fig:skyrmion}}(a) and (b). Whereas, the first-order moment $S^{(1)}_{ij}$ characterizes the in-plane pattern of the ferromagnetic vector $\bm S(\bm r)$. Note that for the cylindrically symmetric field $S(\bm r)$, the first order moment defined in Eq.~(\ref{S1}) can be expanded in the symmetric and antisymmetric parts 
+\begin{equation}
+	S^{(1)}_{ij}=S_{\rm m}\,\delta_{ij} + S_{\rm a}\,\epsilon_{ijz}
+\end{equation}	
+The skyrmions shown in Fig.~\ref{fig:skyrmion}(a) and (b) have monopole $S_{\rm m}$ and anapole $S_{\rm a}$ moments correspondingly, hence the name of the skyrmions. However the two types of the skyrmions have the same topological charge~(\ref{topCharge}) and thus can be continuosly deformed into each other. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{Model. [Comment: here we introduce the model of coupling between the FM film and BCS superconductor.]} \label{sec:model}
@@ -99,6 +103,13 @@ Superconductor-ferromagnet heterostructures were recently proposed as a viable p
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{Numerical analysis.} \label{sec:numerics} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure} \centering
+\includegraphics[width=0.8\linewidth]{WaveFunction}  
+\caption{(Color online) Numerical wavefunction. } \label{fig:wavefunction}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{Discussion [Comment: here we discuss importance. Long-range interactions between skyrmions mediated by superconductivity. ] } \label{sec:discussion} 
@@ -133,12 +144,12 @@ In this section, we give an analytic treatment of the skyrmion-induced bound sta
 \end{align}
 The momentum-dependent part $H(\bm p)$ describes a superconductor coupled to a spatially uniform ferromagnetic vector $\bm S(\infty)$, whereas the position-dependent piece $V(\bm r)$ describes the local perturbation due to the skyrmion. Physically, the superconducting coherence legth $\xi\sim 100$\,nm is much greater than the radius of the skyrmion $R\sim 10$\,nm (plug the real numbers from Wiesendanger papers), i.e. $\xi\gg R$. Therefore, the superconductivity does not ``resolve'' the fine details of the skyrmionic configuration of the field  $\bm S(\bm r)$, but rather ``sees'' its long-wavelength characteristics such as the moments described by Eqs.~(\ref{S0}) and (\ref{S1}). Motivated by this logic, we substitute the original skyrmionic field $\bm S(\bm r)$ by its local version 
 \begin{equation}
-	\bm S(\bm r) - \bm S(\infty) = \left[ S_{\rm eff}\, \hat{\bm z} - S_{\rm mono}\, \bm \nabla\right] \delta^2(\bm r).
+	\bm S(\bm r) - \bm S(\infty) = \left[ S_{\rm e}\, \hat{\bm z} - S_{\rm m}\, \bm \nabla\right] \delta^2(\bm r).
 	\label{S}
 \end{equation}
-By plugging Eq.~(\ref{S}) in the equations for the moments~(\ref{S0}) and (\ref{S1}), one can verify the definitions of the effective $S_{\rm eff}$ and monopole $S_{\rm mono}$ moments.  The latter simplified field $\bm S(\bm r)$ is especially convenient for the T-matrix calculation, which we now proceed to. We take into account (\ref{S}) and calculate the Fourier transform of Eq.~(\ref{v0})  
+By plugging Eq.~(\ref{S}) in the equations for the moments~(\ref{S0}) and (\ref{S1}), one can verify the definitions of the effective $S_{\rm e}$ and monopole $S_{\rm m}$ moments.  The latter simplified field $\bm S(\bm r)$ is especially convenient for the T-matrix calculation, which we now proceed to. We take into account (\ref{S}) and calculate the Fourier transform of Eq.~(\ref{v0})  
 \begin{equation}
-	V(\bm p) = -S_{\rm eff}\,\sigma_z +  i \,S_{\rm mono} \, \bm \sigma\cdot \bm  p,
+	V(\bm p) = -S_{\rm e}\,\sigma_z +  i \,S_{\rm m} \, \bm \sigma\cdot \bm  p,
 	\label{vp}
 \end{equation}
 using which we write an intergal equation for the T-matrix
@@ -158,10 +169,16 @@ Since in the case of the superconductivity we are interested in the scatterings 
 where  $A,B_i,C_i$ and $D_{ij}$ are the matrices in the four-components space $\sigma\otimes\tau$. We substitute ansatz~(\ref{ansatz}) in the integral Eq.~(\ref{integEq}) and find the T-matrix
 \begin{widetext}
 \begin{equation}
-	T\left(\bm n^{out},\bm n^{in}\right) = \frac{-S_{\rm eff}\sigma_z+i\,S_{mono}\, \bar G_{00}\, p_F \,\bm \sigma\cdot(\bm n^{\rm out+}- \bm n^{\rm in}) +S^2_{mono}\, \bar G_{00}\, p^2_F \,\left(\bm \sigma\cdot\bm n^{\rm out}\right)\,\left(\bm \sigma\cdot \bm n^{\rm in}\right)}{1+S_{\rm eff}\sigma_zG_{00}-S^2_{\rm mono}p_F^2G_{00}\bar G_{00}}
+	T\left(\bm n^{out},\bm n^{in}\right) = \frac{-S_{\rm e}\sigma_z+S^2_{\rm m}p_F^2\bar G_{00}+i\,S_{\rm m}\,p_F \,  \bm \sigma\cdot(\bm n^{\rm out}- \bm n^{\rm in}) +S^2_{\rm m}\, p^2_F \, \bar G_{00}\,\left(\bm \sigma\cdot\bm n^{\rm out}\right)\,\left(\bm \sigma\cdot \bm n^{\rm in}\right)}{1+S_{\rm e}\sigma_zG_{00}-S^2_{\rm m}p_F^2\bar G_{00} G_{00}},
 \end{equation}
 \end{widetext}
-Define $G_{00}$. 
+where the Green's function in the real space was denoted as 
+\begin{align}
+	G_{00} &   = \int \frac{d^2 p}{(2\pi)^2} G(\omega,\bm p)  	\label{g0} \\
+	 & =-\pi\rho\sum_{\lambda = \pm 1} \frac{1+\lambda\sigma_z}{2}\,\frac{\omega-\lambda S+\Delta\tau_x}{\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}}, \nonumber \\
+	 \bar G_{00} & = \frac{1}{2} \sum_{j=x,y}\sigma_j\, G_{00}\, \sigma_j.\label{bg0}
+\end{align}
+For brevity, $\bar G_{00}$ denotes the Green's function obtained from $G_{00}$ by replacing $\sigma_z \rightarrow - \sigma_z$ according to Eq.~(\ref{bg0}).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{LDOS} \label{sec:LDOS}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
