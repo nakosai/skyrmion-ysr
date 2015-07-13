@@ -1,0 +1,9 @@
+.DS_Store
+*~
+*.swp
+*.log
+*.bbl
+*.blg
+*.aux
+*Notes.bib
+tmp_sho/
