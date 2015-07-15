@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{26}%
+\begin{thebibliography}{11}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,99 +50,111 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Lutchyn}\ \emph {et~al.}(2010)\citenamefont
-  {Lutchyn}, \citenamefont {Sau},\ and\ \citenamefont {{Das
-  Sarma}}}]{Lutchyn2010}%
+\bibitem [{\citenamefont {Heinze}\ \emph {et~al.}(2011)\citenamefont {Heinze},
+  \citenamefont {von Bergmann}, \citenamefont {Menzel}, \citenamefont {Brede},
+  \citenamefont {Kubetzka}, \citenamefont {Wiesendanger}, \citenamefont
+  {Bihlmayer},\ and\ \citenamefont {Bl\"{u}gel}}]{Heinze2011}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
-  {Lutchyn}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Sau}}, \
-  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Das Sarma}}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Majorana fermions and a
-  topological phase transition in semiconductor-superconductor
-  heterostructures}},}\ }\href {\doibase 10.1103/PhysRevLett.105.077001}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
-  {\bibinfo {volume} {105}},\ \bibinfo {pages} {077001} (\bibinfo {year}
-  {2010})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Oreg}\ \emph {et~al.}(2010)\citenamefont {Oreg},
-  \citenamefont {Refael},\ and\ \citenamefont {{von Oppen}}}]{Oreg2010}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Oreg}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Refael}}, \ and\
-  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {{von Oppen}}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Helical liquids and
-  Majorana bound states in quantum wires}},}\ }\href {\doibase
-  10.1103/PhysRevLett.105.177002} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages}
-  {177002} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Sau}\ \emph {et~al.}(2010)\citenamefont {Sau},
-  \citenamefont {Lutchyn}, \citenamefont {Tewari},\ and\ \citenamefont {{Das
-  Sarma}}}]{Sau2010}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
-  {Sau}}, \bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont {Lutchyn}},
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Tewari}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {S.}~\bibnamefont {{Das Sarma}}},\ }\bibfield
-  {title} {\enquote {\bibinfo {title} {Generic new platform for topological
-  quantum computation using semiconductor heterostructures},}\ }\href {\doibase
-  10.1103/PhysRevLett.104.040502} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {104}},\ \bibinfo {pages}
-  {040502} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kitaev}(2001)}]{Kitaev2001}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~Yu.}\ \bibnamefont
-  {Kitaev}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Unpaired
-  Majorana fermions in quantum wires}},}\ }\href
-  {http://iopscience.iop.org/1063-7869/44/10S/S29/} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Usp.}\ }\textbf {\bibinfo {volume} {44}},\
-  \bibinfo {pages} {131} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Alicea}(2012)}]{Alicea}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Alicea}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{New directions
-  in the pursuit of Majorana fermions in solid state systems}},}\ }\href
-  {http://stacks.iop.org/0034-4885/75/i=7/a=076501} {\bibfield  {journal}
-  {\bibinfo  {journal} {Rep. Prog. Phys.}\ }\textbf {\bibinfo {volume} {75}},\
-  \bibinfo {pages} {076501} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Beenakker}(2013)}]{Beenakker2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.~J.}\
-  \bibnamefont {Beenakker}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Search for Majorana fermions in superconductors}},}\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Annu. Rev. Condens. Matter
-  Phys.}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages} {113} (\bibinfo
-  {year} {2013})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Read}\ and\ \citenamefont {Green}(2000)}]{Read2000}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Heinze}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {von
+  Bergmann}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Menzel}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Brede}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Kubetzka}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Wiesendanger}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Bihlmayer}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Bl\"{u}gel}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Spontaneous atomic-scale magnetic skyrmion
+  lattice in two dimensions}},}\ }\href {\doibase 10.1038/nphys2045} {\bibfield
+   {journal} {\bibinfo  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume}
+  {7}},\ \bibinfo {pages} {713} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Romming}\ \emph {et~al.}(2013)\citenamefont
+  {Romming}, \citenamefont {Hanneken}, \citenamefont {Menzel}, \citenamefont
+  {Bickel}, \citenamefont {Wolter}, \citenamefont {von Bergmann}, \citenamefont
+  {Kubetzka},\ and\ \citenamefont {Wiesendanger}}]{Romming2013}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
-  {Read}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Green}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Paired states of fermions
-  in two dimensions with breaking of parity and time-reversal symmetries and
-  the fractional quantum Hall effect}},}\ }\href {\doibase
-  10.1103/PhysRevB.61.10267} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo {pages} {10267}
-  (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Ivanov}(2001)}]{Ivanov2001}%
+  {Romming}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Hanneken}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Menzel}}, \bibinfo
+  {author} {\bibfnamefont {J.~E.}\ \bibnamefont {Bickel}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Wolter}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {von Bergmann}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Kubetzka}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Wiesendanger}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {Writing and deleting single magnetic skyrmions},}\ }\href {\doibase
+  10.1126/science.1240573} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {341}},\ \bibinfo {pages} {636}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {von Bergmann}\ \emph {et~al.}(2014)\citenamefont {von
+  Bergmann}, \citenamefont {Kubetzka}, \citenamefont {Pietzsch},\ and\
+  \citenamefont {Wiesendanger}}]{Bergmann2014}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
-  {Ivanov}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Non-Abelian
-  Statistics of Half-Quantum Vortices in p-Wave Superconductors}},}\ }\href
-  {\doibase 10.1103/PhysRevLett.86.268} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {86}},\ \bibinfo
-  {pages} {268} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Nayak}\ \emph {et~al.}(2008)\citenamefont {Nayak},
-  \citenamefont {Simon}, \citenamefont {Stern}, \citenamefont {Freedman},\ and\
-  \citenamefont {{Das Sarma}}}]{Nayak2008}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {von
+  Bergmann}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kubetzka}},
+  \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Pietzsch}}, \ and\
+  \bibinfo {author} {\bibfnamefont {R}~\bibnamefont {Wiesendanger}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Interface-induced chiral
+  domain walls, spin spirals and skyrmions revealed by spin-polarized scanning
+  tunneling microscopy}},}\ }\href {\doibase 10.1088/0953-8984/26/39/394002}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Phys.: Condens. Matter}\
+  }\textbf {\bibinfo {volume} {26}},\ \bibinfo {pages} {394002} (\bibinfo
+  {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brede}\ \emph {et~al.}(2014)\citenamefont {Brede},
+  \citenamefont {Atodiresei}, \citenamefont {Caciuc}, \citenamefont {Bazarnik},
+  \citenamefont {Al-Zubi}, \citenamefont {Bl\"{u}gel},\ and\ \citenamefont
+  {Wiesendanger}}]{Brede2014}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Nayak}}, \bibinfo {author} {\bibfnamefont {S.~H.}\ \bibnamefont {Simon}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Stern}}, \bibinfo
-  {author} {\bibfnamefont {M.}~\bibnamefont {Freedman}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {S.}~\bibnamefont {{Das Sarma}}},\ }\bibfield
-  {title} {\enquote {\bibinfo {title} {{Non-Abelian anyons and topological
-  quantum computation}},}\ }\href {\doibase 10.1103/RevModPhys.80.1083}
-  {\bibfield  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf
-  {\bibinfo {volume} {80}},\ \bibinfo {pages} {1083--1159} (\bibinfo {year}
-  {2008})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Brede}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Atodiresei}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Caciuc}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Bazarnik}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Al-Zubi}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Bl\"{u}gel}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Wiesendanger}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {{Long-range magnetic coupling between nanoscale organic–metal
+  hybrids mediated by a nanoskyrmion lattice}},}\ }\href {\doibase
+  10.1038/nnano.2014.235} {\bibfield  {journal} {\bibinfo  {journal} {Nat.
+  Nanotechnol.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {1018}
+  (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sonntag}\ \emph {et~al.}(2014)\citenamefont
+  {Sonntag}, \citenamefont {Hermenau}, \citenamefont {Krause},\ and\
+  \citenamefont {Wiesendanger}}]{Sonntag2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sonntag}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Hermenau}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Krause}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Wiesendanger}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Thermal stability of an
+  interface-stabilized skyrmion lattice},}\ }\href {\doibase
+  10.1103/PhysRevLett.113.077202} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo {pages}
+  {077202} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {von Bergmann}\ \emph {et~al.}(2015)\citenamefont {von
+  Bergmann}, \citenamefont {Menzel}, \citenamefont {Kubetzka},\ and\
+  \citenamefont {Wiesendanger}}]{vonBergmann2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {von
+  Bergmann}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Menzel}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kubetzka}}, \ and\
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Wiesendanger}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Influence of the local atom
+  configuration on a hexagonal skyrmion lattice},}\ }\href {\doibase
+  10.1021/acs.nanolett.5b00506} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nano Lett.}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {3280}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Romming}\ \emph {et~al.}(2015)\citenamefont
+  {Romming}, \citenamefont {Kubetzka}, \citenamefont {Hanneken}, \citenamefont
+  {von Bergmann},\ and\ \citenamefont {Wiesendanger}}]{Romming2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Romming}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kubetzka}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Hanneken}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {von Bergmann}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Wiesendanger}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Field-dependent size and shape of single
+  magnetic skyrmions},}\ }\href {\doibase 10.1103/PhysRevLett.114.177203}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {114}},\ \bibinfo {pages} {177203} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Yu}(1965)}]{Yu}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
@@ -165,79 +177,6 @@
   {Rusinov}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {JETP
   Lett.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {85} (\bibinfo
   {year} {1969})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Choy}\ \emph {et~al.}(2011)\citenamefont {Choy},
-  \citenamefont {Edge}, \citenamefont {Akhmerov},\ and\ \citenamefont
-  {Beenakker}}]{Choy2011}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~P.}\ \bibnamefont
-  {Choy}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Edge}},
-  \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont {Akhmerov}}, \ and\
-  \bibinfo {author} {\bibfnamefont {C.~W.~J.}\ \bibnamefont {Beenakker}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Majorana fermions emerging
-  from magnetic nanoparticles on a superconductor without spin-orbit
-  coupling}},}\ }\href {\doibase 10.1103/PhysRevB.84.195442} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {84}},\ \bibinfo {pages} {1} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Nadj-Perge}\ \emph {et~al.}(2013)\citenamefont
-  {Nadj-Perge}, \citenamefont {Drozdov}, \citenamefont {Bernevig},\ and\
-  \citenamefont {Yazdani}}]{Nadj-Perge2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Nadj-Perge}}, \bibinfo {author} {\bibfnamefont {I.~K.}\ \bibnamefont
-  {Drozdov}}, \bibinfo {author} {\bibfnamefont {B.~A.}\ \bibnamefont
-  {Bernevig}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Yazdani}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Proposal for
-  realizing Majorana fermions in chains of magnetic atoms on a
-  superconductor}},}\ }\href {\doibase 10.1103/PhysRevB.88.020407} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {88}},\ \bibinfo {pages} {1} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Klinovaja}\ \emph {et~al.}(2013)\citenamefont
-  {Klinovaja}, \citenamefont {Stano}, \citenamefont {Yazdani},\ and\
-  \citenamefont {Loss}}]{Klinovaja2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Klinovaja}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Stano}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Yazdani}}, \ and\
-  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Loss}},\ }\bibfield
-  {title} {\enquote {\bibinfo {title} {{Topological Superconductivity and
-  Majorana Fermions in RKKY Systems}},}\ }\href {\doibase
-  10.1103/PhysRevLett.111.186805} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
-  {186805} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Vazifeh}\ and\ \citenamefont
-  {Franz}(2013)}]{Vazifeh2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~M.}\ \bibnamefont
-  {Vazifeh}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Franz}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Self-Organized
-  Topological State with Majorana Fermions}},}\ }\href {\doibase
-  10.1103/PhysRevLett.111.206802} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
-  {206802} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Braunecker}\ and\ \citenamefont
-  {Simon}(2013)}]{Braunecker2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Braunecker}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Simon}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Interplay
-  between Classical Magnetic Moments and Superconductivity in Quantum
-  One-Dimensional Conductors: Toward a Self-Sustained Topological Majorana
-  Phase}},}\ }\href {\doibase 10.1103/PhysRevLett.111.147202} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {111}},\ \bibinfo {pages} {147202} (\bibinfo {year}
-  {2013})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pientka}\ \emph {et~al.}(2013)\citenamefont
-  {Pientka}, \citenamefont {Glazman},\ and\ \citenamefont {{von
-  Oppen}}}]{Pientka2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Pientka}}, \bibinfo {author} {\bibfnamefont {L.~I.}\ \bibnamefont
-  {Glazman}}, \ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {{von
-  Oppen}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Topological
-  superconducting phase in helical Shiba chains}},}\ }\href {\doibase
-  10.1103/PhysRevB.88.155420} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {88}},\ \bibinfo {pages} {1} (\bibinfo
-  {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nakosai}\ \emph {et~al.}(2013)\citenamefont
   {Nakosai}, \citenamefont {Tanaka},\ and\ \citenamefont
   {Nagaosa}}]{Nakosai2013}%
@@ -251,90 +190,4 @@
   {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
   {88}},\ \bibinfo {pages} {180503} (\bibinfo {year} {2013})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {P\"oyh\"onen}\ \emph {et~al.}(2014)\citenamefont
-  {P\"oyh\"onen}, \citenamefont {Weststr\"om}, \citenamefont {R\"ontynen},\
-  and\ \citenamefont {Ojanen}}]{Poyhonen2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {P\"oyh\"onen}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Weststr\"om}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {R\"ontynen}}, \ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Ojanen}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Majorana states
-  in helical Shiba chains and ladders}},}\ }\href {\doibase
-  10.1103/PhysRevB.89.115109} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {89}},\ \bibinfo {pages} {115109}
-  (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Reis}\ \emph {et~al.}(2014)\citenamefont {Reis},
-  \citenamefont {Marchand},\ and\ \citenamefont {Franz}}]{Reis2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
-  {Reis}}, \bibinfo {author} {\bibfnamefont {D.~J.~J.}\ \bibnamefont
-  {Marchand}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Franz}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Self-organized
-  topological state in a magnetic chain on the surface of a superconductor},}\
-  }\href {\doibase 10.1103/PhysRevB.90.085124} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {90}},\ \bibinfo
-  {pages} {085124} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Brydon}\ \emph {et~al.}(2015)\citenamefont {Brydon},
-  \citenamefont {{Das Sarma}}, \citenamefont {Hui},\ and\ \citenamefont
-  {Sau}}]{Brydon2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~M.~R.}\
-  \bibnamefont {Brydon}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {{Das Sarma}}}, \bibinfo {author} {\bibfnamefont {H.-Y.}\ \bibnamefont
-  {Hui}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
-  {Sau}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Topological
-  Yu-Shiba-Rusinov chain from spin-orbit coupling}},}\ }\href {\doibase
-  10.1103/PhysRevB.91.064505} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {pages} {064505}
-  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{R{\"o}ntynen}}\ and\ \citenamefont
-  {{Ojanen}}()}]{Rontynen2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {{R{\"o}ntynen}}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {{Ojanen}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Topological
-  superconductivity and high Chern numbers in 2D ferromagnetic Shiba
-  lattices}},}\ }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1412.5834}
-  {arXiv:1412.5834} \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Li}\ \emph {et~al.}()\citenamefont {Li},
-  \citenamefont {Neupert}, \citenamefont {Wang}, \citenamefont {MacDonald},
-  \citenamefont {Yazdani},\ and\ \citenamefont {Bernevig}}]{Li2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Li}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Neupert}},
-  \bibinfo {author} {\bibfnamefont {Z.~J.}\ \bibnamefont {Wang}}, \bibinfo
-  {author} {\bibfnamefont {A.~H.}\ \bibnamefont {MacDonald}}, \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Yazdani}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {B.~A.}\ \bibnamefont {Bernevig}},\ }\bibfield  {title}
-  {\enquote {\bibinfo {title} {{A novel platform for two-dimensional chiral
-  topological superconductivity}},}\ }\href@noop {} {\ }\Eprint
-  {http://arxiv.org/abs/1501.00999v1} {arXiv:1501.00999v1} \BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Nadj-Perge}\ \emph {et~al.}(2014)\citenamefont
-  {Nadj-Perge}, \citenamefont {Drozdov}, \citenamefont {Li}, \citenamefont
-  {Chen}, \citenamefont {Jeon}, \citenamefont {Seo}, \citenamefont {MacDonald},
-  \citenamefont {Bernevig},\ and\ \citenamefont {Yazdani}}]{Yazdani2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Nadj-Perge}}, \bibinfo {author} {\bibfnamefont {I.~K.}\ \bibnamefont
-  {Drozdov}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Li}},
-  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Chen}}, \bibinfo {author}
-  {\bibfnamefont {S.}~\bibnamefont {Jeon}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Seo}}, \bibinfo {author} {\bibfnamefont {A.~H.}\
-  \bibnamefont {MacDonald}}, \bibinfo {author} {\bibfnamefont {B.~A.}\
-  \bibnamefont {Bernevig}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Yazdani}},\ }\bibfield  {title} {\enquote {\bibinfo
-  {title} {{Observation of Majorana fermions in ferromagnetic atomic chains on
-  a superconductor}},}\ }\href {\doibase 10.1126/science.1259327} {\bibfield
-  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
-  {346}},\ \bibinfo {pages} {602} (\bibinfo {year} {2014})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Sau}\ and\ \citenamefont {Brydon}()}]{Sau2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
-  {Sau}}\ and\ \bibinfo {author} {\bibfnamefont {P.~M.~R.}\ \bibnamefont
-  {Brydon}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Bound states of
-  a ferromagnetic wire in a superconductor}},}\ }\href@noop {} {\ }\Eprint
-  {http://arxiv.org/abs/1501.03149} {arXiv:1501.03149} \BibitemShut {NoStop}%
 \end{thebibliography}%
