@@ -7,3 +7,4 @@
 *.aux
 *Notes.bib
 tmp_sho/
+makefile
