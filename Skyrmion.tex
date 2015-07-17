@@ -23,7 +23,7 @@
 
 
 \begin{abstract}
-Skyrmions are nice
+We consider a superconductor proximity coupled to a 2D ferromagnetic film with a topological configuration of the ferromagnetic vector, i.e. the skyrmion. Using the T-matrix calculations as well as well numerical modeling we calculate the spin-polarized local density of states (SP-LDOS) in the vicinity of the skyrmion. We identify a skyrmion-induced Yu-Shiba-Rusinov (s-YSR) bound state, calculate its energy and a spectral width. We predict that sYSR resonance has a spatial power-law decay. This implies that superconductivity could facilitate a long-range interaction between distinct skyrmions on the surface of the ferromagnetic film.
 \end{abstract}
 
 \pacs{ }
@@ -41,14 +41,25 @@ In parallel with skyrmion discovery the local imaging using magnetic probes like
 Here we prove the existence of the new type of localized excitation on the skyrmion core we call  Sc-YSR state (alternative is skyrmion bound state (sbs)).  Show the main results upfront in the introduction. Both LDOS and SP-LDOS.
 Main section:
 
+<<<<<<< HEAD
 Introduce T matrix and results for analytic solution.
 Introduce the numerical approach and presenst the results oas a function of position and as a function of energy. Kind of same figs as in Sho’s talk.
+=======
+It has been pointed out over the past few years that superconductivity can facilitate strong long-range interaction between the magnetic impurities. Maybe the same thin will happen for skyrmions. 
+
+Skyrmions in Wiesendanger's group \cite{Heinze2011,Romming2013,Bergmann2014,Brede2014,Sonntag2014,vonBergmann2015,Romming2015}.
+.
+
+
+Introduce T matrix and results for analytic solution.  
+Introduce the numerical approach and presenst the results oas a function of position and as a function of energy. Kind of same figs as in Sho’s talk. 
+>>>>>>> bf757904c007cdde1b58404b7c6408767c1e1669
 Discuss the results and what it means, how big the signal is etc. Unfortunately we do not see any topological state at zero energy and as such these result represent a new kind of magnetic texture induced states that exhibit intragap states.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Skyrmions in ferromagnetic films. [Comment: here we discuss skyrmions in ferromagnets. Define topological numbers and moments of skyrmions fields.]} \label{sec:skyrmion}
+\paragraph*{Skyrmions in ferromagnetic films.} \label{sec:skyrmion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -60,6 +71,14 @@ Discuss the results and what it means, how big the signal is etc. Unfortunately 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*} \centering
+	(a)\includegraphics[width=0.25\linewidth]{LDOSa} \hspace{0.1cm}
+	(b)\includegraphics[width=0.25\linewidth]{LDOSb} \hspace{0.1cm}
+	(c)\includegraphics[width=0.25\linewidth]{LDOSc} 
+\caption{(Color online) Spin-polarized local density of states (SP-LDOS) away from the skyrmion (a) and at the core of the skyrmion (b,c). Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. Blue and red dashed lines indicate the positions of the shifted spin-up and spin-down bands, respectively. The black dashed line indicates the position of the YSR pole, given by Eq.~.} \label{fig:LDOS}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 Let the three-dimensional vector $S(\bm r) = (S_x,S_y,S_z)$ describe the configuration of the ferromagnetic vector in a two-dimensional ferromagnetic film $\bm r = (x,y)$. The configurations of the field $S(\bm r)$ shown in Fig. \ref{fig:skyrmion}(a) and (b) are referred to as skyrmions. The skyrmion configuration of the field is characterized by the topological charge
@@ -80,17 +99,22 @@ The zeroth moment $\bm S^{(0)} = S_{\rm e} \hat{\bm z}$ characterizes the effect
 The skyrmions shown in Fig.~\ref{fig:skyrmion}(a) and (b) have monopole $S_{\rm m}$ and anapole $S_{\rm a}$ moments correspondingly, hence the name of the skyrmions. However the two types of the skyrmions have the same topological charge~(\ref{topCharge}) and thus can be continuosly deformed into each other.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Model. [Comment: here we introduce the model of coupling between the FM film and BCS superconductor.]} \label{sec:model}
+\paragraph*{Model}  \label{sec:model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<<<<<<< HEAD
 The model is given by the following Hamiltonian
+=======
+The model is given by the following 4-by-4 Bogolyubov-de Gennes (BdG) Hamiltonian 
+>>>>>>> bf757904c007cdde1b58404b7c6408767c1e1669
 \begin{align}
-	\mathcal H &= \frac{1}{2}\int d^2r\, \Psi^\dagger(\bm r)\left[\xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\bm r)\cdot\bm\sigma\right]\Psi(\bm r), \label{ham} \\
+	 H &= \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\bm r)\cdot\bm\sigma, \label{ham} \\
   & \xi(\bm p) = \frac{p^2}{2m}-\mu,\quad \bm p = -i(\nabla_x,\nabla_y),
 \end{align}
-which describes the proximity coupling of the ferromagnetic vector $S(\bm r)$ to the itinerant electrons of a two-dimensional (2D) superconductor with the superconducting gap $\Delta$. The Pauli matrices $\bm \tau$ and $\bm \sigma$ act, respectively, in the particle-hole and spin subspaces of the four-component spinor $\Psi = (\psi_\uparrow,\psi_\downarrow,\psi^\dagger_\downarrow,-\psi^\dagger_\uparrow)^T$.
+which describes the proximity coupling of the ferromagnetic vector $S(\bm r)$ to the itinerant electrons of a two-dimensional (2D) superconductor with the superconducting gap $\Delta$. The Pauli matrices $\bm \tau$ and $\bm \sigma$ act, respectively, in the particle-hole and spin subspaces of the four-component spinor $\Psi = (\psi_\uparrow,\psi_\downarrow,\psi^\dagger_\downarrow,-\psi^\dagger_\uparrow)^T$. For simplicity, we assume that the magnitude of the superconductor-ferromagnet coupling is constant and only the direction $\bm S(\bm r)$ varies, i.e. we set $\bm S(\bm r) = S\,\bm n(\bm r)$, where $\bm n$ is a unit vector. In order to proceed further let compare the typical lengthscales. The radius of skyrmions $R$ found in experiments~\cite{Heinze2011,Romming2013,Bergmann2014,Brede2014,Sonntag2014,vonBergmann2015,Romming2015} does not typically exceed $5$ nm, whereas the superconducting coherence length $\xi_{sc}$ varies largely from a micron to a few nanometers as in, e.g., curprates. For the analysis below, we assume the superconducting coherence length much larger $\xi_{sc}\gg R$, and briefly comment about the opposite limit in the Supplemental Material (Shall we discuss this? Local gauge transform and introduce effective spin-orbit, etc. ). In the chosen limit the superconductivity cannot ``resolve'' the fine details of the field $\bm S(\bm r)$ and only ``sees'' as a skyrmion as local magnetic defect. Therefore we shall apply a Yu-Shiba-Rusinov \cite{Yu,Shiba,Rusinov,Balatsky2006} treatment the skyrmion as a local impurity. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{T-matrix analysis} \label{sec:analytics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<<<<<<< HEAD
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*} \centering
@@ -105,11 +129,23 @@ which describes the proximity coupling of the ferromagnetic vector $S(\bm r)$ to
 Superconductor-ferromagnet heterostructures were recently proposed as a viable platform for realizing topological superconductivity (TS) \cite{Lutchyn2010,Oreg2010, Sau2010}, which can host Majorana fermion quasiparticles at vortex cores and boundaries \cite{Kitaev2001, Alicea, Beenakker2013}. Majorana fermions obey non-Abelian statistics and may be utilized for topological quantum computation \cite{Read2000, Ivanov2001, Nayak2008}.  The key ingredients driving these systems in the topologically non-trivial regime are the spin-orbit coupling (SOC) and magnetism. Recently, the search for experimental realizations of TS has also led to engineering the impurity bands of the Yu-Shiba-Rusinov (YSR) states \cite{Yu,Shiba,Rusinov}, induced by magnetic atoms on the surface of a superconductor \cite{Choy2011, Nadj-Perge2013, Klinovaja2013, Vazifeh2013, Braunecker2013, Pientka2013, Nakosai2013, Poyhonen2014, Reis2014, Brydon2015, Rontynen2014, Li2015}. Following this recipe, zero-energy peaks in the tunneling spectrum were recently measured at the ends of a one-dimensional (1D) chain of magnetic atoms \cite{Yazdani2014}. Such a tunneling spectrum could be the evidence of Majorana edge states, although alternative explanations are also possible \cite{Sau2015}.
 
 
+=======
+It is convenient to split the Hamiltonian~(\ref{ham}) $H = h(\bm p)+V(\bm r)$ into the spatially uniform part $h(\bm p)$ and a local perturbation $V(\bm r)$ describing the skyrmion
+\begin{align}
+	h(\bm p) & =  \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\infty)\cdot\bm\sigma,\quad \bm S(\infty) = -S\,\hat{\bm z}\\
+	V(\bm r) & =  - \left[\bm S(\bm r)-\bm S(\infty)\right]\cdot\bm\sigma  \label{vr}
+\end{align}
+For the skyrmions shown in Figs.~\ref{fig:skyrmion}(a) and (b), the ferromagnetic vector is $S(\infty) = -S\,\hat{\bm z}$ far from skyrmion, and is parallel to $\bm S(0)= S\hat{\bm z}$ at the skyrmion core. The Hamiltonian $h(\bm p)$ describes a superconductor proximity coupled to a ferromagnet with constant magnetization, i.e. in the absence of the skyrmion. The ferromagnetic coupling merely shifts the bands corresponding the opposite spins as shown in Fig.~(\ref{fig:LDOS})(a). The spectrum maintains a gap as long as the Zeeman coupling is less than the superconducting gap, i.e. $S<\Delta$. Such spectrum should be possible to detect by the spin-polarized tunneling spectroscopy methods[cite relevant papers]. In the presence of the skyrmion, the term~(\ref{vr}) should be taken into account. As pointed out above, for small skyrmion size $\xi_{sc}\gg R$, the skyrmion field can be approximated as a local magnetic impurity with $S(\bm r)=\bm S_{\rm e}\,\sigma_z \delta^2(\bm r)$, where the effective magnetization is determined in Eq.~(\ref{S0}). Such a local perturbation can be exactly taken into account by calculating the T-matrix
+\begin{align}
+	T(\omega) =   \frac{-S_{\rm e}\sigma_z}{1+S_{\rm e}\sigma_zg_{0}(\omega)} \label{tm} 
+\end{align}
+taken into account in T-matrix calculation, which gives the following SP-LDOS
+\begin{align}
+	 \rho_s(\omega) = -\frac{1}{\pi}\,{\rm Im}\lim_{\omega\rightarrow \omega+i\delta}{\rm \,Tr} \left\{  \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2} \left[g_0(\omega)+g_0(\omega) T(\omega) g_0(\omega)  \right]\right\}\, \nonumber 
+\end{align}
+>>>>>>> bf757904c007cdde1b58404b7c6408767c1e1669
 
 
-\begin{equation}
- T = \frac{V}{1-vg_{00}}
-\end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{Numerical analysis.} \label{sec:numerics}
@@ -123,7 +159,11 @@ Superconductor-ferromagnet heterostructures were recently proposed as a viable p
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<<<<<<< HEAD
 \paragraph*{Discussion [Comment: here we discuss importance. Long-range interactions between skyrmions mediated by superconductivity. ] } \label{sec:discussion}
+=======
+\paragraph*{Discussion  } \label{sec:discussion} 
+>>>>>>> bf757904c007cdde1b58404b7c6408767c1e1669
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -135,11 +175,6 @@ Superconductor-ferromagnet heterostructures were recently proposed as a viable p
 
 
 
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\bibliographystyle{apsrev4-1}
-\bibliography{Skyrmion}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \appendix
@@ -147,7 +182,22 @@ Superconductor-ferromagnet heterostructures were recently proposed as a viable p
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{T-matrix analysis} \label{sec:appendixTMatrix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<<<<<<< HEAD
 In this section, we give an analytic treatment of the skyrmion-induced bound states using the T-matrix approximation. Starting from the Hamiltonian (\ref{ham}) in the second-quantized form, we write the Bogolyubov-de Gennes (BdG) Hamiltonian as
+=======
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*} \centering
+	(a)\includegraphics[width=0.25\linewidth]{ApLDOSa} \hspace{0.1cm}
+	(b)\includegraphics[width=0.25\linewidth]{ApLDOSb} \hspace{0.1cm}
+	(c)\includegraphics[width=0.25\linewidth]{ApLDOSc} 
+	\caption{(Color online) Spin-polarized local density of states (SP-LDOS)  at the core of the skyrmion. The consequent panels correspond to increasing skyrmion size (a) $R = 1.1 p_F^{-1}$, (b) $R = 1.2 p_F^{-1}$, (c) $R = 1.3 p_F^{-1}$. Other parameters are the same as in Fig.~\ref{fig:LDOS}. } \label{fig:ApLDOS}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+In this section, we give an analytic treatment of the skyrmion-induced bound states using the T-matrix approximation. Starting from the Hamiltonian (\ref{ham}) in the second-quantized form, we write the Bogolyubov-de Gennes (BdG) Hamiltonian as 
+>>>>>>> bf757904c007cdde1b58404b7c6408767c1e1669
 \begin{align}
 	& H_{\rm BdG} = H(\bm p) + V(\bm r),\quad {\rm where} \nonumber \\
 & H(\bm p) = \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\infty)\cdot\bm\sigma,\quad \bm S(\infty) = -S\,\hat{\bm z}, \nonumber\\
@@ -165,35 +215,56 @@ By plugging Eq.~(\ref{S}) in the equations for the moments~(\ref{S0}) and (\ref{
 \end{equation}
 using which we write an intergal equation for the T-matrix
 \begin{align}
-	T\left(\bm p^{out},\bm p^{in}\right) &= V \left(\bm p^{out}-\bm p^{in}\right) \nonumber \\
-	& + \int \frac{d^2p'}{(2\pi)^2} V\left(\bm p^{out}-\bm p'\right) G(\omega,\bm p')  T\left(\bm p',\bm p^{in}\right).
+	T\left(\bm p^{1},\bm p^{2}\right) &= V \left(\bm p^{1}-\bm p^{2}\right) \nonumber \\
+	& +\int d^2 p'\, V\left(\bm p^{1}-\bm p'\right) g(\omega,\bm p')  T\left(\bm p',\bm p^{2}\right).
 	\label{integEq}
 \end{align}
 Here, the bare Green's function of the superconductor is defined as
 \begin{align}
-	G(\omega,\bm p) = \frac{1}{\omega-H(\bm p)} = \frac{1}{\omega-\xi(\bm p)\tau_z-\Delta \tau_x - S\sigma_z}.
+	g(\omega,\bm p) = \frac{1}{\omega-H(\bm p)} = \frac{1}{\omega-\xi(\bm p)\tau_z-\Delta \tau_x - S\sigma_z}.
 \end{align}
-Since in the case of the superconductivity we are interested in the scatterings close to the Fermi surface, we use $\bm p^{out} = p_F\, \bm n^{out}$ and $\bm p^{in} = p_F \,\bm n^{in}$, where the in-plane unit vectors $\bm n^{out}$ and $\bm n^{in}$ determine the direction of scattering on the Fermi surface.  Then, we seek the T-matrix in the following form
+Since in the case of the superconductivity we are interested in the scatterings close to the Fermi surface, we use $\bm p^{1} = p_F\, \bm n^{1}$ and $\bm p^{2} = p_F \,\bm n^{2}$, where the in-plane unit vectors $\bm n^{1}$ and $\bm n^{2}$ determine the direction of scattering on the Fermi surface.  Then, we seek the T-matrix in the following form
 \begin{align}
-	T\left(\bm n^{out},\bm n^{in}\right) &= A + B_i n^{\rm out}_i + C_i n^{\rm in} + D_{ij} n^{\rm out}_i n^{\rm in}_j, \label{ansatz}
+	T\left(\bm n^{1},\bm n^{2}\right) &= A + B_i n^{1}_i + C_i n^{2}_j + D_{ij} n^{1}_i n^{2}_j, \label{ansatz}
 \end{align}
 where  $A,B_i,C_i$ and $D_{ij}$ are the matrices in the four-components space $\sigma\otimes\tau$. We substitute ansatz~(\ref{ansatz}) in the integral Eq.~(\ref{integEq}) and find the T-matrix
 \begin{widetext}
 \begin{equation}
-	T\left(\bm n^{out},\bm n^{in}\right) = \frac{-S_{\rm e}\sigma_z+S^2_{\rm m}p_F^2\bar G_{00}+i\,S_{\rm m}\,p_F \,  \bm \sigma\cdot(\bm n^{\rm out}- \bm n^{\rm in}) +S^2_{\rm m}\, p^2_F \, \bar G_{00}\,\left(\bm \sigma\cdot\bm n^{\rm out}\right)\,\left(\bm \sigma\cdot \bm n^{\rm in}\right)}{1+S_{\rm e}\sigma_zG_{00}-S^2_{\rm m}p_F^2\bar G_{00} G_{00}},
+	T\left(\bm n^{1},\bm n^{2}\right) = \frac{-S_{\rm e}\sigma_z+S^2_{\rm m}p_F^2\bar g_{0}(\omega)+i\,S_{\rm m}\,p_F \,  \bm \sigma\cdot(\bm n^{2}- \bm n^{1}) +S^2_{\rm m}\, p^2_F \, \bar g_{0}(\omega)\,\left(\bm \sigma\cdot\bm n^{2}\right)\,\left(\bm \sigma\cdot \bm n^{1}\right)}{1+S_{\rm e}\sigma_zg_{00}-S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)},
 \end{equation}
 \end{widetext}
+<<<<<<< HEAD
 where the Green's function in the real space was denoted as
+=======
+where the Green's function on-site matrix element in the real space is denoted as 
+>>>>>>> bf757904c007cdde1b58404b7c6408767c1e1669
 \begin{align}
-	G_{00} &   = \int \frac{d^2 p}{(2\pi)^2} G(\omega,\bm p)  	\label{g0} \\
+	g_{0}(\omega) &   =\int d^2 p\, g(\omega,\bm p)  	\label{g0} \\
 	 & =-\pi\rho\sum_{\lambda = \pm 1} \frac{1+\lambda\sigma_z}{2}\,\frac{\omega-\lambda S+\Delta\tau_x}{\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}}, \nonumber \\
-	 \bar G_{00} & = \frac{1}{2} \sum_{j=x,y}\sigma_j\, G_{00}\, \sigma_j.\label{bg0}
+	 \bar g_{0}(\omega) & = \frac{1}{2} \sum_{j=x,y}\sigma_j\, g_{0}(\omega)\, \sigma_j.\label{bg0}
 \end{align}
-For brevity, $\bar G_{00}$ denotes the Green's function obtained from $G_{00}$ by replacing $\sigma_z \rightarrow - \sigma_z$ according to Eq.~(\ref{bg0}).
+For brevity, $\bar g_{0}$ denotes the Green's function obtained from $g_{00}$ by replacing $\sigma_z \rightarrow - \sigma_z$ according to Eq.~(\ref{bg0}). The density of states per spin is denoted as $\rho = m/2\pi$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{LDOS} \label{sec:LDOS}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+So, in the presence of the skyrmion, the Green's function becomes
+\begin{align}
+	G(\omega,\bm p^1,\bm p^2) =& g(\omega,\bm p^1)\,(2\pi)^2\delta(\bm p^1-\bm p^2) \nonumber \\ 
+	          &  +g(\omega,\bm p^1) T(\bm p^1,\bm p^2) g(\omega,\bm p^2),
+	\label{G}
+\end{align}
+using which the spin-polarized local density of states (LDOS) can be expressed
+\begin{align}
+	\rho_s(\omega,\bm r) = -&\frac{1}{\pi}\,{\rm Im}\lim_{\omega\rightarrow \omega+i\delta}{\rm\,Tr} \left[ \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2} \right. \label{rhor} \\
+	&\left.\int \frac{d^2p^1\,d^2p^2}{\left( 2\pi \right)^4} e^{i\left( \bm p^1-\bm p^2 \right)\bm r} G(\omega,\bm p^1,\bm p^2)\right]\, \nonumber 
+\end{align}
+where $s=x,y,z$ denotes the spin quantization axis. It can be easily evaluated for instance at the skyrmion core, i.e. at $\bm r=0$,
+\begin{align}
+	& \rho_s(\omega,0) = -\frac{1}{\pi}\,{\rm Im}\lim_{\omega\rightarrow \omega+i\delta}{\rm \,Tr} \left\{  \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2}  \right. \label{spldos} \\
+	&\left.\left[g_0(\omega)+g_0(\omega)  \frac{-S_{\rm e}\sigma_z+S^2_{\rm m}p_F^2\bar g_{0}(\omega)}{1+S_{\rm e}\sigma_zg_{00}-S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)} g_0(\omega)  \right]\right\}\, \nonumber 
+\end{align}
 
+<<<<<<< HEAD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*} \centering
 	(a)\includegraphics[width=0.25\linewidth]{ApLDOSa} \hspace{0.1cm}
@@ -202,11 +273,17 @@ For brevity, $\bar G_{00}$ denotes the Green's function obtained from $G_{00}$ b
 	\caption{(Color online) Spin-polarized local density of states (SP-LDOS)  at the core of the skyrmion. The consequent panels correspond to increasing skyrmion size (a) $R = 1.1 p_F^{-1}$, (b) $R = 1.2 p_F^{-1}$, (c) $R = 1.3 p_F^{-1}$. Other parameters are the same as in Fig.~\ref{fig:LDOS}. } \label{fig:ApLDOS}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+=======
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Spatial wave function} \label{sec:wf}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+>>>>>>> bf757904c007cdde1b58404b7c6408767c1e1669
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Spatial wave function} \label{sec:wf}
+%\bibliographystyle{apsrev4-1}
+\bibliography{Skyrmion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
