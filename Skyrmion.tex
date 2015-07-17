@@ -61,7 +61,7 @@ Discuss the results and what it means, how big the signal is etc. Unfortunately 
 \begin{figure} \centering
 (a) \includegraphics[width=0.4\linewidth]{SkyrmA}  
 (b) \includegraphics[width=0.4\linewidth]{SkyrmB} 
-\caption{(Color online.) Ferrormagnetic film deposited on top of a superconductor. The ferromagnetic vector has skyrmion configuration. (a) Monopole skyrmion.  (b) Anapole skyrmion. } \label{fig:skyrmion}
+\caption{(Color online.) Ferrormagnetic film deposited on top of a superconductor. The ferromagnetic vector has skyrmion configuration. (a) Hedgehog skyrmion.  (b) Spiral skyrmion. } \label{fig:skyrmion}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -71,7 +71,7 @@ Discuss the results and what it means, how big the signal is etc. Unfortunately 
 	(a)\includegraphics[width=0.25\linewidth]{LDOSa} \hspace{0.1cm}
 	(b)\includegraphics[width=0.25\linewidth]{LDOSb} \hspace{0.1cm}
 	(c)\includegraphics[width=0.25\linewidth]{LDOSc} 
-\caption{(Color online) Spin-polarized local density of states (SP-LDOS) away from the skyrmion (a) and at the core of the skyrmion (b,c). Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. Blue and red dashed lines indicate the positions of the shifted spin-up and spin-down bands, respectively. The black dashed line indicates the position of the YSR pole, given by Eq.~.} \label{fig:LDOS}
+\caption{(Color online) Spin-polarized local density of states (a) away from the skyrmion and (b,c) at the core of the skyrmion. Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. Blue and red dashed lines indicate the positions of the shifted spin-up and spin-down bands, respectively. The black dashed line indicates the position of the YSR pole, given by Eq.~.} \label{fig:LDOS}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -94,6 +94,15 @@ The zeroth moment $\bm S^{(0)} = S_{\rm e} \hat{\bm z}$ characterizes the effect
 The skyrmions shown in Fig.~\ref{fig:skyrmion}(a) and (b) have monopole $S_{\rm m}$ and anapole $S_{\rm a}$ moments correspondingly, hence the name of the skyrmions. However the two types of the skyrmions have the same topological charge~(\ref{topCharge}) and thus can be continuosly deformed into each other. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*} \centering
+	(a)\includegraphics[width=0.25\linewidth]{numerical-LDOS-away} \hspace{0.1cm}
+	(b)\includegraphics[width=0.25\linewidth]{numerical-LDOS-core} \hspace{0.1cm}
+	(c)\includegraphics[width=0.25\linewidth]{numerical-IPR} 
+\caption{(Color online) Numerical modeling of a skyrmion: (a) LDOS away from the skyrmion (PLEASE SUBSTITUTE WITH THE CORRECT FIGURE), (b) LDOS at the skyrmion core, (c) inverse participation ratio (IPR).} \label{fig:LDOSNumerics}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{Model}  \label{sec:model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The model is given by the following 4-by-4 Bogolyubov-de Gennes (BdG) Hamiltonian 
@@ -110,15 +119,16 @@ It is convenient to split the Hamiltonian~(\ref{ham}) $H = h(\bm p)+V(\bm r)$ in
 	h(\bm p) & =  \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\infty)\cdot\bm\sigma,\quad \bm S(\infty) = -S\,\hat{\bm z}\\
 	V(\bm r) & =  - \left[\bm S(\bm r)-\bm S(\infty)\right]\cdot\bm\sigma  \label{vr}
 \end{align}
-For the skyrmions shown in Figs.~\ref{fig:skyrmion}(a) and (b), the ferromagnetic vector is $S(\infty) = -S\,\hat{\bm z}$ far from skyrmion, and is parallel to $\bm S(0)= S\hat{\bm z}$ at the skyrmion core. The Hamiltonian $h(\bm p)$ describes a superconductor proximity coupled to a ferromagnet with constant magnetization, i.e. in the absence of the skyrmion. The ferromagnetic coupling merely shifts the bands corresponding the opposite spins as shown in Fig.~(\ref{fig:LDOS})(a). The spectrum maintains a gap as long as the Zeeman coupling is less than the superconducting gap, i.e. $S<\Delta$. Such spectrum should be possible to detect by the spin-polarized tunneling spectroscopy methods[cite relevant papers]. In the presence of the skyrmion, the term~(\ref{vr}) should be taken into account. As pointed out above, for small skyrmion size $\xi_{sc}\gg R$, the skyrmion field can be approximated as a local magnetic impurity with $S(\bm r)=\bm S_{\rm e}\,\sigma_z \delta^2(\bm r)$, where the effective magnetization is determined in Eq.~(\ref{S0}). Such a local perturbation can be exactly taken into account by calculating the T-matrix
+For the skyrmions shown in Figs.~\ref{fig:skyrmion}(a) and (b), the ferromagnetic vector is $S(\infty) = -S\,\hat{\bm z}$ far from skyrmion, and is parallel to $\bm S(0)= S\hat{\bm z}$ at the skyrmion core. The Hamiltonian $h(\bm p)$ describes a superconductor proximity coupled to a ferromagnet with constant magnetization, i.e. in the absence of the skyrmion. The ferromagnetic coupling merely shifts the bands corresponding the opposite spins as shown in Fig.~(\ref{fig:LDOS})(a). The spectrum maintains a gap as long as the Zeeman coupling is less than the superconducting gap, i.e. $S<\Delta$. Such spectrum should be possible to detect by the spin-polarized tunneling spectroscopy methods[cite relevant papers]. In the presence of the skyrmion, the term~(\ref{vr}) should be taken into account. As pointed out above, for small skyrmion size $\xi_{sc}\gg R$, the skyrmion field can be approximated as a local magnetic impurity with $S(\bm r)=\bm S_{\rm e}\,\sigma_z \delta^2(\bm r)$, where the effective magnetization is determined in Eq.~(\ref{S0}). Such a local perturbation can be  treated exactly by calculating the T-matrix
 \begin{align}
 	T(\omega) =   \frac{-S_{\rm e}\sigma_z}{1+S_{\rm e}\sigma_zg_{0}(\omega)} \label{tm} 
 \end{align}
-taken into account in T-matrix calculation, which gives the following SP-LDOS
+taken into account in T-matrix calculation, which gives the following SP-LDOS at the skyrmion core
 \begin{align}
-	 \rho_s(\omega) = -\frac{1}{\pi}\,{\rm Im}\lim_{\omega\rightarrow \omega+i\delta}{\rm \,Tr} \left\{  \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2} \left[g_0(\omega)+g_0(\omega) T(\omega) g_0(\omega)  \right]\right\}\, \nonumber 
-\end{align}
-
+	\rho_s & (\omega) = \label{ldos} \\ 
+	&-\frac{1}{\pi}\,{\rm Im}{\rm \,Tr} \left\{  \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2} \left[g_0(\omega)+g_0(\omega) T(\omega) g_0(\omega)  \right]\right\},\nonumber 
+ \end{align}
+ where energy has infinitesimally small imaginary part in the right side of the equation, i.e. $\omega\rightarrow \omega+i\delta$, and $s=x,y,z$ denotes the spin quantization axis. We plot LDOS (\ref{ldos}) in Fig.~\ref{fig:skyrmion}(b).   
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -128,7 +138,7 @@ taken into account in T-matrix calculation, which gives the following SP-LDOS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure} \centering
 \includegraphics[width=0.7\linewidth]{WaveFunction}  
-\caption{(Color online) Numerical wavefunction. } \label{fig:wavefunction}
+\caption{(Color online) Numerical wavefunction corresponding to the sYSR state. The wave function has pronounced oscillations with a period of approximately the superconducting coherence length.  } \label{fig:wavefunction}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
