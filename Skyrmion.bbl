@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{11}%
+\begin{thebibliography}{12}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -177,6 +177,18 @@
   {Rusinov}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {JETP
   Lett.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {85} (\bibinfo
   {year} {1969})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Balatsky}\ \emph {et~al.}(2006)\citenamefont
+  {Balatsky}, \citenamefont {Vekhter},\ and\ \citenamefont
+  {Zhu}}]{Balatsky2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
+  {Balatsky}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Vekhter}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.-X.}\ \bibnamefont {Zhu}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Impurity-induced states in
+  conventional and unconventional superconductors}},}\ }\href {\doibase
+  10.1103/RevModPhys.78.373} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
+  Mod. Phys.}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {373}
+  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nakosai}\ \emph {et~al.}(2013)\citenamefont
   {Nakosai}, \citenamefont {Tanaka},\ and\ \citenamefont
   {Nagaosa}}]{Nakosai2013}%
