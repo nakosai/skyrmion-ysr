@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{12}%
+\begin{thebibliography}{13}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,6 +50,42 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Yao}\ \emph {et~al.}(2014)\citenamefont {Yao},
+  \citenamefont {Glazman}, \citenamefont {Demler}, \citenamefont {Lukin},\ and\
+  \citenamefont {Sau}}]{Yao2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~Y.}\ \bibnamefont
+  {Yao}}, \bibinfo {author} {\bibfnamefont {L.~I.}\ \bibnamefont {Glazman}},
+  \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont {Demler}}, \bibinfo
+  {author} {\bibfnamefont {M.~D.}\ \bibnamefont {Lukin}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Sau}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Enhanced Antiferromagnetic Exchange between
+  Magnetic Impurities in a Superconducting Host}},}\ }\href {\doibase
+  10.1103/PhysRevLett.113.087202} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo {pages}
+  {087202} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {M\'{e}nard}\ \emph {et~al.}()\citenamefont
+  {M\'{e}nard}, \citenamefont {Guissart}, \citenamefont {Brun}, \citenamefont
+  {Pons}, \citenamefont {Stolyarov}, \citenamefont {Debontridder},
+  \citenamefont {Leclerc}, \citenamefont {Janod}, \citenamefont {Cario},
+  \citenamefont {Roditchev}, \citenamefont {Simon},\ and\ \citenamefont
+  {Cren}}]{Menard2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
+  {M\'{e}nard}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Guissart}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Brun}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pons}}, \bibinfo {author}
+  {\bibfnamefont {V.~S.}\ \bibnamefont {Stolyarov}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Debontridder}}, \bibinfo {author}
+  {\bibfnamefont {M.~V.}\ \bibnamefont {Leclerc}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Janod}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Cario}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Roditchev}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Simon}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Cren}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Long range coherent magnetic bound states in superconductors}},}\
+  }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1506.06666}
+  {arXiv:1506.06666} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Heinze}\ \emph {et~al.}(2011)\citenamefont {Heinze},
   \citenamefont {von Bergmann}, \citenamefont {Menzel}, \citenamefont {Brede},
   \citenamefont {Kubetzka}, \citenamefont {Wiesendanger}, \citenamefont
@@ -189,17 +225,4 @@
   10.1103/RevModPhys.78.373} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
   Mod. Phys.}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {373}
   (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Nakosai}\ \emph {et~al.}(2013)\citenamefont
-  {Nakosai}, \citenamefont {Tanaka},\ and\ \citenamefont
-  {Nagaosa}}]{Nakosai2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Nakosai}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tanaka}}, \
-  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Nagaosa}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Two-dimensional p-wave
-  superconducting states with magnetic moments on a conventional s-wave
-  superconductor}},}\ }\href {\doibase 10.1103/PhysRevB.88.180503} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {88}},\ \bibinfo {pages} {180503} (\bibinfo {year} {2013})}\BibitemShut
-  {NoStop}%
 \end{thebibliography}%
