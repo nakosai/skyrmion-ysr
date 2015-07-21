@@ -5,6 +5,7 @@
 *.bbl
 *.blg
 *.aux
+*.out
 *Notes.bib
 tmp_sho/
 makefile
