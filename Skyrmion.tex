@@ -156,13 +156,20 @@ Briefly introduce the model and the results. Compare to analytics. Discuss what 
 \paragraph*{Long-range wave function} \label{sec:wavefuncion} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure} \centering
 \includegraphics[width=0.7\linewidth]{WaveFunction}  
 \caption{(Color online) Numerical wavefunction corresponding to the sYSR state. The wave function has pronounced oscillations with a period of approximately the superconducting coherence length. [parameters for which the figures are plotted]  } \label{fig:wavefunction}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Now let us show that the wave function corresponding to the SYSR state has a long-range power-law behavior. In general (as also discusssed in appendix), the wave function of an impurity induced state is described by the wave function 
+\begin{align}
+	\Psi(\bm r) \sim \frac{e^{ip_Fr}e^{-r\sqrt{\Delta^2-\omega^2_\lambda}/v_F}}{\sqrt{r}},
+	\label{wfnc}
+\end{align}
+where for brevity $\lambda$ denotes the eigenvalues of $\sigma_z$ operator and $\omega_\lambda = \omega - \lambda S$. The former exponential term in Eq.~(\ref{wfnc}) describes the fast Friedel oscillations, whereas latter term - behavior at a scale of superconducting coherence length. For clarity, let us discuss the positive SYSR state, i.e. $\omega = \omega^{+}_{\rm SYSR}$. It lies inside the superconducting for the spin-up subsystem, i.e. $|\omega_+|<\Delta$, and therefore the latter exponential term in Eq.~(\ref{wfnc}) describes the exponentially dacaying behavior. However, the SYSR state also couples to the background spin-down subsystem, for which it is supragap state, i.e. $|\omega_-|$. Therefore, the square root in the Eq.~(\ref{wfnc}) becomes imaginary $\sqrt{\Delta^2-\omega^2_-}=-i\sqrt{\omega^2_- - \Delta^2}$, which describes oscillating rather than decaying behavior at a scale $\xi_{sc}$. Colloquially speaking, the exponentiall localized YSR state couples to the delocalized states and becomes long-range. This is also supported by the numerical wavefunction which manifest periodic oscillations at a scale of $\xi_{sc}$ as shownn in Fig.~\ref{fig:wavefunction}. [Discuss that IPR should see the power law decay (i.e. change of IPR with system size)] 
 
 
 
@@ -193,7 +200,7 @@ Here we prove the existence of the new type of localized excitation on the skyrm
 
 In this section, we give an analytic treatment of the skyrmion-induced bound states using the T-matrix approximation. Starting from the Hamiltonian (\ref{ham}) in the second-quantized form, we write the Bogolyubov-de Gennes (BdG) Hamiltonian as 
 \begin{align}
-	& H_{\rm BdG} = H(\bm p) + V(\bm r),\quad {\rm where} \nonumber \\
+	& H_{\rm BdG} = h(\bm p) + V(\bm r),\quad {\rm where}  \label{hbdg} \\
 & H(\bm p) = \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\infty)\cdot\bm\sigma,\quad \bm S(\infty) = -S\,\hat{\bm z}, \nonumber\\
 & V(\bm r) = -\left[ \bm S(\bm r)-\bm S(\infty)\right]\cdot\bm\sigma \label{v0}
 \end{align}
@@ -220,12 +227,12 @@ Equation  (\ref{S}) is convenient for the T-matrix calculation, which we now pro
 using which we write an intergal equation for the T-matrix
 \begin{align}
 	T\left(\bm p^{1},\bm p^{2}\right) &= V \left(\bm p^{1}-\bm p^{2}\right) \nonumber \\
-	& +\int d^2 p'\, V\left(\bm p^{1}-\bm p'\right) g(\omega,\bm p')  T\left(\bm p',\bm p^{2}\right).
+	& +\int \frac{d^2 p'}{\left( 2\pi \right)^2}\, V\left(\bm p^{1}-\bm p'\right) g(\omega,\bm p')  T\left(\bm p',\bm p^{2}\right).
 	\label{integEq}
 \end{align}
 Here, the bare Green's function of the superconductor is defined as 
 \begin{align}
-	g(\omega,\bm p) = \frac{1}{\omega-H(\bm p)} = \frac{1}{\omega-\xi(\bm p)\tau_z-\Delta \tau_x - S\sigma_z}.
+	g(\omega,\bm p) = \frac{1}{\omega-h(\bm p)} = \frac{1}{\omega-\xi(\bm p)\tau_z-\Delta \tau_x - S\sigma_z}. \label{g}
 \end{align}
 Since in the case of the superconductivity we are interested in the scatterings close to the Fermi surface, we use $\bm p^{1} = p_F\, \bm n^{1}$ and $\bm p^{2} = p_F \,\bm n^{2}$, where the in-plane unit vectors $\bm n^{1}$ and $\bm n^{2}$ determine the direction of scattering on the Fermi surface.  Then, we seek the T-matrix in the following form
 \begin{align}
@@ -234,20 +241,16 @@ Since in the case of the superconductivity we are interested in the scatterings 
 where  $A,B_i,C_i$ and $D_{ij}$ are the matrices in the four-components space $\sigma\otimes\tau$. We substitute ansatz~(\ref{ansatz}) in the integral Eq.~(\ref{integEq}) and find the T-matrix
 \begin{widetext}
 \begin{equation}
-	T\left(\bm n^{1},\bm n^{2}\right) = \frac{-S_{\rm e}\sigma_z+S^2_{\rm m}p_F^2\bar g_{0}(\omega)+i\,S_{\rm m}\,p_F \,  \bm \sigma\cdot(\bm n^{2}- \bm n^{1}) +S^2_{\rm m}\, p^2_F \, \bar g_{0}(\omega)\,\left(\bm \sigma\cdot\bm n^{2}\right)\,\left(\bm \sigma\cdot \bm n^{1}\right)}{1+S_{\rm e}\sigma_zg_{00}-S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)},
+	T\left(\bm n^{1},\bm n^{2}\right) = \frac{-S_{\rm e}\sigma_z+S^2_{\rm m}p_F^2\bar g_{0}(\omega)+i\,S_{\rm m}\,p_F \,  \bm \sigma\cdot(\bm n^{2}- \bm n^{1}) +S^2_{\rm m}\, p^2_F \, \bar g_{0}(\omega)\,\left(\bm \sigma\cdot\bm n^{2}\right)\,\left(\bm \sigma\cdot \bm n^{1}\right)}{1+S_{\rm e}\sigma_zg_{00}-S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)}, \label{TM}
 \end{equation}
 \end{widetext}
 where the Green's function on-site matrix element in the real space is denoted as 
 \begin{align}
-	g_{0}(\omega) &   =\int d^2 p\, g(\omega,\bm p)  	\label{g0} \\
+	g_{0}(\omega) &   =\int \frac{d^2 p}{\left( 2\pi \right)^2}\, g(\omega,\bm p)  	\label{g0} \\
 	 & =-\pi\rho\sum_{\lambda = \pm 1} \frac{1+\lambda\sigma_z}{2}\,\frac{\omega-\lambda S+\Delta\tau_x}{\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}}, \nonumber \\
 	 \bar g_{0}(\omega) & = \frac{1}{2} \sum_{j=x,y}\sigma_j\, g_{0}(\omega)\, \sigma_j.\label{bg0}
 \end{align}
-For brevity, $\bar g_{0}$ denotes the Green's function obtained from $g_{00}$ by replacing $\sigma_z \rightarrow - \sigma_z$ according to Eq.~(\ref{bg0}). The density of states per spin is denoted as $\rho = m/2\pi$.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{LDOS} \label{sec:LDOS}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-So, in the presence of the skyrmion, the Green's function becomes
+For brevity, $\bar g_{0}$ denotes the Green's function obtained from $g_{00}$ by replacing $\sigma_z \rightarrow - \sigma_z$ according to Eq.~(\ref{bg0}). The density of states per spin is denoted as $\rho = m/2\pi$. So, in the presence of the skyrmion, the Green's function becomes
 \begin{align}
 	G(\omega,\bm p^1,\bm p^2) =& g(\omega,\bm p^1)\,(2\pi)^2\delta(\bm p^1-\bm p^2) \nonumber \\ 
 	          &  +g(\omega,\bm p^1) T(\bm p^1,\bm p^2) g(\omega,\bm p^2),
@@ -274,10 +277,55 @@ where $s=x,y,z$ denotes the spin quantization axis. It can be easily evaluated f
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Spatial wave function} \label{sec:wf}
+\section{Wave function of the resonance} \label{sec:wf}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In this section, we discuss the wavefunction corresponding to SYSR resonance. The treatment is analogous to the discussion of T-matrix in the previous setion. We write Eq.~(\ref{hbdg}) in the form of the BdG equation in the momentum space
+\begin{align}
+	\left[ \omega - h(\bm p) \right] \Psi(\bm p)= \int \frac{d^2 p'}{\left( 2\pi \right)^2}\,V(\bm p-\bm p')\,\Psi(\bm p'),	\label{bdge}
+\end{align}
+where $\Psi(\bm p)$ is the four-component wave function in the $\sigma\otimes\tau$ space. We substitute Eq.~(\ref{vp}) in the right hand side of Eq.(\ref{bdge}), use the definition of Green's function~(\ref{g}) and obtain 
+\begin{align}
+	\Psi (\bm p) = - g(\bm p) \left( S_{\rm e}\sigma_z +  i S_{\rm m}  \bm \sigma\cdot \bm  p \right)\,\Phi_1 -i\,g(\bm p)S_m\sum\limits_{j=x,y}\sigma_j \Phi_{2j},
+	\label{pwf}
+\end{align}
+where $\Phi_1$ and $\Phi_{2j}$ are the unknown four-component spinors defined self-consistently via wave function as 
+\begin{align}
+	\Phi_1 =  \int \frac{d^2 p'}{\left( 2\pi \right)^2}\, \Psi(\bm p'),\quad \Phi_{2j} =  \int \frac{d^2 p'}{\left( 2\pi \right)^2}\, p'_j\Psi(\bm p').
+	\label{f12}
+\end{align}
+Therefore, we close the equations by substituting~(\ref{pwf}) in Eq.~(\ref{f12}), take the integrals and obtain the following equations for the spinors
+\begin{align}
+	\Phi_1 &= -S_{\rm e} g_0 \sigma_z\Phi_1 - i S_{\rm m} g_{0} \sum_{j=x,y}\sigma_{j} \Phi_{2j}, \label{e1} \\
+	\Phi_{2j} &= \frac{i}{2}S_{\rm m}p_{F}^2 g_0 \sigma_j \Phi_1. \label{e2}
+\end{align}
+We substitute Eq.~(\ref{e2}) in Eq.~(\ref{e1}) and obtain the equation for $\Phi_1$
+\begin{align}
+	\left[1+S_{\rm e} g_0 \sigma_z\,\Phi_1 -  S^2_{\rm m} p_F^2\,g_{0} \bar g_{0} \right] \Psi_1 = 0. \label{le} 
+\end{align}
+This derivation is equivalent to the T-matrix treatment, and, therefore, notice that Eq.~(\ref{le}) corresponds to finding kernel of the denominator of T-matrix~(\ref{TM}). Since the matrix expression in the square brackets contains only $\sigma_z$ and $\tau_x$ matrices, the spinor $\Psi_1$  is an eigenstate of these matrices defined as ${\tau_x \mid \pm\rangle = \pm \mid \pm\rangle}$ and ${\sigma_z \mid \uparrow\downarrow\rangle = \pm \mid\uparrow\downarrow\rangle}$. That is the spinor for the positive SYSR state is ${\Phi_{1} = \mid \uparrow\rangle\otimes \mid + \rangle}$ and negative - ${\Phi_{1} = \mid \downarrow\rangle\otimes \mid - \rangle}$, just as for the usual YSR state. We also substiute Eq.~(\ref{e2}) in Eq.~(\ref{pwf}) and obtain
+\begin{align}
+	\Psi(\bm p) &= - g(\bm p) \left( S_{\rm e}\sigma_z +  i S_{\rm m}  \bm \sigma\cdot \bm  p -S^2_{\rm m}p_F^2\bar g_0\right)\Phi_1,  \nonumber \\
+	&= - g(\bm p) \left( S_{\rm e}\sigma_z  - S^2_{\rm m}p_F^2\bar g_0\right)\Phi_1 -   i  S_{\rm m} g(\bm p)\,  \bm \sigma\cdot \bm  p \,\Phi_1. \label{pwf1} 	
+\end{align}
+In order to find the wave function in the real space one has to Fourier transform Eq.~(\ref{pwf1}). It can be done carefully but the resulting equations are bulky and obscure, so we are just going to show that the first term in the second line of Eq.~(\ref{pwf1}) gives exponentially localized wavefucntion, whereas the last term has a powerlaw decay and is thus long-ranged. The key element is finding the Fourier transform of the Green's function
+which we expand using the projector operators $(1\pm \sigma_z)/2$
+\begin{align}
+	g_{\bm r} &= \int \frac{d^2 p}{\left( 2\pi \right)^2} g(\bm p) =   \sum_{\lambda = \pm} \frac{1+\lambda\sigma_z}{2}\,g_{\bm r}^\lambda \nonumber,\quad{\rm where} \\
+	 g_{\bm r}^\lambda &=\int \frac{d^2 p}{\left( 2\pi \right)^2} \frac{e^{i\bm p \bm r}}{\omega_\lambda -\xi\tau_z-\Delta\tau_x},\,\,\omega_\lambda = \omega - \lambda S.  \label{lle}
+\end{align}
+ The integral in Eq.~(\ref{lle}) can be evaluated for $r\gg v_F/\omega_D$ \cite{Pientka2013}, where $\omega_D$ is the Debye energy,
+\begin{align}
+	g^\lambda_{\bm r} = & -\pi\rho\left\{\frac{(\omega_\lambda+\Delta\tau_x)}{2\sqrt{\Delta^2-\omega_\lambda^2}}\left[ f_1(\bm r)+f_2(\bm r) \right] + \tau_x \left[ f_1(\bm r)-f_2(\bm r) \right]\right\}, \nonumber \\
+	& {\rm where}\,\,\, f_1(\bm r) = J_0\left[\left( p_F+ip_\lambda \right)r\right] + H_0\left[\left( p_F+ip_\lambda \right)r\right], \nonumber\\ 
+	& \qquad\quad f_2(\bm r) = J_0\left[\left( p_F-ip_\lambda \right)r\right] - H_0\left[\left( p_F-ip_\lambda \right)r\right], \nonumber\\
+	& \qquad\quad p_\lambda = \frac{\sqrt{\Delta^2-\omega^2_\lambda}}{v_F},
+\end{align}
+where $J_0$ and $H_0$ are the Bessel and Struve functions, $p_F$ - Fermi momentum, $p_\lambda$ characteristic momentum of a superconductor. Although the Green's function in the real space is quite bulky, it has a simple assymptotic behavior at $r\gg \xi_{sc}$
+\begin{equation}
+	g^{\lambda}_{\bm r} \sim \frac{e^{i p_F r}e^{-p_\lambda r}}{\sqrt r}. \label{asym}
+\end{equation}
+The first term describes fast Friedel oscillations, whereas second term - behavior at a scale of the superconducting coherence length $\xi_{sc}$. For the state inside the superconducting gap, i.e. for $|\omega_\lambda|<\Delta$, the latter term the exponential decay. In contrast for the state inside the continuum, i.e. for $|\omega_\lambda|>\Delta$, $p_\lambda$ becomes imaginary, i.e. $p_\lambda = -i\sqrt{\omega^2_\lambda-\Delta^2}/v_F$, and therefore the last exponential term in Eq.~(\ref{asym}) describes periodic oscillations with a period $\Delta r \sim 1/\xi_{sc}$. 
 
-
-
+The polarized SYSR state discussed above lies inside the continuum of states corresponding to the opposite spin polarization. Moreover, the last term in Eq.~(\ref{pwf1}) describes the coupling of the state to the continuum of the background delocalized states. Thus, the SYSR is expected to have an oscillating power-law rather than decaying behavior as also supported by the numerics. 
 
 \end{document}
