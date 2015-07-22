@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{13}%
+\begin{thebibliography}{14}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -146,7 +146,7 @@
   {\bibfnamefont {A.}~\bibnamefont {Al-Zubi}}, \bibinfo {author} {\bibfnamefont
   {S.}~\bibnamefont {Bl\"{u}gel}}, \ and\ \bibinfo {author} {\bibfnamefont
   {R.}~\bibnamefont {Wiesendanger}},\ }\bibfield  {title} {\enquote {\bibinfo
-  {title} {{Long-range magnetic coupling between nanoscale organic–metal
+  {title} {{Long-range magnetic coupling between nanoscale organic-metal
   hybrids mediated by a nanoskyrmion lattice}},}\ }\href {\doibase
   10.1038/nnano.2014.235} {\bibfield  {journal} {\bibinfo  {journal} {Nat.
   Nanotechnol.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {1018}
@@ -225,4 +225,17 @@
   10.1103/RevModPhys.78.373} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
   Mod. Phys.}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {373}
   (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nakosai}\ \emph {et~al.}(2013)\citenamefont
+  {Nakosai}, \citenamefont {Tanaka},\ and\ \citenamefont
+  {Nagaosa}}]{Nakosai2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Nakosai}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tanaka}}, \
+  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Nagaosa}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Two-dimensional p-wave
+  superconducting states with magnetic moments on a conventional s-wave
+  superconductor}},}\ }\href {\doibase 10.1103/PhysRevB.88.180503} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {88}},\ \bibinfo {pages} {180503} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
 \end{thebibliography}%
