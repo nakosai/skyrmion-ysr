@@ -10,7 +10,7 @@
 
 \begin{document}
 
-\title{Skyrmion-induced localized state in a two-dimensional superconductor}
+\title{Skyrmion-induced bound state in a two-dimensional superconductor}
 
 \author{Sho Nakosai$^{1,2}$}
 \author{Sergey S. Pershoguba$^{1}$}
@@ -23,7 +23,7 @@
 
 
 \begin{abstract}
-We consider a superconductor proximity coupled to a 2D ferromagnetic film with a topological configuration of the ferromagnetic vector, i.e. the skyrmion. Using the T-matrix calculations as well as well numerical modeling we calculate the spin-polarized local density of states (SP-LDOS) in the vicinity of the skyrmion. We identify a skyrmion-induced Yu-Shiba-Rusinov (SYSR) bound state, calculate its energy and a spectral width. We predict that SYSR resonance has a spatial power-law decay. This implies that superconductivity could facilitate a long-range interaction between distinct skyrmions on the surface of the ferromagnetic film.
+We consider a superconductor proximity coupled to a 2D ferromagnetic film with a topological configuration of the ferromagnetic vector, i.e. the skyrmion. Using the T-matrix calculations as well as well numerical modeling we calculate the spin-polarized local density of states (SP-LDOS) in the vicinity of the skyrmion. We identify a skyrmion bound state (SBS), calculate its energy and a spectral width. The SBS resonance has a long-ranged spatial power-law decay. This implies that superconductivity could facilitate a long-range interaction between distinct skyrmions on the surface of the ferromagnetic film.
 \end{abstract}
 
 \pacs{ }   
@@ -35,37 +35,26 @@ We consider a superconductor proximity coupled to a 2D ferromagnetic film with a
 \paragraph*{Introduction.} \label{sec:intro}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-General context of skyrmions asd tolopolical excitations: memory, manipulation, local creation via SP STM.
-Extension of skyrmion discussion to the case of hybrid structures: SC and Skyrmion. What are the consequenc of brining topological exchange field into SC. Question we address is the possible local spectroscopic signatures of SC quasiparticles in SC due to skyrmion field. We know from the past discussion that there are impurity bound states in SC near magnetic impurities. We have now the framework to address formation of bound states. Talk about local single impurity limit (YSR) and show the cartoon of the local and extended skyrmion and spectra. 
-Main section: 
-There are two effects: local scattering and Zeeman field hence the DOS will be split etc.  Draw similarities and differences with single imp.
-In parallel with skyrmion discovery the local imaging using magnetic probes like MFM and SP-STM allowed one to image the matter at atomic resolution while also resolving spin content of electron carriers in the substrate.  
-Here we prove the existence of the new type of localized excitation on the skyrmion core we call  Sc-YSR state (alternative is skyrmion bound state (sbs)).  Show the main results upfront in the introduction. Both LDOS and SP-LDOS. 
+Skyrmions, particle-like topological configurations of a continuous field, were originally proposed in the context of high-energy physics.  Nevertheless, it was suggested theoretically \cite{Bogdanov1989,Rossler2006} and recently observed experimentally \cite{Muhlbauer2009,Munzer2010,Yu2011,Heinze2011,Seki2012} that skyrmions exist in chiral ferromagnets in the presence of Dzyaloshinkii-Moriya interaction, which is allowed when inversion symmetry is broken. The skyrmions in ferromagnetic films hold great promise in spintronic applications. Due to non-trivial topological properties of skyrmions, they manifest anomalous response to temperature gradients \cite{Jonietz2010} and electric field \cite{Neubauer2009}. Recently, Hamburg group demonstrated  controllable writing and deleting of single skyrmions on the surface of PdFe bilayer \cite{Romming2013,Bergmann2014,Romming2015}.Coupling of magnetic films with skyrmions to novel materials holds a new promising avenue.  Coupling of skyrmion to a topological insulatorswas considered in Ref.~\cite{Hurst2015}. These developments show that skyrmions hold great promise in applications such as spintronics, memory devices, etc \cite{Nagaosa2013}. 
 
-
-It has been pointed out over the past few years \cite{Yao2014,Menard2015} that superconductivity can facilitate strong long-range interaction between the magnetic impurities. Maybe the same thin will happen for skyrmions. 
-
-Skyrmions in Wiesendanger's group \cite{Heinze2011,Romming2013,Bergmann2014,Brede2014,Sonntag2014,vonBergmann2015,Romming2015}.
-.
-
-
-Introduce T matrix and results for analytic solution.  
-Introduce the numerical approach and presenst the results oas a function of position and as a function of energy. Kind of same figs as in Sho’s talk. 
-Discuss the results and what it means, how big the signal is etc. Unfortunately we do not see any topological state at zero energy and as such these result represent a new kind of magnetic texture induced states that exhibit intragap states.
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Skyrmions in ferromagnetic films.} \label{sec:skyrmion}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In parallel, there has been a considerable amount of interest recently in ferromagnet-superconductor heterostructures aimed at engineering topological superconductors \cite{Alicea2012}. Discovery of such topological superconductiviy entails existence of Majorana edge modes in these systems, which would pave the way to realizing topological quantum computing \cite{Nayak2008}. So, motivated by the immense interest in ferromagnetic skyrmions and the ferromagnet-superconductor heterostructures, we bridge the connection between the two fields in the current paper and study a superconductor priximity-coupled to a thin film with a skyrmionic configuration of a ferromagnetic vector as illustrated in Fig.~\ref{fig:skyrmion}. Few works have considered skyrmions in the context of superconductivity. In Ref.~\cite{Bjornson2014}, authors discuss the skyrmions in momentum space of the topological superconductors. Reference~\cite{Garaud2011} studied the skyrmion-defects in the multiband superfluids and superconductors. A closely related work \cite{Nakosai2013} discussed a possibility of realizing a topological superconductor using a skyrmionic lattice. The Josephson current through a magnetic skyrmion structure was considered in Ref.~\cite{Yokoyama2015}. However, none of the papers considered the conceptually simplest case of interaction between a single skyrmion a superconductor that is discussed in the current work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure} \centering
 (a) \includegraphics[width=0.4\linewidth]{SkyrmA}  
 (b) \includegraphics[width=0.4\linewidth]{SkyrmB} 
-\caption{(Color online.) Ferrormagnetic film deposited on top of a superconductor. The ferromagnetic vector has skyrmion configuration. (a) Hedgehog skyrmion.  (b) Spiral skyrmion. } \label{fig:skyrmion}
+\caption{(Color online.) Ferrormagnetic film deposited on top of a superconductor. The ferromagnetic vector has skyrmion configuration. (a) Bloch-type skyrmion.  (b) Neel-type skyrmion. } \label{fig:skyrmion}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%should existthat condensed matter holds They were also predicted to exist in fethe of the General context of skyrmions as tolopolical excitations: memory, manipulation, local creation via SP STM.
+%Extension of skyrmion discussion to the case of hybrid structures: SC and Skyrmion. What are the consequenc of brining topological exchange field into SC. Question we address is the possible local spectroscopic signatures of SC quasiparticles in SC due to skyrmion field. We know from the past discussion that there are impurity bound states in SC near magnetic impurities. We have now the framework to address formation of bound states. Talk about local single impurity limit (YSR) and show the cartoon of the local and extended skyrmion and spectra. 
+%Main section: 
+%There are two effects: local scattering and Zeeman field hence the DOS will be split etc.  Draw similarities and differences with single imp.
+%In parallel with skyrmion discovery the local imaging using magnetic probes like MFM and SP-STM allowed one to image the matter at atomic resolution while also resolving spin content of electron carriers in the substrate.
+%ere we prove the existence of the new type of localized excitation on the skyrmion core we call  Sc-YSR state (alternative is skyrmion bound state (sbs)).  Show the main results upfront in the introduction. Both LDOS and SP-LDOS
+%It became clear that skyrmions can exists not in but as a single and can be contollably manipulate. This creates a prospects of manipulation. 
+%A drive towards heterostuctures e.g. to build the topological superconductors. This motivates us to consider a single skyrmion in the .
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,6 +64,36 @@ Discuss the results and what it means, how big the signal is etc. Unfortunately 
 	(c)\includegraphics[width=0.25\linewidth]{LDOSc} 
 \caption{(Color online) Spin-polarized local density of states (a) away from the skyrmion and (b,c) at the core of the skyrmion. Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. Blue and red dashed lines indicate the positions of the shifted spin-up and spin-down bands, respectively. The black dashed line indicates the position of the YSR pole, given by Eq.~.} \label{fig:LDOS}
 \end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+First and foremost, superconductivity could be useful in stabilizing the skyrmionic phase. The superconductivity, e.g. in non-centrosymmetric materials, could induce effective Dzyaloshinskii-Moriya interaction between the ferromagagnetic spins and, thus, stabilize the skyrmionic phase. A number of recent theoretical claims of a strong interaction between the magnetic impurities via tha superconducting host \cite{Yao2014,Menard2015} support that proposal. Using similar arguments, the superconductivity could mediate effective interaction between the skyrmions and, thus, affect their dynamics. 
+
+In the current paper we consider a ferromagnetic film with a skyrmion proximity coupled to a superconductor as shown in Fig.~\ref{fig:skyrmion}. We study a state induced by a skyrmion in a superconductor. In a close analogy with the Yu-Shiba-Rusinov \cite{Yu,Shiba,Rusinov} states, we find a skyrmion bound state (SBS), a state localized around a skyrmion, using an analytical T-matrix calculation. The energy of SBS typically lies in between the superconducting bands corresponding to the delocolized states of the opposite spin-polarization. Since skyrmion is a complex object with spins in all directions the spin-up and spin-down sectors of the Hamiltonian are coupled, and SBS is a resonance with a finite spectral width. We calculate a spin-polarized local density of states (SP-LDOS) in the vicinity of skyrmions that could be measured using spin-polarized scanning tuneling micropscopy (SP-STM) \cite{Romming2013,Bergmann2014,Romming2015}.  In contrast, with the conventional YSR states, the SBS state is a long-ranged state with a powerlaw decay. Therefore, in the presence of a second skyrmion, the SBS states will interact and give a strong \cite{Yao2014} long-ranged ``Casimir'' interaction \cite{Shytov2009} between the skyrmions.
+
+
+%Skyrmions in MnSi \cite{Muhlbauer2009} and motion of skyrmions under current and temperature gradient  (topological Hall response). Skyrmion lattice observation in the seminconducting compound ${\text{Fe}}_{1\ensuremath{-}x}{\text{Co}}_{x}\text{Si}$ \cite{Munzer2010}. Topological Hall effect in MnSi .
+
+%Near-room-temperature skyrmions in FeGe \cite{Yu2011}.
+
+ 
+
+%Skyrmions in the ferrimagnetic material ${\mathrm{Cu}}_{2}{\mathrm{OSeO}}_{3}$ \cite{Adams2012}. 
+
+
+%Skyrmions in Wiesendanger's group: atomic scale skyrmions..
+
+%Skyrmions in a multiferroic insulating magnet \cite{Seki2012}
+
+
+
+%Introduce T matrix and results for analytic solution.  
+%Introduce the numerical approach and presenst the results oas a function of position and as a function of energy. Kind of same figs as in Sho’s talk. 
+%Discuss the results and what it means, how big the signal is etc. Unfortunately we do not see any topological state at zero energy and as such these result represent a new kind of magnetic texture induced states that exhibit intragap states.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph*{Skyrmions in ferromagnetic films.} \label{sec:skyrmion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -182,6 +201,7 @@ There are two effects: local scattering and Zeeman field hence the DOS will be s
 In parallel with skyrmion discovery the local imaging using magnetic probes like MFM and SP-STM allowed one to image the matter at atomic resolution while also resolving spin content of electron carriers in the substrate.  
 Here we prove the existence of the new type of localized excitation on the skyrmion core we call  Sc-YSR state (alternative is skyrmion bound state (sbs)).  Show the main results upfront in the introduction. Both LDOS and SP-LDOS. 
 
+We thank  A.~Saxena, Y.~Kedem, for useful discussions. This work was supported by the European Research Council (ERC) DM-321031 and the US DOE BES E304 (S.S.P. and A.V.B.). 
 
 
 
