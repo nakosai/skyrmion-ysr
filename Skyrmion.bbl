@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{31}%
+\begin{thebibliography}{32}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -136,20 +136,21 @@
 \bibitem [{\citenamefont {Heinze}\ \emph {et~al.}(2011)\citenamefont {Heinze},
   \citenamefont {von Bergmann}, \citenamefont {Menzel}, \citenamefont {Brede},
   \citenamefont {Kubetzka}, \citenamefont {Wiesendanger}, \citenamefont
-  {Bihlmayer},\ and\ \citenamefont {Bl\"{u}gel}}]{Heinze2011}%
+  {Bihlmayer},\ and\ \citenamefont {Blugel}}]{Heinze2011}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Heinze}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {von
-  Bergmann}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Menzel}},
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Brede}}, \bibinfo
-  {author} {\bibfnamefont {A.}~\bibnamefont {Kubetzka}}, \bibinfo {author}
-  {\bibfnamefont {R.}~\bibnamefont {Wiesendanger}}, \bibinfo {author}
-  {\bibfnamefont {G.}~\bibnamefont {Bihlmayer}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {S.}~\bibnamefont {Bl\"{u}gel}},\ }\bibfield  {title}
-  {\enquote {\bibinfo {title} {{Spontaneous atomic-scale magnetic skyrmion
-  lattice in two dimensions}},}\ }\href {\doibase 10.1038/nphys2045} {\bibfield
-   {journal} {\bibinfo  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume}
-  {7}},\ \bibinfo {pages} {713} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Stefan}\ \bibnamefont
+  {Heinze}}, \bibinfo {author} {\bibfnamefont {Kirsten}\ \bibnamefont {von
+  Bergmann}}, \bibinfo {author} {\bibfnamefont {Matthias}\ \bibnamefont
+  {Menzel}}, \bibinfo {author} {\bibfnamefont {Jens}\ \bibnamefont {Brede}},
+  \bibinfo {author} {\bibfnamefont {Andre}\ \bibnamefont {Kubetzka}}, \bibinfo
+  {author} {\bibfnamefont {Roland}\ \bibnamefont {Wiesendanger}}, \bibinfo
+  {author} {\bibfnamefont {Gustav}\ \bibnamefont {Bihlmayer}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Stefan}\ \bibnamefont {Blugel}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Spontaneous atomic-scale magnetic
+  skyrmion lattice in two dimensions}},}\ }\href {\doibase 10.1038/nphys2045}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nat Phys}\ }\textbf {\bibinfo
+  {volume} {7}},\ \bibinfo {pages} {713--718} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Seki}\ \emph {et~al.}(2012)\citenamefont {Seki},
   \citenamefont {Yu}, \citenamefont {Ishiwata},\ and\ \citenamefont
   {Tokura}}]{Seki2012}%
@@ -261,6 +262,16 @@
   {\doibase 10.1103/PhysRevB.91.060401} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo
   {pages} {060401} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fert}\ \emph {et~al.}(2013)\citenamefont {Fert},
+  \citenamefont {Cros},\ and\ \citenamefont {Sampaio}}]{Fert2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Albert}\ \bibnamefont
+  {Fert}}, \bibinfo {author} {\bibfnamefont {Vincent}\ \bibnamefont {Cros}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Joao}\ \bibnamefont {Sampaio}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Skyrmions on the track},}\
+  }\href {\doibase 10.1038/nnano.2013.29} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Nano}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages}
+  {152--156} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nagaosa}\ and\ \citenamefont
   {Tokura}(2013)}]{Nagaosa2013}%
   \BibitemOpen
@@ -293,17 +304,6 @@
   10.1103/RevModPhys.80.1083} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
   Mod. Phys.}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages}
   {1083--1159} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Bj\"ornson}\ and\ \citenamefont
-  {Black-Schaffer}(2014)}]{Bjornson2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kristofer}\
-  \bibnamefont {Bj\"ornson}}\ and\ \bibinfo {author} {\bibfnamefont
-  {Annica~M.}\ \bibnamefont {Black-Schaffer}},\ }\bibfield  {title} {\enquote
-  {\bibinfo {title} {Skyrmion spin texture in ferromagnetic
-  semiconductor-superconductor heterostructures},}\ }\href {\doibase
-  10.1103/PhysRevB.89.134518} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {89}},\ \bibinfo {pages} {134518}
-  (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Garaud}\ \emph {et~al.}(2011)\citenamefont {Garaud},
   \citenamefont {Carlstr\"om},\ and\ \citenamefont {Babaev}}]{Garaud2011}%
   \BibitemOpen
@@ -338,42 +338,6 @@
   10.1103/PhysRevB.92.060503} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Rev. B}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo {pages} {060503}
   (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Yao}\ \emph {et~al.}(2014)\citenamefont {Yao},
-  \citenamefont {Glazman}, \citenamefont {Demler}, \citenamefont {Lukin},\ and\
-  \citenamefont {Sau}}]{Yao2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~Y.}\ \bibnamefont
-  {Yao}}, \bibinfo {author} {\bibfnamefont {L.~I.}\ \bibnamefont {Glazman}},
-  \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont {Demler}}, \bibinfo
-  {author} {\bibfnamefont {M.~D.}\ \bibnamefont {Lukin}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Sau}},\ }\bibfield  {title}
-  {\enquote {\bibinfo {title} {{Enhanced Antiferromagnetic Exchange between
-  Magnetic Impurities in a Superconducting Host}},}\ }\href {\doibase
-  10.1103/PhysRevLett.113.087202} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo {pages}
-  {087202} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {M\'{e}nard}\ \emph {et~al.}()\citenamefont
-  {M\'{e}nard}, \citenamefont {Guissart}, \citenamefont {Brun}, \citenamefont
-  {Pons}, \citenamefont {Stolyarov}, \citenamefont {Debontridder},
-  \citenamefont {Leclerc}, \citenamefont {Janod}, \citenamefont {Cario},
-  \citenamefont {Roditchev}, \citenamefont {Simon},\ and\ \citenamefont
-  {Cren}}]{Menard2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
-  {M\'{e}nard}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Guissart}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Brun}},
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pons}}, \bibinfo {author}
-  {\bibfnamefont {V.~S.}\ \bibnamefont {Stolyarov}}, \bibinfo {author}
-  {\bibfnamefont {F.}~\bibnamefont {Debontridder}}, \bibinfo {author}
-  {\bibfnamefont {M.~V.}\ \bibnamefont {Leclerc}}, \bibinfo {author}
-  {\bibfnamefont {E.}~\bibnamefont {Janod}}, \bibinfo {author} {\bibfnamefont
-  {L.}~\bibnamefont {Cario}}, \bibinfo {author} {\bibfnamefont
-  {D.}~\bibnamefont {Roditchev}}, \bibinfo {author} {\bibfnamefont
-  {P.}~\bibnamefont {Simon}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Cren}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Long range coherent magnetic bound states in superconductors}},}\
-  }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1506.06666}
-  {arXiv:1506.06666} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Yu}(1965)}]{Yu}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
@@ -398,6 +362,32 @@
   {http://www.jetpletters.ac.ru/ps/1658/article_25295.shtml} {\bibfield
   {journal} {\bibinfo  {journal} {JETP Lett.}\ }\textbf {\bibinfo {volume}
   {9}},\ \bibinfo {pages} {85} (\bibinfo {year} {1969})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Balatsky}\ \emph {et~al.}(2006)\citenamefont
+  {Balatsky}, \citenamefont {Vekhter},\ and\ \citenamefont
+  {Zhu}}]{Balatsky2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
+  {Balatsky}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Vekhter}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.-X.}\ \bibnamefont {Zhu}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Impurity-induced states in
+  conventional and unconventional superconductors}},}\ }\href {\doibase
+  10.1103/RevModPhys.78.373} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
+  Mod. Phys.}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {373}
+  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yao}\ \emph {et~al.}(2014)\citenamefont {Yao},
+  \citenamefont {Glazman}, \citenamefont {Demler}, \citenamefont {Lukin},\ and\
+  \citenamefont {Sau}}]{Yao2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~Y.}\ \bibnamefont
+  {Yao}}, \bibinfo {author} {\bibfnamefont {L.~I.}\ \bibnamefont {Glazman}},
+  \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont {Demler}}, \bibinfo
+  {author} {\bibfnamefont {M.~D.}\ \bibnamefont {Lukin}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Sau}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Enhanced Antiferromagnetic Exchange between
+  Magnetic Impurities in a Superconducting Host}},}\ }\href {\doibase
+  10.1103/PhysRevLett.113.087202} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo {pages}
+  {087202} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Shytov}\ \emph {et~al.}(2009)\citenamefont {Shytov},
   \citenamefont {Abanin},\ and\ \citenamefont {Levitov}}]{Shytov2009}%
   \BibitemOpen
@@ -452,28 +442,47 @@
   10.1021/acs.nanolett.5b00506} {\bibfield  {journal} {\bibinfo  {journal}
   {Nano Lett.}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {3280}
   (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Balatsky}\ \emph {et~al.}(2006)\citenamefont
-  {Balatsky}, \citenamefont {Vekhter},\ and\ \citenamefont
-  {Zhu}}]{Balatsky2006}%
+\bibitem [{\citenamefont {Klinovaja}\ \emph {et~al.}(2013)\citenamefont
+  {Klinovaja}, \citenamefont {Stano}, \citenamefont {Yazdani},\ and\
+  \citenamefont {Loss}}]{Klinovaja2013}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
-  {Balatsky}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Vekhter}}, \
-  and\ \bibinfo {author} {\bibfnamefont {J.-X.}\ \bibnamefont {Zhu}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Impurity-induced states in
-  conventional and unconventional superconductors}},}\ }\href {\doibase
-  10.1103/RevModPhys.78.373} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
-  Mod. Phys.}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {373}
-  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Pientka}\ \emph {et~al.}(2013)\citenamefont
-  {Pientka}, \citenamefont {Glazman},\ and\ \citenamefont {von
-  Oppen}}]{Pientka2013}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Klinovaja}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Stano}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Yazdani}}, \ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Loss}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Topological superconductivity and
+  majorana fermions in rkky systems},}\ }\href {\doibase
+  10.1103/PhysRevLett.111.186805} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
+  {186805} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{Note1()}]{Note1}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Pientka}}, \bibinfo {author} {\bibfnamefont {L.~I.}\ \bibnamefont
-  {Glazman}}, \ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {von
-  Oppen}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Topological
-  superconducting phase in helical Shiba chains}},}\ }\href {\doibase
-  10.1103/PhysRevB.88.155420} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {88}},\ \bibinfo {pages} {155420}
-  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+  \bibinfo {note} {Note that in the case of the Block skyrmion $S_1$ would have
+  a physical meaning of an anapole moment defined as $S_1 = \protect \frac
+  {1}{2}\DOTSI \intop \ilimits@ d^2r \protect \tmspace +\thinmuskip {.1667em}
+  \left \protect \{\left [\protect \bm {S}(\protect \bm {r})-\protect \bm
+  {S}(\infty )\right ] \times \protect \bm {r}\right \protect
+  \}_z$}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {M\'{e}nard}\ \emph {et~al.}()\citenamefont
+  {M\'{e}nard}, \citenamefont {Guissart}, \citenamefont {Brun}, \citenamefont
+  {Pons}, \citenamefont {Stolyarov}, \citenamefont {Debontridder},
+  \citenamefont {Leclerc}, \citenamefont {Janod}, \citenamefont {Cario},
+  \citenamefont {Roditchev}, \citenamefont {Simon},\ and\ \citenamefont
+  {Cren}}]{Menard2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
+  {M\'{e}nard}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Guissart}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Brun}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pons}}, \bibinfo {author}
+  {\bibfnamefont {V.~S.}\ \bibnamefont {Stolyarov}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Debontridder}}, \bibinfo {author}
+  {\bibfnamefont {M.~V.}\ \bibnamefont {Leclerc}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Janod}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Cario}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Roditchev}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Simon}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Cren}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Long range coherent magnetic bound states in superconductors}},}\
+  }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1506.06666}
+  {arXiv:1506.06666} \BibitemShut {NoStop}%
 \end{thebibliography}%

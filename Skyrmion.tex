@@ -1,4 +1,4 @@
-\documentclass[twocolumn,showpacs,floatfix,nofootinbib,longbibliography]{revtex4-1}
+\documentclass[twocolumn,showpacs,floatfix,longbibliography]{revtex4-1}
 \usepackage{graphicx}
 \usepackage{bm} % bold math
 \usepackage{amssymb} % use this package to enable \nrightarrow command
@@ -10,20 +10,20 @@
 
 \begin{document}
 
-\title{Skyrmion-induced bound state in a two-dimensional superconductor}
+\title{Skyrmion-induced bound state in a superconductor}
 
-\author{Sho Nakosai$^{1,2}$}
 \author{Sergey S. Pershoguba$^{1}$}
+\author{Sho Nakosai$^{1,2}$}
 \author{Alexander V. Balatsky$^{1,3}$}
 \affiliation{$^1$Nordita, Center for Quantum Materials, KTH Royal Institute of Technology, and Stockholm University, Roslagstullsbacken 23, S-106 91 Stockholm, Sweden}
 \affiliation{$^2$Department of Applied Physics, University of Tokyo, Tokyo 113-8656, Japan}
-\affiliation{$^3$Institute for Materials Science, Los Alamos National Laboratory, Los Alamos, NM 87545, USA}
+\affiliation{$^3$Institute for Materials Science, Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA}
 
 \date{\today}
 
 
 \begin{abstract}
-We consider a superconductor proximity coupled to a 2D ferromagnetic film with a topological configuration of the ferromagnetic vector, i.e. the skyrmion. Using the T-matrix calculations as well as well numerical modeling we calculate the spin-polarized local density of states (SP-LDOS) in the vicinity of the skyrmion. We identify a skyrmion bound state (SBS), calculate its energy and a spectral width. The SBS resonance has a long-ranged spatial power-law decay. This implies that superconductivity could facilitate a long-range interaction between distinct skyrmions on the surface of the ferromagnetic film.
+We consider a superconductor proximity coupled to a 2D ferromagnetic film with a skyrmionic configuration of a ferromagnetic vector. Using the T-matrix calculations as well as numerical modeling we calculate the spin-polarized local density of states (SP LDOS) in the vicinity of the skyrmion. We identify a skyrmion bound state (SBS) calculate its energy and a spectral width. The SBS resonance has a long-range power-law decay in space. This implies that superconductivity could facilitate a long-range interaction between distinct skyrmions on the surface of a ferromagnetic film.
 \end{abstract}
 
 \pacs{ }   
@@ -32,178 +32,185 @@ We consider a superconductor proximity coupled to a 2D ferromagnetic film with a
 
 \maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Introduction.} \label{sec:intro}
+\paragraph*{Introduction.---} \label{sec:intro}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Skyrmions, particle-like topological configurations of a continuous field, were originally proposed in the context of high-energy physics.  Nevertheless, it was suggested theoretically \cite{Bogdanov1989,Rossler2006} and recently observed experimentally \cite{Muhlbauer2009,Munzer2010,Yu2011,Heinze2011,Seki2012} that skyrmions exist in chiral ferromagnets in the presence of Dzyaloshinkii-Moriya interaction, which is allowed when inversion symmetry is broken. The skyrmions in ferromagnetic films hold great promise in spintronic applications. Due to non-trivial topological properties of skyrmions, they manifest anomalous response to temperature gradients \cite{Jonietz2010} and electric field \cite{Neubauer2009}. Recently, Hamburg group demonstrated  controllable writing and deleting of single skyrmions on the surface of PdFe bilayer \cite{Romming2013,Bergmann2014,Romming2015}.Coupling of magnetic films with skyrmions to novel materials holds a new promising avenue.  Coupling of skyrmion to a topological insulatorswas considered in Ref.~\cite{Hurst2015}. These developments show that skyrmions hold great promise in applications such as spintronics, memory devices, etc \cite{Nagaosa2013}. 
+Skyrmions, particle-like topological configurations of a continuous field, were originally proposed in the context of high-energy physics.  Nevertheless, it was suggested theoretically \cite{Bogdanov1989,Rossler2006} and recently observed experimentally \cite{Muhlbauer2009,Munzer2010,Yu2011,Heinze2011,Seki2012} that skyrmions exist in chiral ferromagnets in the presence of Dzyaloshinkii-Moriya interaction, which is allowed when inversion symmetry is broken. The skyrmions in ferromagnetic films hold great promise in spintronic applications. Due to non-trivial topological properties of skyrmions, they manifest anomalous response to temperature gradients \cite{Jonietz2010} and electric field \cite{Neubauer2009}. Recently, Hamburg group demonstrated  controllable writing and deleting of single skyrmions on the surface of PdFe bilayer \cite{Romming2013,Bergmann2014,Romming2015}.Coupling of magnetic films with skyrmions to novel materials holds a new promising avenue.  Coupling of skyrmion to a topological insulator was considered in Ref.~\cite{Hurst2015}. These developments show that skyrmions hold great promise in applications such as spintronics, memory devices, etc \cite{Fert2013,Nagaosa2013}. 
 
-In parallel, there has been a considerable amount of interest recently in ferromagnet-superconductor heterostructures aimed at engineering topological superconductors \cite{Alicea2012}. Discovery of such topological superconductiviy entails existence of Majorana edge modes in these systems, which would pave the way to realizing topological quantum computing \cite{Nayak2008}. So, motivated by the immense interest in ferromagnetic skyrmions and the ferromagnet-superconductor heterostructures, we bridge the connection between the two fields in the current paper and study a superconductor priximity-coupled to a thin film with a skyrmionic configuration of a ferromagnetic vector as illustrated in Fig.~\ref{fig:skyrmion}. Few works have considered skyrmions in the context of superconductivity. In Ref.~\cite{Bjornson2014}, authors discuss the skyrmions in momentum space of the topological superconductors. Reference~\cite{Garaud2011} studied the skyrmion-defects in the multiband superfluids and superconductors. A closely related work \cite{Nakosai2013} discussed a possibility of realizing a topological superconductor using a skyrmionic lattice. The Josephson current through a magnetic skyrmion structure was considered in Ref.~\cite{Yokoyama2015}. However, none of the papers considered the conceptually simplest case of interaction between a single skyrmion a superconductor that is discussed in the current work.
+In parallel, there has been a considerable amount of interest recently in ferromagnet-superconductor heterostructures aimed at engineering topological superconductors \cite{Alicea2012}. Discovery of such topological superconductiviy entails existence of Majorana edge modes in these systems, which would pave the way to realizing topological quantum computing \cite{Nayak2008}. So, motivated by the immense interest in ferromagnetic skyrmions and the ferromagnet-superconductor heterostructures, we bridge the connection between the two fields in the current paper and study a superconductor priximity-coupled to a thin film with a skyrmionic configuration of a ferromagnetic vector as illustrated in Fig.~\ref{fig:skyrmion}. Few works have considered skyrmions in the context of superconductivity. Reference~\cite{Garaud2011} studied the skyrmion-defects in the multiband superfluids and superconductors. A closely related work \cite{Nakosai2013} discussed a possibility of realizing a topological superconductor using a skyrmionic lattice. The Josephson current through a magnetic skyrmion structure was considered in Ref.~\cite{Yokoyama2015}. However, none of the papers considered the conceptually simplest case of interaction between a single skyrmion and a superconductor, which is discussed in the current work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure} \centering
 (a) \includegraphics[width=0.4\linewidth]{SkyrmA}  
-(b) \includegraphics[width=0.4\linewidth]{SkyrmB} 
-\caption{(Color online.) Ferrormagnetic film deposited on top of a superconductor. The ferromagnetic vector has skyrmion configuration. (a) Bloch-type skyrmion.  (b) Neel-type skyrmion. } \label{fig:skyrmion}
+(b) \includegraphics[width=0.4\linewidth]{SkyrmB} \\
+(c) \includegraphics[width=0.4\linewidth]{fig1c}
+\caption{(Color online.) (a,b) Ferrormagnetic film with a skyrmion proximity coupled to a superconductor. (a) N\'eel-type (hedgehog) skyrmion.  (b) Bloch-type (spiral) skyrmion. (c) Sketch of an approximate view of a skyrmion as a local magnetic moment floating in a ``ferromagnetic sea''.} \label{fig:skyrmion}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%should existthat condensed matter holds They were also predicted to exist in fethe of the General context of skyrmions as tolopolical excitations: memory, manipulation, local creation via SP STM.
-%Extension of skyrmion discussion to the case of hybrid structures: SC and Skyrmion. What are the consequenc of brining topological exchange field into SC. Question we address is the possible local spectroscopic signatures of SC quasiparticles in SC due to skyrmion field. We know from the past discussion that there are impurity bound states in SC near magnetic impurities. We have now the framework to address formation of bound states. Talk about local single impurity limit (YSR) and show the cartoon of the local and extended skyrmion and spectra. 
-%Main section: 
-%There are two effects: local scattering and Zeeman field hence the DOS will be split etc.  Draw similarities and differences with single imp.
-%In parallel with skyrmion discovery the local imaging using magnetic probes like MFM and SP-STM allowed one to image the matter at atomic resolution while also resolving spin content of electron carriers in the substrate.
-%ere we prove the existence of the new type of localized excitation on the skyrmion core we call  Sc-YSR state (alternative is skyrmion bound state (sbs)).  Show the main results upfront in the introduction. Both LDOS and SP-LDOS
-%It became clear that skyrmions can exists not in but as a single and can be contollably manipulate. This creates a prospects of manipulation. 
-%A drive towards heterostuctures e.g. to build the topological superconductors. This motivates us to consider a single skyrmion in the .
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*} \centering
-	(a)\includegraphics[width=0.25\linewidth]{LDOSa} \hspace{0.1cm}
-	(b)\includegraphics[width=0.25\linewidth]{LDOSb} \hspace{0.1cm}
-	(c)\includegraphics[width=0.25\linewidth]{LDOSc} 
-\caption{(Color online) Spin-polarized local density of states (a) away from the skyrmion and (b,c) at the core of the skyrmion. Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. Blue and red dashed lines indicate the positions of the shifted spin-up and spin-down bands, respectively. The black dashed line indicates the position of the YSR pole, given by Eq.~.} \label{fig:LDOS}
-\end{figure*}
+\begin{figure} \centering
+%	(a)\includegraphics[width=0.25\linewidth]{LDOSa} \hspace{0.1cm}
+	\includegraphics[width=0.7\linewidth]{fig2} 
+	\caption{(Color online) Spin-polarized local density of states (SP LDOS) of a superconductor away from the skyrmion (dashed) and at the skyrmion core (solid). The color of the curves encodes the spin polarization: blue for spin up and red for spin down as indicated by the arrows. The figure is obtained by using a model given by Eqs.~(\ref{tm1}) and (\ref{ldos}) for the parameters $2S = \Delta = 0.1 \mu$, $R = 2.5/p_F$, $S_0 = 5SR^2$, and $S_1 = 0.5 SR^3$.} \label{fig:LDOS}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-First and foremost, superconductivity could be useful in stabilizing the skyrmionic phase. The superconductivity, e.g. in non-centrosymmetric materials, could induce effective Dzyaloshinskii-Moriya interaction between the ferromagagnetic spins and, thus, stabilize the skyrmionic phase. A number of recent theoretical claims of a strong interaction between the magnetic impurities via tha superconducting host \cite{Yao2014,Menard2015} support that proposal. Using similar arguments, the superconductivity could mediate effective interaction between the skyrmions and, thus, affect their dynamics. 
 
-In the current paper we consider a ferromagnetic film with a skyrmion proximity coupled to a superconductor as shown in Fig.~\ref{fig:skyrmion}. We study a state induced by a skyrmion in a superconductor. In a close analogy with the Yu-Shiba-Rusinov \cite{Yu,Shiba,Rusinov} states, we find a skyrmion bound state (SBS), a state localized around a skyrmion, using an analytical T-matrix calculation. The energy of SBS typically lies in between the superconducting bands corresponding to the delocolized states of the opposite spin-polarization. Since skyrmion is a complex object with spins in all directions the spin-up and spin-down sectors of the Hamiltonian are coupled, and SBS is a resonance with a finite spectral width. We calculate a spin-polarized local density of states (SP-LDOS) in the vicinity of skyrmions that could be measured using spin-polarized scanning tuneling micropscopy (SP-STM) \cite{Romming2013,Bergmann2014,Romming2015}.  In contrast, with the conventional YSR states, the SBS state is a long-ranged state with a powerlaw decay. Therefore, in the presence of a second skyrmion, the SBS states will interact and give a strong \cite{Yao2014} long-ranged ``Casimir'' interaction \cite{Shytov2009} between the skyrmions.
+In the current paper we consider a ferromagnetic film with a skyrmion proximity coupled to a superconductor as shown in Fig.~\ref{fig:skyrmion}. We study a state induced by a skyrmion in a superconductor. In a close analogy with the Yu-Shiba-Rusinov \cite{Yu,Shiba,Rusinov,Balatsky2006} states, we find a skyrmion bound state (SBS), a state localized around a skyrmion, using an analytical T-matrix calculation as well as the numerical modeling. The energy of SBS typically lies in between the superconducting bands corresponding to the delocalized states of the opposite spin-polarization. Since skyrmion is a complex object with spins in all directions the spin-up and spin-down sectors of the Hamiltonian are coupled, and SBS is a resonance with a finite spectral width. We calculate a spin-polarized local density of states (SP LDOS) in the vicinity of skyrmions that could be measured using spin-polarized scanning tuneling micropscopy (SP STM) \cite{Romming2013,Bergmann2014,Romming2015}.  In contrast, with the conventional YSR states, the SBS state is a long-ranged state with a powerlaw decay. Therefore, in the presence of a second skyrmion, the SBS states will interact and give a strong \cite{Yao2014} long-ranged ``Casimir'' interaction \cite{Shytov2009} between the skyrmions.
 
-
-%Skyrmions in MnSi \cite{Muhlbauer2009} and motion of skyrmions under current and temperature gradient  (topological Hall response). Skyrmion lattice observation in the seminconducting compound ${\text{Fe}}_{1\ensuremath{-}x}{\text{Co}}_{x}\text{Si}$ \cite{Munzer2010}. Topological Hall effect in MnSi .
-
-%Near-room-temperature skyrmions in FeGe \cite{Yu2011}.
-
- 
-
-%Skyrmions in the ferrimagnetic material ${\mathrm{Cu}}_{2}{\mathrm{OSeO}}_{3}$ \cite{Adams2012}. 
-
-
-%Skyrmions in Wiesendanger's group: atomic scale skyrmions..
-
-%Skyrmions in a multiferroic insulating magnet \cite{Seki2012}
-
-
-
-%Introduce T matrix and results for analytic solution.  
-%Introduce the numerical approach and presenst the results oas a function of position and as a function of energy. Kind of same figs as in Sho’s talk. 
-%Discuss the results and what it means, how big the signal is etc. Unfortunately we do not see any topological state at zero energy and as such these result represent a new kind of magnetic texture induced states that exhibit intragap states.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Skyrmions in ferromagnetic films.} \label{sec:skyrmion}
+\paragraph*{Skyrmions in a ferromagnetic film.---} \label{sec:skyrmion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-Let the three-dimensional vector $S(\bm r) = (S_x,S_y,S_z)$ describe the configuration of the ferromagnetic vector in a two-dimensional ferromagnetic film $\bm r = (x,y)$. The configurations of the field $S(\bm r)$ shown in Fig. \ref{fig:skyrmion}(a) and (b) are referred to as skyrmions. The skyrmion configuration of the field is characterized by the topological charge 
-
+Consider a ferromagnetic film with the magnetization described by a three-dimensional vector $\bm S(\bm r) = (S_x,S_y,S_z)$ dependent on a two-dimensional spatial coordinate $\bm r = (x,y)$. The topological configurations of the field $\bm S(\bm r)$ shown in Fig. \ref{fig:skyrmion}(a) and (b) are referred to as skyrmions.  Depending on a specific ferromagnetic material, two disctinct types of skyrmions are observed in experiment: the N\'eel (hedgehog) skyrmion and Bloch (spiral) skyrmion shown in Fig.~\ref{fig:skyrmion}(a) and (b), respectively.  The skyrmions observed in experiment vary greatly in size ranging roughly from 10 nm to 1 $\mu$m ~\cite{Muhlbauer2009,Munzer2010,Yu2011,Heinze2011,Seki2012,Heinze2011,Romming2013,Bergmann2014,Brede2014,Sonntag2014,vonBergmann2015,Romming2015}. Although, the two types of skyrmions differ significantly in the orientation of the in-plane spins both are characterized by the same topological charge
 \begin{align}
-	Q = \frac{1}{4\pi} \int d^2r \, \hat {\bm S}\cdot (\nabla_x\hat {\bm S}\times\nabla_y\hat {\bm S}), \quad \hat {\bm S}= \frac{\bm S}{S}, 
+	Q = \frac{1}{4\pi} \int d^2r \, \hat {\bm S}\cdot (\nabla_x\hat {\bm S}\times\nabla_y\hat {\bm S})=1,\quad  \hat {\bm S}= \frac{\bm S}{S}. 
 	\label{topCharge}
 \end{align}
-which cannot be altered by the continuous transfomation of the field.  We also characterize the skyrmion fields by the zeroth and first moments
-\begin{align}
-	S^{(0)}_i = \int  d^2r \, \left[S_i(\bm r)-S_i(\infty)\right],\,\, i\in \{x,y,z\}, \label{S0} \\
-	S^{(1)}_{ij} = \int  d^2r \, \left[S_i(\bm r)-S_i(\infty)\right] r_j,\,\, j\in \{x,y\}. \label{S1}
-\end{align}
-The zeroth moment $\bm S^{(0)} = S_{\rm e} \hat{\bm z}$ characterizes the effective out-of-plane magnetic moment of the skyrmion and is equal for the two skyrmions shown in Fig.~{\ref{fig:skyrmion}}(a) and (b). Whereas, the first-order moment $S^{(1)}_{ij}$ characterizes the in-plane pattern of the ferromagnetic vector $\bm S(\bm r)$. Note that for the cylindrically symmetric field $S(\bm r)$, the first order moment defined in Eq.~(\ref{S1}) can be expanded in the symmetric and antisymmetric parts 
-\begin{equation}
-	S^{(1)}_{ij}=S_{\rm m}\,\delta_{ij} + S_{\rm a}\,\epsilon_{ijz}
-\end{equation}	
-The skyrmions shown in Fig.~\ref{fig:skyrmion}(a) and (b) have monopole $S_{\rm m}$ and anapole $S_{\rm a}$ moments correspondingly, hence the name of the skyrmions. However the two types of the skyrmions have the same topological charge~(\ref{topCharge}) and can be continuosly deformed into each other. 
+Thus, one could continuously transform a Neel skyrmion into a Bloch skyrmion by a mental $\pi/2$ rotation of the ferromagnetic vector around the $\hat {\bm z}$ axis in the spin space without changing a topological charge~(\ref{topCharge}). It would be intriguing to have materials that could exhibit a tunable transition between the two distinct types of skyrmions. 
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*} \centering
-	(a)\includegraphics[width=0.25\linewidth]{numerical-LDOS-away} \hspace{0.1cm}
-	(b)\includegraphics[width=0.25\linewidth]{numerical-LDOS-core} \hspace{0.1cm}
-	(c)\includegraphics[width=0.25\linewidth]{numerical-IPR} 
-\caption{(Color online) Numerical modeling of a skyrmion: (a) LDOS away from the skyrmion (PLEASE SUBSTITUTE WITH THE CORRECT FIGURE), (b) LDOS at the skyrmion core, (c) inverse participation ratio (IPR).} \label{fig:LDOSNumerics}
-\end{figure*}
+\paragraph*{Superconductor proximity coupled to a ferromangetic film.--- }  \label{sec:model}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Let us consider a heterostructure of a ferromagnetic film with a skyrmion deposited on a superconductor as shown in Fig.~\ref{fig:skyrmion}. The superconductor is described by the following 4-by-4 Bogolyubov-de Gennes (BdG) Hamiltonian 
+\begin{align}
+ H &= \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\bm r)\cdot\bm\sigma, \label{ham} \\
+   & \xi(\bm p) = \frac{p^2}{2m}-\mu,\quad \bm p = -i(\nabla_x,\nabla_y).
+\end{align}
+Here, $\xi(\bm p)$ describes the kinetic energy and $\Delta$ - the self-consistent supeconducting gap, which we assume uniform in space; the term $\bm S(\bm r)\cdot\bm\sigma$ represents the proximity coupling between the ferromagnetic film and superconductor. We assume that the Zeeman splitting $S(\bm r)$ does not exceed the superconducting gap $\Delta$. The Pauli matrices $\bm \tau$ and $\bm \sigma$ act, respectively, in the particle-hole and spin subspaces of the four-component spinor $\Psi = (\psi_\uparrow,\psi_\downarrow,\psi^\dagger_\downarrow,-\psi^\dagger_\uparrow)^T$. We consider a case with a single N\'eel skyrmion in the center, and, so, assume the following profile of the ferromagnetic vector
+\begin{align}
+	\bm S(\bm r) &= S\left[ \cos\phi(\bm r) \sin\theta(\bm r),\, \sin\phi(\bm r)\sin\theta(\bm r),\,\cos\theta(\bm r)\right],\nonumber  \\   
+	\phi(\bm r) &= \arctan(y/x),\quad \theta(\bm r) = \pi \left[ 1-\exp\left( -\frac{r^2}{R^2} \right) \right], \label{conf}	
+\end{align}
+where $R$ defines an effective radius of a skyrmion. The ferromagnetic vector varies from $\bm S(0) = S\hat{\bm z}$ in the center of the skyrmion to $\bm S(\infty) = -S\hat{\bm z}$ away from the skyrmion. Note that for the case of a spin-singlet superconductor given by Eq.~(\ref{ham}), the Bloch and the Neel skyrmions are equivalent since they can be related by a continuous $\pi/2$-rotation around the $z$-axis in the spin space $U = \exp(-i\pi\sigma_z/4)$. In the presence of either the spin-triplet pairing or the spin-orbit interaction the effect of the two types of skyrmions will be different. We focus on the spin-singlet superconductivity, and, thus, the results for the N\'eel and Bloch skyrmions will coincide. Now let us compare the relevant spatial scales of the problem: the superconducting coherence length $\xi_{\rm sc} \approx v_F/\Delta$, the skyrmion radius $R$, and the Fermi length $p_F^{-1}$. Both the superconducting coherence length $\xi_{\rm sc}$ and skyrmion radius can vary greatly in size from few nanometers to a micron depending on a material, whereas the Fermi length $p_F^{-1}$ is typically smaller than the other two scales. Let us first comment on the possible regime of the large skyrmion radius, i.e. $R\gg \xi_{\rm sc}$. In this case, the skyrmion can be viewed as a large ferromagnetic domain pointing in the direction opposite to the rest of the system. Such a case could be intriguing in the context of topological superconductivity~\cite{Alicea2012}. For instance, it was recently pointed out \cite{Klinovaja2013} that a helical texture of spins in a one-dimensional chain of magnetic atoms on a surface of a superconductor generates an effective Rashba-like spin-orbit interaction responsible for the Majorana edge modes. Similar effective spin-orbit interaction is generated near a skyrmion and could give rise to non-trivial edge states localized at the edge of the skyrmion. We leave the discussion of this intriguing scenario to future works. In the current paper, we focus on the case of relatively small skyrmions, i.e. $R\le \xi_{sc}$. 
+
+We search for the possible eigenstates of Hamiltonian~(\ref{ham}) localized around a skyrmion in a series of approximations. First we consider a limit of a small skyrmion, i.e. $R\ll \xi_{\rm sc}$, in which case we approximate the skyrmion as a point magnetic moment. Using this simplified model, we do an analytical T-matrix calculation and find peaks in LDOS corresponding to the skyrmion bound state (SBS). Later, we relax the requirement $R\ll \xi_{sc}$ and calculate LDOS and the wavefunction for $R\sim \xi_{sc}$ numerically. 
+
+%Although the two distincdifferent types of skyrmions are obseved in different materials, nvat We also characterize the skyrmion fields by the zeroth and first moments
+%The zeroth moment $\bm S^{(0)} = S_{\rm e} \hat{\bm z}$ characterizes the effective out-of-plane magnetic moment of the skyrmion and is equal for the two skyrmions shown in Fig.~{\ref{fig:skyrmion}}(a) and (b). Whereas, the first-order moment $S^{(1)}_{ij}$ characterizes the in-plane pattern of the ferromagnetic vector $\bm S(\bm r)$. Note that for the cylindrically symmetric field $S(\bm r)$, the first order moment defined in Eq.~(\ref{S1}) can be expanded in the symmetric and antisymmetric parts 
+%\begin{equation}
+%	S^{(1)}_{ij}=S_{\rm m}\,\delta_{ij} + S_{\rm a}\,\epsilon_{ijz}
+%\end{equation}	
+%The skyrmions shown in Fig.~\ref{fig:skyrmion}(a) and (b) have monopole $S_{\rm m}$ and anapole $S_{\rm a}$ moments correspondingly, hence the name of the skyrmions. However the two types of the skyrmions have the same topological charge~(\ref{topCharge}) and can be continuosly deformed into each other. 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure} \centering
+	(a)\includegraphics[width=0.7\linewidth]{fig3a} \\  
+	(b)\includegraphics[width=0.7\linewidth]{fig3b} 
+	\caption{(Color online) Numerical modeling of a skyrmion. (a) Spin-polarized LDOS at the skyrmion core (solid) and away from the skyrmion (dashed).  (b) Participation ratio representing a measure of localization of  the BdG wavefunctions. The wavefunctions corresponding to the red dots are shown in Fig.~\ref{fig:wavefunction} in the panels indicated by the letters.} \label{fig:LDOSNumerics}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Model}  \label{sec:model}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The model is given by the following 4-by-4 Bogolyubov-de Gennes (BdG) Hamiltonian 
-\begin{align}
-	 H &= \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\bm r)\cdot\bm\sigma, \label{ham} \\
-  & \xi(\bm p) = \frac{p^2}{2m}-\mu,\quad \bm p = -i(\nabla_x,\nabla_y),
-\end{align}
-which describes the proximity coupling of the ferromagnetic vector $S(\bm r)$ to the itinerant electrons of a two-dimensional (2D) superconductor with the superconducting gap $\Delta$. The Pauli matrices $\bm \tau$ and $\bm \sigma$ act, respectively, in the particle-hole and spin subspaces of the four-component spinor $\Psi = (\psi_\uparrow,\psi_\downarrow,\psi^\dagger_\downarrow,-\psi^\dagger_\uparrow)^T$. For simplicity, we assume that the magnitude of the superconductor-ferromagnet coupling is constant and only the direction $\bm S(\bm r)$ varies, i.e. we set $\bm S(\bm r) = S\,\bm n(\bm r)$, where $\bm n$ is a unit vector. In order to proceed further let compare the typical lengthscales. The radius of skyrmions $R$ found in experiments~\cite{Heinze2011,Romming2013,Bergmann2014,Brede2014,Sonntag2014,vonBergmann2015,Romming2015} does not typically exceed $5$ nm, whereas the superconducting coherence length $\xi_{sc}$ varies largely from a micron to a few nanometers as in, e.g., curprates. For the analysis below, we assume the superconducting coherence length much larger $\xi_{sc}\gg R$, and briefly comment about the opposite limit in the Supplemental Material (Shall we discuss this? Local gauge transform and introduce effective spin-orbit, etc. ). In the chosen limit the superconductivity cannot ``resolve'' the fine details of the field $\bm S(\bm r)$ and only ``sees'' as a skyrmion as local magnetic defect. Therefore we shall apply a Yu-Shiba-Rusinov \cite{Yu,Shiba,Rusinov,Balatsky2006} treatment the skyrmion as a local impurity. 
+\paragraph*{Skyrmion as a local magnetic moment.---} \label{sec:analytics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{T-matrix analysis} \label{sec:analytics}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-It is convenient to split the Hamiltonian~(\ref{ham}) $H = h(\bm p)+V(\bm r)$ into the spatially uniform part $h(\bm p)$ and a local perturbation $V(\bm r)$ describing the skyrmion
+Let us consider a case of a small skyrmion, i.e. $R\ll\xi_{\rm sc}$. In this limit, the superconductivity cannot ``resolve'' the fine details of the field $\bm S(\bm r)$. Therefore, we approximate the original skyrmion configuration~(\ref{conf}) as a point magnetic moment floating in a ``ferromagnetic sea'' as illustrated in Fig.~\ref{fig:skyrmion}(c)
 \begin{align}
-	h(\bm p) & =  \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\infty)\cdot\bm\sigma,\quad \bm S(\infty) = -S\,\hat{\bm z}\\
-	V(\bm r) & =  - \left[\bm S(\bm r)-\bm S(\infty)\right]\cdot\bm\sigma  \label{vr}
+	\bm S_{\rm approx}(\bm r) & =  - S \hat{\bm z} + S_0 \hat{\bm z} \delta^2(\bm r),  \label{vr}
 \end{align}
-For the skyrmions shown in Figs.~\ref{fig:skyrmion}(a) and (b), the ferromagnetic vector is $S(\infty) = -S\,\hat{\bm z}$ far from skyrmion, and is parallel to $\bm S(0)= S\hat{\bm z}$ at the skyrmion core. The Hamiltonian $h(\bm p)$ describes a superconductor proximity coupled to a ferromagnet with constant magnetization, i.e. in the absence of the skyrmion. The ferromagnetic term $S\sigma_z$ breaks two-fold Kramers degeneracy of the bands and the spectrum contains four coherence peaks with energies $\pm\Delta\pm S$ as shown in Fig.~(\ref{fig:LDOS})(a). The bands corresponding to opposite spin are decoupled. The spectrum maintains a gap as long as the Zeeman coupling is less than the superconducting gap, i.e. $S<\Delta$. Such spectrum should be possible to detect by the spin-polarized tunneling spectroscopy methods[cite relevant papers]. In the presence of the skyrmion, the term~(\ref{vr}) should be taken into account. As pointed out above, for small skyrmion size $\xi_{sc}\gg R$, the skyrmion field can be approximated as a local magnetic impurity with $V(\bm r)=S_{\rm e}\,\sigma_z \delta^2(\bm r)$\footnote{Using Eqs.~(\ref{S0}) and (\ref{S1}), the moments can be expressed via the original parameters of the model as $S_{\rm e} = c_1 S R^2$ and $S_{\rm m} = c_2 S R^3$, where $S$ is ferromagnetic coupling and $R$ - the skyrmion radius. The coefficients $c_1\approx 5.18$ and $c_2\approx 6.53$ are calculated in the Supplementary Material for a specific model. }. Such a local perturbation can be  treated exactly by calculating the T-matrix
+where $S_0$ is defined via the original skyrmion configuration~(\ref{conf})
 \begin{align}
-	T(\omega) =   \frac{-S_{\rm e}\sigma_z}{1+S_{\rm e}\sigma_zg_{0}(\omega)} \label{tm} 
+	S_0 = \int  d^2r \, \left[\bm S(\bm r)-\bm S(\infty)\right]_z  \quad \sim \,\,\,SR^2. \label{S0} 
 \end{align}
-taken into account in T-matrix calculation, which gives the following SP-LDOS at the skyrmion core
+Formally, the approximation given by Eqs.~(\ref{vr}) and (\ref{S0}) is justified when the skyrmion $R<p_F^{-1}$, since it assumes that the scattering potential is sharp enough to provide the momenta connecting different k-points on the Fermi surface. 
+
+By performing the T-matrix calculation, we solve the model given by Eqs.~(\ref{ham}) and (\ref{vr}), where we treat the local term $S_0 \hat{\bm z} \delta^2(\bm r)$ as a perturbation. We include the constant background magnetization $-S\hat{\bm z}$ in the BdG Hamiltonian $h(\bm p) = \xi(\bm p)\tau_z+\Delta \tau_x +  S\sigma_z$  and calculate an on-site matrix element of the bare Green's function $g(\omega,\bm p) = [\omega-h(\bm p)]^{-1}$ 
+ \begin{align}
+	 g_{0}(\omega)  =-\pi\rho\sum_{\lambda = \pm 1} \frac{1+\lambda\sigma_z}{2}\,\frac{\omega-\lambda S+\Delta\tau_x}{\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}},  \label{grf}
+\end{align}
+where $\rho = m/2\pi$ is the density of states. This Green's function describes a superconductor subject to a uniform background magnetization $-\hat{\bm z} S$ and gives a spin-polarized local density of states (SP LDOS) shown by dashed lines in Fig.~\ref{fig:LDOS}.  The density of states contains two inside coherence peaks at the energies $\pm(\Delta-S)$, and two outside - at the energies $\pm(\Delta+S)$.  So, the spectra for the spin-up and spin-down sectors of the Hamiltonian, plotted in blue and red, are shifted relatively by $2S$. Using Green's function~(\ref{grf}) we calculate the T-matrix in the presence of a point magnetic moment $V(\bm r)=S_0\,\sigma_z \delta^2(\bm r)$ representing the skyrmion
+\begin{align}
+	T(\omega) =   \frac{-S_0\sigma_z}{1+S_0\sigma_zg_{0}(\omega)}. \label{tm} 
+\end{align}
+The poles of T-matrix give the new skyrmion-induced bound states (SBS). To find their energy we find the roots of the equation ${\rm det} \left[1+S_0\sigma_zg_{0}(\omega)\right]=0$
+\begin{align}
+	E^\pm_{\rm SBS} = \pm\left[S+\Delta \frac{1-\left( \pi\rho S_0 \right)^2}{1+\left( \pi\rho S_0 \right)^2}\right].
+	\label{energy}
+\end{align}
+Let us mention the behavior of the SBS peaks as a function of $S_0$. For small $S_0$, the SBS states split from the outside coherence peaks at the energies $\pm (\Delta+S)$ and move in the direction of the inside coherence peaks with a further increase of $S_0$. Although Eq.~(\ref{energy}) suggests that the SBS states may go inside the actual gap for large enough  $S_0$, i.e. $|E^\pm_{\rm SBS}|<\Delta-S$, the approximation of a skyrmion (\ref{vr}) is no-longer valid in this regime and, thus, does not give a reliable estimate of the SBS energy. In practice, by performing a numerical modeling discussed below, we never observe the SBS peaks inside the actual band gap, i.e. beyond the energies $|E^\pm_{\rm SBS}|>\Delta-S$. The spin-polarization of the SBS states is determined by the spin-polarization of the bulk bands that they split from: the positive (negative) SBS state is ``up'' (``down'') spin-polarized. The found SBS states closely mimic the well-known Yu-Shiba-Rusinov (YSR) states \cite{Yu,Shiba,Rusinov,Balatsky2006} localized around magnetic impurities in superconductors. The main difference is that the YSR states' energies reside inside the actual spectral gap, whereas the SBS states' energies lie in the window of energies $\Delta+S>|E^\pm_{\rm SBS}|>\Delta-S$. So, the SBS states could hybridize with the bands of the opposite spin polarization.  
+
+Indeed, so far we have considered an approximation of a skyrmion given by Eq.~(\ref{vr}) that includes only $\sigma_z$ matrices. In this approximation, the spin-up and spin-down sectors of the Hamiltonian are decoupled. However let us recall that the original configuration of a ferromagnetic vector in a skyrmion~(\ref{conf}) has spins in all directions. Specifically, the ferromagnetic vector $\bm S(\bm r)$ given by Eq.~(\ref{conf}) is purely in-plane for $r = R \sqrt{\ln 2}$. Such in-plane moments generate the terms proportional to $\sigma_x$ and $\sigma_y$ in the Hamiltonian that could couple the spin-up and spin-down sectors of the Hamiltonian. To capture this effect we append the approximation (\ref{vr}) with an additional term 
+\begin{align}
+	\bm S_{\rm approx}(\bm r) & =  - S \hat{\bm z} + S_0 \hat{\bm z} \delta^2(\bm r)-S_1 \bm \nabla \delta^2(\bm r), \label{vr1}
+\end{align}
+where  $\bm \nabla = (\nabla_x,\nabla_y)$ and $S_1$ is the first-moment of the original skyrmion configuration\footnote{Note that in the case of the Block skyrmion $S_1$ would have a physical meaning of an anapole moment defined as $S_1 = \frac{1}{2}\int  d^2r \, \left\{\left[\bm S(\bm r)-\bm S(\infty)\right] \times \bm r\right\}_z$ }
+\begin{align}
+	S_1 = \frac{1}{2}\int  d^2r \, \left[\bm S(\bm r)-\bm S(\infty)\right] \cdot \bm r\quad \sim \,\,\,SR^3. \label{S1}
+\end{align}
+Indeed, the last term in (\ref{vr1}) mimicks the radial in-plane spins of the skyrmion. Similar to calculation above, we solve the Lippmann-Schwinger equation (see details in Supplementary Materials) and calculate the T-matrix 
+\begin{align}
+	T(\omega) =   \frac{-S_0\sigma_z+S^2_1p_F^2\bar g_{0}(\omega)}{1+S_0\sigma_zg_{0}(\omega)-S^2_1p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)}, \label{tm1} 
+\end{align}
+where for brevity $\bar g_0(\omega) = \frac{1}{2}\sum_{j=x,y} \sigma_j g_0(\omega) \sigma_j $ is the Green's function obtained from Eq.~(\ref{grf}) by substitution $\sigma_z\rightarrow -\sigma_z$, that describes the coupling to bands with opposite spin polarization. Using Eq.~(\ref{tm1}) we calculate SP LDOS 
 \begin{align}
 	\rho_s & (\omega) = \label{ldos} \\ 
 	&-\frac{1}{\pi}\,{\rm Im}{\rm \,Tr} \left\{  \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2} \left[g_0(\omega)+g_0(\omega) T(\omega) g_0(\omega)  \right]\right\},\nonumber 
  \end{align}
- where energy has infinitesimally small imaginary part in the right side of the equation, i.e. $\omega\rightarrow \omega+i\delta$, and $s=x,y,z$ denotes the spin quantization axis. In Eqs.~(\ref{tm}) and (\ref{ldos}), the $g_0(\omega)$ is the on-site matrix element of the Green's function $g(\omega,\bm p) = [\omega-h(\bm p)]^{-1}$ 
- \begin{align}
-	 g_{0}(\omega)  =-\pi\rho\sum_{\lambda = \pm 1} \frac{1+\lambda\sigma_z}{2}\,\frac{\omega-\lambda S+\Delta\tau_x}{\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}},  \label{grf}
-\end{align}
-where $\rho = m/2\pi$ is the density of states. We plot LDOS (\ref{ldos}) in Fig.~\ref{fig:LDOS}(b). We observe that the skyrmion-YSR (SYSR) states split from the bulk bands. The energy of the states is given by the poles of the T-matrix, i.e. satisfy the equation $1+S_{\rm e}\sigma_zg_{0}(\omega)=0$, which gives 
-\begin{align}
-	E^\pm_{\rm SYSR} = \pm\left[S+\Delta \frac{1-\left( \pi\rho S_{\rm e} \right)^2}{1+\left( \pi\rho S_{\rm e} \right)^2}\right].
-	\label{energy}
-\end{align}
- The SYSR states maintain the spin polarization of the bands they split off: the positive (negative) SYSR state ``up'' (``down'') spin-polarized. For small skyrmions $R\sim 1/p_F$, the effective magnetic moment of a skyrmion $S_{\rm e}$ is small, and, so, the SYSR states are close to the outter  coherence peaks $\pm(\Delta+S)$ as seen in Fig.~\ref{fig:LDOS}(b).  Therefore the SYSR states lie inside continuum of states with the opposite spin. In the absence of coupling between the spin-``up'' and ``down'' sectors of the Hamiltonian, the SYSR states do not mix with the background delocalized states and maintain zero spectral width. In this respect, they do not differ much from the conventional YSR states.   
-
- In such a way, we have shown that the skyrmion can be treated as a point impurity and induces a YSR-like state in the spectrum. Let us now expand the model by taking into account that the in-plane spins, which are unavoiably present around the skyrmion, can couple the up and down sectors of the Hamiltonian. As discussed above, the in-plane spins are characterized by the first moment tensor~Eq.~(\ref{S1}). In the case of the hedgehog skyrmion, the tensor only contains the diagonal component corresponding to the monopole moment $S_{\rm m}$. Therefore we modify the local perturbation describing the skyrmion as $V(\bm r) =  S_{\rm e}\, \sigma_z\delta^2(\bm r) - S_{\rm m}\, \bm\sigma\cdot\bm \nabla\delta^2(\bm r)$. We repeat the T-matrix calculation for this perturbation in the Supplementary Material and obtain  
-\begin{align}
-	T(\omega) =   \frac{-S_{\rm e}\sigma_z+S^2_{\rm m}p_F^2\bar g_{0}(\omega)}{1+S_{\rm e}\sigma_zg_{0}(\omega)-S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)}, \label{tm1} 
-\end{align}
-where for brevity $\bar g_0(\omega) = \frac{1}{2}\sum_{j=x,y} \sigma_j g_0(\omega) \sigma_j $ is the Green's function obtained from Eq.~(\ref{grf}) by substitution $\sigma_z\rightarrow -\sigma_z$. We compare Eqs.~(\ref{tm}) and (\ref{tm1}) and observe that the latter contains renormalized numerator and the denominator due to $S_m$. We substitue the T-matrix~(\ref{tm1}) in Eq.~(\ref{ldos}) and plot LDOS in Fig.~\ref{fig:LDOS}(c). We observe the LDOS around the SYSR state has significantly widened. In order to explain this, let us consider poles of the T-matrix~(\ref{tm1}) given by $1+S_{\rm e}\sigma_zg_{0}(\omega)-S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)=0$. The real part of this equation still gives the SYSR state given by Eq.~(\ref{energy}). However, since $\bar g_0(\omega)$, which is the Green's function for a flipped spin, is imaginary at the SYSR energy, the term $S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)$ becomes imaginary and determines a finite spectral width of SYSR resonance. The LDOS also manifests an upshoot This explains the apparent widening of the spectrum around the SYSR state.  The LDOS even contains an upshoot around the inner coherence peaks $\pm \left( \Delta-S \right)$.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Numerical analysis.} \label{sec:numerics} 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Briefly introduce the model and the results. Compare to analytics. Discuss what is IPR and that it shows only a single quasi localized state. Show IPR for a smaller window of energies, e.g. $-2\Delta<\omega<2\Delta$. Does the IPR figure correspond to the LDOS figures, or is it plotted for different parameters.  
+ where the energy has infinitesimally small imaginary part in the right side of the equation, i.e. $\omega\rightarrow \omega+i\delta$, and $s=x,y,z$ denotes the spin projection axis. We plot LDOS (\ref{ldos}) in Fig.~\ref{fig:LDOS} with solid lines and observe that the peaks corresponding to the SBS resonances have finite spectral width. In order to understand this, we compare Eqs.~(\ref{tm}) and (\ref{tm1}) and observe that the latter contains renormalized numerator and the denominator due to $S_m$. Let us consider poles of the T-matrix~(\ref{tm1}) given by ${\rm det}\left[1+S_{\rm e}\sigma_zg_{0}(\omega)-S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)\right]=0$. The real part of this equation still gives the SBS state given by Eq.~(\ref{energy}). However, since $\bar g_0(\omega)$, which is the Green's function for a flipped spin, is imaginary at the SBS energy, the term $S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)$ becomes imaginary and determines a finite spectral width of SBS resonance. This explains the apparent widening of the spectrum around the SBS state.  Figure~(\ref{fig:LDOS}) allows to compare SP LDOS at the skyrmion core, shown with solid lines, and the energy spectrum far from a skyrmion, shown with dashed lines.   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{Long-range wave function} \label{sec:wavefuncion} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure} \centering
-\includegraphics[width=0.7\linewidth]{WaveFunction}  
-\caption{(Color online) Numerical wavefunction corresponding to the sYSR state. The wave function has pronounced oscillations with a period of approximately the superconducting coherence length. [parameters for which the figures are plotted]  } \label{fig:wavefunction}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-Now let us show that the wave function corresponding to the SYSR state has a long-range power-law behavior. In general (as also discusssed in appendix), the wave function of an impurity induced state is described by the wave function 
+Now let us show that the wave function corresponding to the SBS state has a long-range power-law behavior. Generically, the wave function of an impurity induced state is described by the wave function 
 \begin{align}
 	\Psi(\bm r) \sim \frac{e^{ip_Fr}e^{-r\sqrt{\Delta^2-\omega^2_\lambda}/v_F}}{\sqrt{r}},
 	\label{wfnc}
 \end{align}
-where for brevity $\lambda$ denotes the eigenvalues of $\sigma_z$ operator and $\omega_\lambda = \omega - \lambda S$. The former exponential term in Eq.~(\ref{wfnc}) describes the fast Friedel oscillations, whereas latter term - behavior at a scale of superconducting coherence length. For clarity, let us discuss the positive SYSR state, i.e. $\omega = \omega^{+}_{\rm SYSR}$. It lies inside the superconducting for the spin-up subsystem, i.e. $|\omega_+|<\Delta$, and therefore the latter exponential term in Eq.~(\ref{wfnc}) describes the exponentially dacaying behavior. However, the SYSR state also couples to the background spin-down subsystem, for which it is supragap state, i.e. $|\omega_-|$. Therefore, the square root in the Eq.~(\ref{wfnc}) becomes imaginary $\sqrt{\Delta^2-\omega^2_-}=-i\sqrt{\omega^2_- - \Delta^2}$, which describes oscillating rather than decaying behavior at a scale $\xi_{sc}$. Colloquially speaking, the exponentiall localized YSR state couples to the delocalized states and becomes long-range. This is also supported by the numerical wavefunction which manifest periodic oscillations at a scale of $\xi_{sc}$ as shownn in Fig.~\ref{fig:wavefunction}. [Discuss that IPR should see the power law decay (i.e. change of IPR with system size)] 
+where for brevity $\lambda$ denotes the eigenvalues of $\sigma_z$ operator and $\omega_\lambda = \omega - \lambda S$. The former exponential term in Eq.~(\ref{wfnc}) describes the fast Friedel oscillations, whereas latter term - behavior at a scale of superconducting coherence length. For clarity, let us discuss the positive SBS state, i.e. $\omega = E^{+}_{\rm SBS}$. It lies inside the superconducting gap for the spin-up subsystem, i.e. $\omega_+<\Delta$, and, so, the latter exponential term in Eq.~(\ref{wfnc}) describes the exponentially decaying behavior. However, the SBS state also couples to the background spin-down delocalized band, for which it is supragap state, i.e. $\omega_->\Delta$. Therefore, the square root in the Eq.~(\ref{wfnc}) becomes imaginary $\sqrt{\Delta^2-\omega^2_-}=-i\sqrt{\omega^2_- - \Delta^2}$, and, so, Eq.~(\ref{wfnc}) describes the oscillating behavior at a scale $\xi_{sc}$. In colloquial terms, the exponentially localized YSR state hybridizes with the delocalized states and produces a long-range SBS state.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure} \centering
+	(a)\includegraphics[width=0.43\linewidth]{fig4a}  
+	(b)\includegraphics[width=0.43\linewidth]{fig4b} \\
+	(c)\includegraphics[width=0.43\linewidth]{fig4c}  
+	(d)\includegraphics[width=0.43\linewidth]{fig4d} 
+	 \caption{(Color online) Spatial profile of the quasilocalized wavefunctions obtained numerically, which are indicated in Fig.~\ref{fig:LDOSNumerics}(b).  } \label{fig:wavefunction}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph*{Numerical analysis.---} \label{sec:numerics} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+So, approximating a skyrmion as a point impurity, which is valid if $R\ll\xi_{sc}$, we showed that the skyrmion induces resonances in LDOS. We now relax a requirement of small skyrmions and numerically calculate SP LDOS for a large skyrmion $R\sim \xi$. We put the BdG Hamiltonian onto a 2D square lattice with 200-by-200 sites and numerically diagonalize it. The parameters of the tight binding Hamiltonian are $0.1t=\Delta=2S$, $\mu = -3t$, $t$ is a nearest neighbour tunneling amplitude; the radius of skyrmion $R = 6a$, where $a$ is a lattice constant. We numerically calculate SP LDOS and show it in Fig.~\ref{fig:LDOSNumerics}(a). We use the same style as Fig.~\ref{fig:LDOS}: solid (dashed) line represents LDOS on (away from) skyrmion, colors encode opposite spin polarizations. We observe that the calculate LDOS is consistent with the discussion above. Skyrmion does induce a resonance in the LDOS in the energy window in between the original spin-split bands. We also look at the individual normalized BdG eigenstates and calculate the participation ratio
+\begin{equation}
+	I_\psi = \sum_{\bm r} |\psi(r)|^4,
+	\label{I}
+\end{equation}
+where the sum is carried over lattice sites $\bm r$. The participation ratio measures a degree of a localization of a wavefunctions: for a localized wavefunction $I_\psi \approx 1$ and for delocalized $I_\psi \approx N$, where $N = 200^2$ is the size of the system. We map $I_\psi$ for all numerical eigenstates and find quasilocalized states for energies corresponding to the SBS peak. We show the electron part  $|u_{\uparrow}|^2+|u_{\downarrow}|^2$ of the corresponding wavefunction in Fig.~\ref{fig:wavefunction}. We observe that the states with different angular momenta fill up the SBS peak. 
 
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Conclusion} \label{sec:conclusion}
+\paragraph*{Conclusion and Outlook.---} \label{sec:conclusion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-There are two effects: local scattering and Zeeman field hence the DOS will be split etc.  Draw similarities and differences with single imp.
-In parallel with skyrmion discovery the local imaging using magnetic probes like MFM and SP-STM allowed one to image the matter at atomic resolution while also resolving spin content of electron carriers in the substrate.  
-Here we prove the existence of the new type of localized excitation on the skyrmion core we call  Sc-YSR state (alternative is skyrmion bound state (sbs)).  Show the main results upfront in the introduction. Both LDOS and SP-LDOS. 
+In this paper, we predict a new skyrmion bound state (SBS) in a superconductor proximity coupled to a ferromagnetic film with a skyrmion. We calculate SP LDOS and show the signatures of SBS in the tunneling spectrum. The skyrmion typically induces a resonance in between the spin-split coherence peaks corresponding to the opposite spin polarizations. We show that the wavefunction of SBS is quasilocalized, i.e. decays as $1/\sqrt{r}$. Thus in the case of the two skyrmions, their SBS wavefunctions will overlap and induce a long-range interaction between skyrmions \cite{Yao2014,Menard2015}. This will be explored in a following publication. 
 
-We thank  A.~Saxena, Y.~Kedem, for useful discussions. This work was supported by the European Research Council (ERC) DM-321031 and the US DOE BES E304 (S.S.P. and A.V.B.). 
+We hope that the current paper will be a first step in studying superconductor-skyrmionic heterostructures and motivate further experimental and theoretical research. There are intriguing questions in this direction. For instance, superconductivity could in induce effective Dzyaloshinkii-Moriya especially for non-centrosymmetric materials and, thus, stabilize the skyrmionic phase. It would be interesting to explore the connection with the topological superconductivity hybrid systems \cite{Alicea2012}. Superconductivity could potentially endow the skyrmion with a non-trivial statistics by captivating a Majorana fermion. 
+
+%A number of recent theoretical papers   suggest that superconductivity could provide a strong coubling between the localized magnetic moments. Therefore, superconductivity could potentially be used to stabilize the skyrmionic phase by, e.g., inducing an effective Dzyaloshinskii-Moriya interaction in non-centrosymmetric materials. On of the outcomes of the current paper is that superconductivity could, indeed, mediate a long-range effective interaction between the skyrmions and, thus, affect their dynamics. 
 
 
+We thank  R.~Wiesendanger, Fujimoto, J.~Zang, A.~Saxena for useful discussions. This work was supported by the US DOE BES E304, ERC DM-321031 and KAW (S.S.P. and A.V.B.). 
+
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\bibliographystyle{apsrev4-1}
@@ -288,64 +295,63 @@ where $s=x,y,z$ denotes the spin quantization axis. It can be easily evaluated f
 \end{align}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*} \centering
-	(a)\includegraphics[width=0.25\linewidth]{ApLDOSa} \hspace{0.1cm}
-	(b)\includegraphics[width=0.25\linewidth]{ApLDOSb} \hspace{0.1cm}
-	(c)\includegraphics[width=0.25\linewidth]{ApLDOSc} 
-	\caption{(Color online) Spin-polarized local density of states (SP-LDOS)  at the core of the skyrmion. The consequent panels correspond to increasing skyrmion size (a) $R = 1.1 p_F^{-1}$, (b) $R = 1.2 p_F^{-1}$, (c) $R = 1.3 p_F^{-1}$. Other parameters are the same as in Fig.~\ref{fig:LDOS}. } \label{fig:ApLDOS}
-\end{figure*}
+%\begin{figure*} \centering
+%	(a)\includegraphics[width=0.25\linewidth]{ApLDOSa} \hspace{0.1cm}
+%	(b)\includegraphics[width=0.25\linewidth]{ApLDOSb} \hspace{0.1cm}
+%	(c)\includegraphics[width=0.25\linewidth]{ApLDOSc} 
+%	\caption{(Color online) Spin-polarized local density of states (SP-LDOS)  at the core of the skyrmion. The consequent panels correspond to increasing skyrmion size (a) $R = 1.1 p_F^{-1}$, (b) $R = 1.2 p_F^{-1}$, (c) $R = 1.3 p_F^{-1}$. Other parameters are the same as in Fig.~\ref{fig:LDOS}. } \label{fig:ApLDOS}
+%\end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Wave function of the resonance} \label{sec:wf}
+%\section{Wave function of the resonance} \label{sec:wf}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-In this section, we discuss the wavefunction corresponding to SYSR resonance. The treatment is analogous to the discussion of T-matrix in the previous setion. We write Eq.~(\ref{hbdg}) in the form of the BdG equation in the momentum space
-\begin{align}
-	\left[ \omega - h(\bm p) \right] \Psi(\bm p)= \int \frac{d^2 p'}{\left( 2\pi \right)^2}\,V(\bm p-\bm p')\,\Psi(\bm p'),	\label{bdge}
-\end{align}
-where $\Psi(\bm p)$ is the four-component wave function in the $\sigma\otimes\tau$ space. We substitute Eq.~(\ref{vp}) in the right hand side of Eq.(\ref{bdge}), use the definition of Green's function~(\ref{g}) and obtain 
-\begin{align}
-	\Psi (\bm p) = - g(\bm p) \left( S_{\rm e}\sigma_z +  i S_{\rm m}  \bm \sigma\cdot \bm  p \right)\,\Phi_1 -i\,g(\bm p)S_m\sum\limits_{j=x,y}\sigma_j \Phi_{2j},
-	\label{pwf}
-\end{align}
-where $\Phi_1$ and $\Phi_{2j}$ are the unknown four-component spinors defined self-consistently via wave function as 
-\begin{align}
-	\Phi_1 =  \int \frac{d^2 p'}{\left( 2\pi \right)^2}\, \Psi(\bm p'),\quad \Phi_{2j} =  \int \frac{d^2 p'}{\left( 2\pi \right)^2}\, p'_j\Psi(\bm p').
-	\label{f12}
-\end{align}
-Therefore, we close the equations by substituting~(\ref{pwf}) in Eq.~(\ref{f12}), take the integrals and obtain the following equations for the spinors
-\begin{align}
-	\Phi_1 &= -S_{\rm e} g_0 \sigma_z\Phi_1 - i S_{\rm m} g_{0} \sum_{j=x,y}\sigma_{j} \Phi_{2j}, \label{e1} \\
-	\Phi_{2j} &= \frac{i}{2}S_{\rm m}p_{F}^2 g_0 \sigma_j \Phi_1. \label{e2}
-\end{align}
-We substitute Eq.~(\ref{e2}) in Eq.~(\ref{e1}) and obtain the equation for $\Phi_1$
-\begin{align}
-	\left[1+S_{\rm e} g_0 \sigma_z\,\Phi_1 -  S^2_{\rm m} p_F^2\,g_{0} \bar g_{0} \right] \Psi_1 = 0. \label{le} 
-\end{align}
-This derivation is equivalent to the T-matrix treatment, and, therefore, notice that Eq.~(\ref{le}) corresponds to finding kernel of the denominator of T-matrix~(\ref{TM}). Since the matrix expression in the square brackets contains only $\sigma_z$ and $\tau_x$ matrices, the spinor $\Psi_1$  is an eigenstate of these matrices defined as ${\tau_x \mid \pm\rangle = \pm \mid \pm\rangle}$ and ${\sigma_z \mid \uparrow\downarrow\rangle = \pm \mid\uparrow\downarrow\rangle}$. That is the spinor for the positive SYSR state is ${\Phi_{1} = \mid \uparrow\rangle\otimes \mid + \rangle}$ and negative - ${\Phi_{1} = \mid \downarrow\rangle\otimes \mid - \rangle}$, just as for the usual YSR state. We also substiute Eq.~(\ref{e2}) in Eq.~(\ref{pwf}) and obtain
-\begin{align}
-	\Psi(\bm p) &= - g(\bm p) \left( S_{\rm e}\sigma_z +  i S_{\rm m}  \bm \sigma\cdot \bm  p -S^2_{\rm m}p_F^2\bar g_0\right)\Phi_1,  \nonumber \\
-	&= - g(\bm p) \left( S_{\rm e}\sigma_z  - S^2_{\rm m}p_F^2\bar g_0\right)\Phi_1 -   i  S_{\rm m} g(\bm p)\,  \bm \sigma\cdot \bm  p \,\Phi_1. \label{pwf1} 	
-\end{align}
-In order to find the wave function in the real space one has to Fourier transform Eq.~(\ref{pwf1}). It can be done carefully but the resulting equations are bulky and obscure, so we are just going to show that the first term in the second line of Eq.~(\ref{pwf1}) gives exponentially localized wavefucntion, whereas the last term has a powerlaw decay and is thus long-ranged. The key element is finding the Fourier transform of the Green's function
-which we expand using the projector operators $(1\pm \sigma_z)/2$
-\begin{align}
-	g_{\bm r} &= \int \frac{d^2 p}{\left( 2\pi \right)^2} g(\bm p) =   \sum_{\lambda = \pm} \frac{1+\lambda\sigma_z}{2}\,g_{\bm r}^\lambda \nonumber,\quad{\rm where} \\
-	 g_{\bm r}^\lambda &=\int \frac{d^2 p}{\left( 2\pi \right)^2} \frac{e^{i\bm p \bm r}}{\omega_\lambda -\xi\tau_z-\Delta\tau_x},\,\,\omega_\lambda = \omega - \lambda S.  \label{lle}
-\end{align}
- The integral in Eq.~(\ref{lle}) can be evaluated for $r\gg v_F/\omega_D$ \cite{Pientka2013}, where $\omega_D$ is the Debye energy,
-\begin{align}
-	g^\lambda_{\bm r} = & -\pi\rho\left\{\frac{(\omega_\lambda+\Delta\tau_x)}{2\sqrt{\Delta^2-\omega_\lambda^2}}\left[ f_1(\bm r)+f_2(\bm r) \right] + \tau_x \left[ f_1(\bm r)-f_2(\bm r) \right]\right\}, \nonumber \\
-	& {\rm where}\,\,\, f_1(\bm r) = J_0\left[\left( p_F+ip_\lambda \right)r\right] + H_0\left[\left( p_F+ip_\lambda \right)r\right], \nonumber\\ 
-	& \qquad\quad f_2(\bm r) = J_0\left[\left( p_F-ip_\lambda \right)r\right] - H_0\left[\left( p_F-ip_\lambda \right)r\right], \nonumber\\
-	& \qquad\quad p_\lambda = \frac{\sqrt{\Delta^2-\omega^2_\lambda}}{v_F},
-\end{align}
-where $J_0$ and $H_0$ are the Bessel and Struve functions, $p_F$ - Fermi momentum, $p_\lambda$ characteristic momentum of a superconductor. Although the Green's function in the real space is quite bulky, it has a simple assymptotic behavior at $r\gg \xi_{sc}$
-\begin{equation}
-	g^{\lambda}_{\bm r} \sim \frac{e^{i p_F r}e^{-p_\lambda r}}{\sqrt r}. \label{asym}
-\end{equation}
-The first term describes fast Friedel oscillations, whereas second term - behavior at a scale of the superconducting coherence length $\xi_{sc}$. For the state inside the superconducting gap, i.e. for $|\omega_\lambda|<\Delta$, the latter term the exponential decay. In contrast for the state inside the continuum, i.e. for $|\omega_\lambda|>\Delta$, $p_\lambda$ becomes imaginary, i.e. $p_\lambda = -i\sqrt{\omega^2_\lambda-\Delta^2}/v_F$, and therefore the last exponential term in Eq.~(\ref{asym}) describes periodic oscillations with a period $\Delta r \sim 1/\xi_{sc}$. 
+%In this section, we discuss the wavefunction corresponding to SBS resonance. The treatment is analogous to the discussion of T-matrix in the previous setion. We write Eq.~(\ref{hbdg}) in the form of the BdG equation in the momentum space
+%\begin{align}
+%	\left[ \omega - h(\bm p) \right] \Psi(\bm p)= \int \frac{d^2 p'}{\left( 2\pi \right)^2}\,V(\bm p-\bm p')\,\Psi(\bm p'),	\label{bdge}
+%\end{align}
+%where $\Psi(\bm p)$ is the four-component wave function in the $\sigma\otimes\tau$ space. We substitute Eq.~(\ref{vp}) in the right hand side of Eq.(\ref{bdge}), use the definition of Green's function~(\ref{g}) and obtain 
+%\begin{align}
+%	\Psi (\bm p) = - g(\bm p) \left( S_{\rm e}\sigma_z +  i S_{\rm m}  \bm \sigma\cdot \bm  p \right)\,\Phi_1 -i\,g(\bm p)S_m\sum\limits_{j=x,y}\sigma_j \Phi_{2j},
+%	\label{pwf}
+%\end{align}
+%where $\Phi_1$ and $\Phi_{2j}$ are the unknown four-component spinors defined self-consistently via wave function as 
+%\begin{align}
+%	\Phi_1 =  \int \frac{d^2 p'}{\left( 2\pi \right)^2}\, \Psi(\bm p'),\quad \Phi_{2j} =  \int \frac{d^2 p'}{\left( 2\pi \right)^2}\, p'_j\Psi(\bm p').
+%	\label{f12}
+%\end{align}
+%Therefore, we close the equations by substituting~(\ref{pwf}) in Eq.~(\ref{f12}), take the integrals and obtain the following equations for the spinors
+%\begin{align}
+%	\Phi_1 &= -S_{\rm e} g_0 \sigma_z\Phi_1 - i S_{\rm m} g_{0} \sum_{j=x,y}\sigma_{j} \Phi_{2j}, \label{e1} \\
+%	\Phi_{2j} &= \frac{i}{2}S_{\rm m}p_{F}^2 g_0 \sigma_j \Phi_1. \label{e2}
+%\end{align}
+%We substitute Eq.~(\ref{e2}) in Eq.~(\ref{e1}) and obtain the equation for $\Phi_1$
+%\begin{align}
+%	\left[1+S_{\rm e} g_0 \sigma_z\,\Phi_1 -  S^2_{\rm m} p_F^2\,g_{0} \bar g_{0} \right] \Psi_1 = 0. \label{le} 
+%\end{align}
+%This derivation is equivalent to the T-matrix treatment, and, therefore, notice that Eq.~(\ref{le}) corresponds to finding kernel of the denominator of T-matrix~(\ref{TM}). Since the matrix expression in the square brackets contains only $\sigma_z$ and $\tau_x$ matrices, the spinor $\Psi_1$  is an eigenstate of these matrices defined as ${\tau_x \mid \pm\rangle = \pm \mid \pm\rangle}$ and ${\sigma_z \mid \uparrow\downarrow\rangle = \pm \mid\uparrow\downarrow\rangle}$. That is the spinor for the positive SBS state is ${\Phi_{1} = \mid \uparrow\rangle\otimes \mid + \rangle}$ and negative - ${\Phi_{1} = \mid \downarrow\rangle\otimes \mid - \rangle}$, just as for the usual YSR state. We also substiute Eq.~(\ref{e2}) in Eq.~(\ref{pwf}) and obtain
+%\begin{align}
+%	\Psi(\bm p) &= - g(\bm p) \left( S_{\rm e}\sigma_z +  i S_{\rm m}  \bm \sigma\cdot \bm  p -S^2_{\rm m}p_F^2\bar g_0\right)\Phi_1,  \nonumber \\
+%	&= - g(\bm p) \left( S_{\rm e}\sigma_z  - S^2_{\rm m}p_F^2\bar g_0\right)\Phi_1 -   i  S_{\rm m} g(\bm p)\,  \bm \sigma\cdot \bm  p \,\Phi_1. \label{pwf1} 	
+%\end{align}
+%In order to find the wave function in the real space one has to Fourier transform Eq.~(\ref{pwf1}). It can be done carefully but the resulting equations are bulky and obscure, so we are just going to show that the first term in the second line of Eq.~(\ref{pwf1}) gives exponentially localized wavefucntion, whereas the last term has a powerlaw decay and is thus long-ranged. The key element is finding the Fourier transform of the Green's function which we expand using the projector operators $(1\pm \sigma_z)/2$
+%\begin{align}
+%	g_{\bm r} &= \int \frac{d^2 p}{\left( 2\pi \right)^2} g(\bm p) =   \sum_{\lambda = \pm} \frac{1+\lambda\sigma_z}{2}\,g_{\bm r}^\lambda \nonumber,\quad{\rm where} \\
+%	 g_{\bm r}^\lambda &=\int \frac{d^2 p}{\left( 2\pi \right)^2} \frac{e^{i\bm p \bm r}}{\omega_\lambda -\xi\tau_z-\Delta\tau_x},\,\,\omega_\lambda = \omega - \lambda S.  \label{lle}
+%\end{align}
+% The integral in Eq.~(\ref{lle}) can be evaluated for $r\gg v_F/\omega_D$ \cite{Pientka2013}, where $\omega_D$ is the Debye energy,
+%\begin{align}
+%	g^\lambda_{\bm r} = & -\pi\rho\left\{\frac{(\omega_\lambda+\Delta\tau_x)}{2\sqrt{\Delta^2-\omega_\lambda^2}}\left[ f_1(\bm r)+f_2(\bm r) \right] + \tau_x \left[ f_1(\bm r)-f_2(\bm r) \right]\right\}, \nonumber \\
+%	& {\rm where}\,\,\, f_1(\bm r) = J_0\left[\left( p_F+ip_\lambda \right)r\right] + H_0\left[\left( p_F+ip_\lambda \right)r\right], \nonumber\\ 
+%	& \qquad\quad f_2(\bm r) = J_0\left[\left( p_F-ip_\lambda \right)r\right] - H_0\left[\left( p_F-ip_\lambda \right)r\right], \nonumber\\
+%	& \qquad\quad p_\lambda = \frac{\sqrt{\Delta^2-\omega^2_\lambda}}{v_F},
+%\end{align}
+%where $J_0$ and $H_0$ are the Bessel and Struve functions, $p_F$ - Fermi momentum, $p_\lambda$ characteristic momentum of a superconductor. Although the Green's function in the real space is quite bulky, it has a simple assymptotic behavior at $r\gg \xi_{sc}$
+%\begin{equation}
+%	g^{\lambda}_{\bm r} \sim \frac{e^{i p_F r}e^{-p_\lambda r}}{\sqrt r}. \label{asym}
+%\end{equation}
+%The first term describes fast Friedel oscillations, whereas second term - behavior at a scale of the superconducting coherence length $\xi_{sc}$. For the state inside the superconducting gap, i.e. for $|\omega_\lambda|<\Delta$, the latter term the exponential decay. In contrast for the state inside the continuum, i.e. for $|\omega_\lambda|>\Delta$, $p_\lambda$ becomes imaginary, i.e. $p_\lambda = -i\sqrt{\omega^2_\lambda-\Delta^2}/v_F$, and therefore the last exponential term in Eq.~(\ref{asym}) describes periodic oscillations with a period $\Delta r \sim 1/\xi_{sc}$. 
 
-The polarized SYSR state discussed above lies inside the continuum of states corresponding to the opposite spin polarization. Moreover, the last term in Eq.~(\ref{pwf1}) describes the coupling of the state to the continuum of the background delocalized states. Thus, the SYSR is expected to have an oscillating power-law rather than decaying behavior as also supported by the numerics. 
+%The polarized SBS state discussed above lies inside the continuum of states corresponding to the opposite spin polarization. Moreover, the last term in Eq.~(\ref{pwf1}) describes the coupling of the state to the continuum of the background delocalized states. Thus, the SBS is expected to have an oscillating power-law rather than decaying behavior as also supported by the numerics. 
 
 \end{document}
