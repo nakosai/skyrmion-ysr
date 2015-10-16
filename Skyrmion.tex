@@ -162,6 +162,22 @@ where for brevity $\bar g_0(\omega) = \frac{1}{2}\sum_{j=x,y} \sigma_j g_0(\omeg
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{Numerical analysis.} \label{sec:numerics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\includegraphics[width=.7\hsize]{nDOS.pdf}
+	\caption{\label{fig:nDOS} Spin-resolved density of states obtained by a numerical calculation. Bunch of states are found inside of the superconducting gap in each spin sector. The expected sYSR states get buried in the continuum states with the opposite spin component.}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{minipage}{.35\hsize}
+		\includegraphics[width=\hsize]{STM.pdf}
+	\end{minipage}
+	\begin{minipage}{.62\hsize}
+		\includegraphics[width=\hsize]{nLDOS_down.pdf}
+	\end{minipage}
+	\caption{\label{fig:nLDOS} (Color online) Spin-resolved local density of states with a conceptual cartoon of the experimental setup. The curves show the local density of states with the down spin component at the points corresponding to the position of the STM tips.}
+\end{figure}
 The above discussed system can be analysed with a tight-binding model. The substrate superconductor is described by a square lattice with energy transfer among the neighboring sites, the chemical potential, and on-site superconducting pairing which are denoted by $t$, $\mu$, and $\Delta$, respectively.
 \begin{align}
 	H = &{}\sum_{\langle i,\,j\rangle,\,\sigma} -t c_{i\sigma}^\dagger c_{j\sigma}
@@ -182,37 +198,6 @@ Here we employ $f(r)=\pi-4\arctan\exp(-r/R)$ with $R=2.5$ as a profile function 
 where $x_i$ and $y_i$ are spatial coordinate measured from the core of the skyrmion and $r_i=\sqrt{|\bm{r}_i|^2}$.
 The parameters are chosen as $t=1.0$, $\mu=0.5$, $\Delta=0.15$, and $JS=0.07$ so that the system has good consistency with the continuum description and
 the superconducting coherent length is long enough compared with the size of the skrmion. The up
-Figure~\ref{fig:nDOS} shows the spin-resolved density of states in the system. The up-spin(down-spin) components are shifted downward(upward) in energy due to the coupling with the ferromagnetic background. Another feature one can easily see from the figure is that there exist group of states inside the superconducting gap in each spin sector. They are exactly bound states we discussed in the last chapters.
-The moments surrounding the skyrmion core have finite in-plane components, which produces mixing between two spin sectors.
-This is the major reason why the peaks are broadened unlike the sharp peaks of simple Shiba states.
-The inverse participation ratio (IPR) demonstrates this picture, which is defined as
-\begin{align}
-	\mathrm{IPR} = \frac{1}{\sum_i \left| \psi(\bm{r}_i) \right|^4},
-\end{align}
-where $\psi(\bm{r}_i)$ is the amplitude of the wavefunction at the site $\bm{r}_i$.
-The IPR helps us to extract the localized states from the mass of continuum states since it scales proportional to $1/L^2$ when the wavefunction $\psi$ is extended throughout the system whereas it has a constant value when $\psi$ is localized at a certain area in the system.
-Figure~\ref{fig:ipr} showing IPR of each eigenfunction around at the energy close to $0$ display two distinct points apart from the others.
-
-%header for the edition
-\begin{figure}
-	\centering
-	\includegraphics[width=.7\hsize]{nDOS.pdf}
-	\caption{\label{fig:nDOS} Spin-resolved density of states obtained by a numerical calculation. }
-\end{figure}
-
-\begin{figure}
-	\centering
-	\begin{minipage}{.35\hsize}
-		\includegraphics[width=\hsize]{STM.pdf}
-	\end{minipage}
-	\begin{minipage}{.62\hsize}
-		\includegraphics[width=\hsize]{nLDOS_down.pdf}
-	\end{minipage}
-	\caption{caption}
-	\label{fig:nLDOS}
-\end{figure}
-%header for the edition
-
 \begin{figure}[t]
 	\centering
 	\hfill
@@ -233,6 +218,18 @@ Figure~\ref{fig:ipr} showing IPR of each eigenfunction around at the energy clos
 	{}
 	\caption{\label{fig:ipr}(Color online) (a) IPR of each eigen energy eigenstates obtained by the numerical calculation. The dots highlighted by red (encircled by dotted line) correspond to the localized states around the core of the skyrmion, which are identified as sYSR states. (b) Numerical wavefunction corresponding to the sYSR state. The wave function has pronounced oscillations with a period of approximately the superconducting coherence length. Parameters used here are shown in the main text.}
 \end{figure}
+Figure~\ref{fig:nDOS} shows the spin-resolved density of states in the system. The up-spin(down-spin) components are shifted downward(upward) in energy due to the coupling with the ferromagnetic background. Another feature one can easily see from the figure is that there exist group of states inside the superconducting gap in each spin sector. They are exactly bound states we discussed in the last chapters.
+The moments surrounding the skyrmion core have finite in-plane components, which produces mixing between two spin sectors.
+This is the major reason why the peaks are broadened unlike the sharp peaks of simple Shiba states.
+The inverse participation ratio (IPR) demonstrates this picture, which is defined as
+\begin{align}
+	\mathrm{IPR} = \frac{1}{\sum_i \left| \psi(\bm{r}_i) \right|^4},
+\end{align}
+where $\psi(\bm{r}_i)$ is the amplitude of the wavefunction at the site $\bm{r}_i$.
+The IPR helps us to extract the localized states from the mass of continuum states since it scales proportional to $1/L^2$ when the wavefunction $\psi$ is extended throughout the system whereas it has a constant value when $\psi$ is localized at a certain area in the system.
+Figure~\ref{fig:ipr} showing IPR of each eigenfunction around at the energy close to $0$ display two distinct points apart from the others.
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -352,7 +349,7 @@ where $s=x,y,z$ denotes the spin quantization axis. It can be easily evaluated f
 
 
 \section{Log range wavefunction of sYSR states}
-As we discuss in the main text, the sYSR states are different from the ordinary YSR state in that their wavefunctions decay in a power-law on the spatial coordinate. Figure~\ref{fig:decay} shows the sYSR wavefunction in the log-log scale. One can see the envelope of it linearly decays
+As we discuss in the main text, the sYSR states are different from the ordinary YSR state in that their wavefunctions decay in a power-law on the spatial coordinate. Figure~\ref{fig:decay} shows the sYSR wavefunction in the log-log scale. One can see the envelope of it linearly decays along the separation from the core of the skyrmion. The calculation was done in the system with $100\times100$ sites with open boundary condition and the skyrmion is sitting at the center. The deviation from the power-law decay around $r\sim30$ and further will be attributed from the effect of the boundaries.
 \begin{figure}
 	\centering
 	\includegraphics[width=.7\hsize]{decay}
