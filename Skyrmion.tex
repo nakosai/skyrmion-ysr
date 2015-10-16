@@ -24,8 +24,6 @@
 
 \begin{abstract}
 We consider a superconductor proximity coupled to a 2D ferromagnetic film with a topological configuration of the ferromagnetic vector, i.e., the skyrmion. Using the T-matrix calculations as well as well numerical modeling we calculate the spin-polarized local density of states (SP-LDOS) in the vicinity of the skyrmion. We identify a skyrmion-induced Yu-Shiba-Rusinov (s-YSR) bound state, calculate its energy and a spectral width. We predict that sYSR resonance has a spatial power-law decay. This implies that superconductivity could facilitate a long-range interaction between distinct skyrmions on the surface of the ferromagnetic film.
-=======
-We consider a superconductor proximity coupled to a 2D ferromagnetic film with a topological configuration of the ferromagnetic vector, i.e. the skyrmion. Using the T-matrix calculations as well as well numerical modeling we calculate the spin-polarized local density of states (SP-LDOS) in the vicinity of the skyrmion. We identify a skyrmion-induced Yu-Shiba-Rusinov (SYSR) bound state, calculate its energy and a spectral width. We predict that SYSR resonance has a spatial power-law decay. This implies that superconductivity could facilitate a long-range interaction between distinct skyrmions on the surface of the ferromagnetic film.
 \end{abstract}
 
 \pacs{}
@@ -69,14 +67,14 @@ Discuss the results and what it means, how big the signal is etc. Unfortunately 
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{figure*} \centering
-%	(a)\includegraphics[width=0.25\hsize]{LDOSa} \hspace{0.1cm}
-%	(b)\includegraphics[width=0.25\hsize]{LDOSb} \hspace{0.1cm}
-%	(c)\includegraphics[width=0.25\hsize]{LDOSc}
-%\caption{(Color online) Spin-polarized local density of states (a) away from the skyrmion and (b,c) at the core of the skyrmion. Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. Blue and red dashed lines indicate the positions of the shifted spin-up and spin-down bands, respectively. The black dashed line indicates the position of the YSR pole, given by Eq.~.} \label{fig:LDOS}
-%\end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*} \centering
+	(a)\includegraphics[width=0.25\hsize]{LDOSa-crop} \hspace{0.1cm}
+	(b)\includegraphics[width=0.25\hsize]{LDOSb-crop} \hspace{0.1cm}
+	(c)\includegraphics[width=0.25\hsize]{LDOSc-crop}
+\caption{(Color online) Spin-polarized local density of states (a) away from the skyrmion and (b,c) at the core of the skyrmion. Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. Blue and red dashed lines indicate the positions of the shifted spin-up and spin-down bands, respectively. The black dashed line indicates the position of the YSR pole, given by Eq.~.} \label{fig:LDOS}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 Let the three-dimensional vector $S(\bm r) = (S_x,S_y,S_z)$ describe the configuration of the ferromagnetic vector in a two-dimensional ferromagnetic film $\bm r = (x,y)$. The configurations of the field $S(\bm r)$ shown in Fig.~\ref{fig:skyrmion}(a) and (b) are referred to as skyrmions. The skyrmion configuration of the field is characterized by the topological charge
@@ -108,8 +106,6 @@ The skyrmions shown in Fig.~\ref{fig:skyrmion}(a) and (b) have monopole $S_{\rm 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph*{Model}  \label{sec:model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The model is given by the following Hamiltonian
-=======
 The model is given by the following 4-by-4 Bogolyubov-de Gennes (BdG) Hamiltonian
 \begin{align}
 	 H &= \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\bm r)\cdot\bm\sigma, \label{ham} \\
@@ -120,20 +116,19 @@ which describes the proximity coupling of the ferromagnetic vector $S(\bm r)$ to
 \paragraph*{T-matrix analysis} \label{sec:analytics}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure*} \centering
+%	(a)\includegraphics[width=0.25\hsize]{LDOSa-crop} \hspace{0.1cm}
+%	(b)\includegraphics[width=0.25\hsize]{LDOSb-crop} \hspace{0.1cm}
+%	(c)\includegraphics[width=0.25\hsize]{LDOSc-crop}
+%\caption{(Color online) Spin-polarized local density of states (SP-LDOS) away from the skyrmion (a) and at the core of the skyrmion (b,c). Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. } \label{fig:LDOS}
+%\end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*} \centering
-	(a)\includegraphics[width=0.25\hsize]{LDOSa-crop} \hspace{0.1cm}
-	(b)\includegraphics[width=0.25\hsize]{LDOSb-crop} \hspace{0.1cm}
-	(c)\includegraphics[width=0.25\hsize]{LDOSc-crop}
-\caption{(Color online) Spin-polarized local density of states (SP-LDOS) away from the skyrmion (a) and at the core of the skyrmion (b,c). Panel (b) corresponds to the usual T-matrix that takes into account only out-of-plane. Panel (c) corresponds to the T-matrix that takes into account in-plane spin. Comparing (b) and (c) notice that a thin YSR state in (b) becomes a thick resonance in (c). The parameters of plots are $2S = \Delta = 0.25 E_F$ and $R = 1/p_F = \xi/8$. } \label{fig:LDOS}
-\end{figure*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 Superconductor-ferromagnet heterostructures were recently proposed as a viable platform for realizing topological superconductivity (TS) \cite{Lutchyn2010,Oreg2010, Sau2010}, which can host Majorana fermion quasiparticles at vortex cores and boundaries \cite{Kitaev2001, Alicea, Beenakker2013}. Majorana fermions obey non-Abelian statistics and may be utilized for topological quantum computation \cite{Read2000, Ivanov2001, Nayak2008}.  The key ingredients driving these systems in the topologically non-trivial regime are the spin-orbit coupling (SOC) and magnetism. Recently, the search for experimental realizations of TS has also led to engineering the impurity bands of the Yu-Shiba-Rusinov (YSR) states \cite{Yu,Shiba,Rusinov}, induced by magnetic atoms on the surface of a superconductor \cite{Choy2011, Nadj-Perge2013, Klinovaja2013, Vazifeh2013, Braunecker2013, Pientka2013, Nakosai2013, Poyhonen2014, Reis2014, Brydon2015, Rontynen2014, Li2015}. Following this recipe, zero-energy peaks in the tunneling spectrum were recently measured at the ends of a one-dimensional (1D) chain of magnetic atoms \cite{Yazdani2014}. Such a tunneling spectrum could be the evidence of Majorana edge states, although alternative explanations are also possible \cite{Sau2015}.
 
 
-=======
 It is convenient to split the Hamiltonian~(\ref{ham}) $H = h(\bm p)+V(\bm r)$ into the spatially uniform part $h(\bm p)$ and a local perturbation $V(\bm r)$ describing the skyrmion
 \begin{align}
 	h(\bm p) & =  \xi(\bm p)\tau_z+\Delta \tau_x - \bm S(\infty)\cdot\bm\sigma,\quad \bm S(\infty) = -S\,\hat{\bm z}\\
@@ -196,47 +191,49 @@ The inverse participation ratio (IPR) demonstrates this picture, which is define
 \end{align}
 where $\psi(\bm{r}_i)$ is the amplitude of the wavefunction at the site $\bm{r}_i$.
 The IPR helps us to extract the localized states from the mass of continuum states since it scales proportional to $1/L^2$ when the wavefunction $\psi$ is extended throughout the system whereas it has a constant value when $\psi$ is localized at a certain area in the system.
-Figure~\ref{fig:} showing IPR of each eigenfunction around at the energy close to $0$ display two distinct points apart from the others.
+Figure~\ref{fig:ipr} showing IPR of each eigenfunction around at the energy close to $0$ display two distinct points apart from the others.
 
 %header for the edition
 \begin{figure}
 	\centering
-	\includegraphics[width=.4\hsize]{nDOS.pdf}
-	\caption{caption}
-	\label{fig:nDOS}
+	\includegraphics[width=.7\hsize]{nDOS.pdf}
+	\caption{\label{fig:nDOS} Spin-resolved density of states obtained by a numerical calculation. }
 \end{figure}
 
 \begin{figure}
 	\centering
-	\begin{minipage}{.45\hsize}
-		\includegraphics[width=.9\hsize]{STM.png}
+	\begin{minipage}{.35\hsize}
+		\includegraphics[width=\hsize]{STM.pdf}
 	\end{minipage}
-	\begin{minipage}{.45\hsize}
-		\includegraphics[width=.9\hsize]{nLDOS_down.pdf}
+	\begin{minipage}{.62\hsize}
+		\includegraphics[width=\hsize]{nLDOS_down.pdf}
 	\end{minipage}
 	\caption{caption}
 	\label{fig:nLDOS}
 \end{figure}
 %header for the edition
 
-
-Briefly introduce the model and the results. Compare to analytics. Discuss what is IPR and that it shows only a single quasi localized state. Show IPR for a smaller window of energies, e.g. $-2\Delta<\omega<2\Delta$. Does the IPR figure correspond to the LDOS figures, or is it plotted for different parameters.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Long-range wave function} \label{sec:wavefuncion}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph*{Discussion [Comment: here we discuss importance. Long-range interactions between skyrmions mediated by superconductivity. ] } \label{sec:discussion}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure} \centering
-\includegraphics[width=0.7\hsize]{WaveFunction-crop}
-\caption{(Color online) Numerical wavefunction corresponding to the sYSR state. The wave function has pronounced oscillations with a period of approximately the superconducting coherence length. [parameters for which the figures are plotted]  } \label{fig:wavefunction}
+\begin{figure}[t]
+	\centering
+	\hfill
+	\begin{minipage}{0.55\hsize}
+		\includegraphics[width=\hsize]{ipr2.pdf}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.4\hsize}
+		\includegraphics[width=\hsize]{WaveFunction-crop}
+	\end{minipage}
+	\hfill
+	\\
+	\hfill
+	(a)
+	\hfill
+	(b)
+	\hfill
+	{}
+	\caption{\label{fig:ipr}(Color online) (a) IPR of each eigen energy eigenstates obtained by the numerical calculation. The dots highlighted by red (encircled by dotted line) correspond to the localized states around the core of the skyrmion, which are identified as sYSR states. (b) Numerical wavefunction corresponding to the sYSR state. The wave function has pronounced oscillations with a period of approximately the superconducting coherence length. Parameters used here are shown in the main text.}
 \end{figure}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -264,9 +261,6 @@ Here we prove the existence of the new type of localized excitation on the skyrm
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{T-matrix analysis} \label{sec:appendixTMatrix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-In this section, we give an analytic treatment of the skyrmion-induced bound states using the T-matrix approximation. Starting from the Hamiltonian (\ref{ham}) in the second-quantized form, we write the Bogolyubov-de Gennes (BdG) Hamiltonian as
-=======
-
 In this section, we give an analytic treatment of the skyrmion-induced bound states using the T-matrix approximation. Starting from the Hamiltonian (\ref{ham}) in the second-quantized form, we write the Bogolyubov-de Gennes (BdG) Hamiltonian as
 \begin{align}
 	& H_{\rm BdG} = H(\bm p) + V(\bm r),\quad {\rm where} \nonumber \\
@@ -313,8 +307,6 @@ where  $A,B_i,C_i$ and $D_{ij}$ are the matrices in the four-components space $\
 	T\left(\bm n^{1},\bm n^{2}\right) = \frac{-S_{\rm e}\sigma_z+S^2_{\rm m}p_F^2\bar g_{0}(\omega)+i\,S_{\rm m}\,p_F \,  \bm \sigma\cdot(\bm n^{2}- \bm n^{1}) +S^2_{\rm m}\, p^2_F \, \bar g_{0}(\omega)\,\left(\bm \sigma\cdot\bm n^{2}\right)\,\left(\bm \sigma\cdot \bm n^{1}\right)}{1+S_{\rm e}\sigma_zg_{00}-S^2_{\rm m}p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)},
 \end{equation}
 \end{widetext}
-where the Green's function in the real space was denoted as
-=======
 where the Green's function on-site matrix element in the real space is denoted as
 \begin{align}
 	g_{0}(\omega) &   =\int d^2 p\, g(\omega,\bm p)  	\label{g0} \\
@@ -344,9 +336,9 @@ where $s=x,y,z$ denotes the spin quantization axis. It can be easily evaluated f
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*} \centering
-	(a)\includegraphics[width=0.25\hsize]{ApLDOSa} \hspace{0.1cm}
-	(b)\includegraphics[width=0.25\hsize]{ApLDOSb} \hspace{0.1cm}
-	(c)\includegraphics[width=0.25\hsize]{ApLDOSc}
+	(a)\includegraphics[width=0.25\hsize]{ApLDOSa-crop} \hspace{0.1cm}
+	(b)\includegraphics[width=0.25\hsize]{ApLDOSb-crop} \hspace{0.1cm}
+	(c)\includegraphics[width=0.25\hsize]{ApLDOSc-crop}
 	\caption{(Color online) Spin-polarized local density of states (SP-LDOS)  at the core of the skyrmion. The consequent panels correspond to increasing skyrmion size (a) $R = 1.1 p_F^{-1}$, (b) $R = 1.2 p_F^{-1}$, (c) $R = 1.3 p_F^{-1}$. Other parameters are the same as in Fig.~\ref{fig:LDOS}. } \label{fig:ApLDOS}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -358,4 +350,12 @@ where $s=x,y,z$ denotes the spin quantization axis. It can be easily evaluated f
 
 
 
+
+\section{Log range wavefunction of sYSR states}
+As we discuss in the main text, the sYSR states are different from the ordinary YSR state in that their wavefunctions decay in a power-law on the spatial coordinate. Figure~\ref{fig:decay} shows the sYSR wavefunction in the log-log scale. One can see the envelope of it linearly decays
+\begin{figure}
+	\centering
+	\includegraphics[width=.7\hsize]{decay}
+	\caption{\label{fig:decay} The spatial dependence of the sYSR wavefunction, which shows the power-law. The break line shows $g(r)=ar^{-b}$ for the guide of eyes ($a=0.009$ and $b=1.45$ in this case).}
+\end{figure}
 \end{document}
