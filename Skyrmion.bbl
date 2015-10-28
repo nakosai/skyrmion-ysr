@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{32}%
+\begin{thebibliography}{36}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -66,9 +66,9 @@
   {R\"{o}ssler}, \citenamefont {Bogdanov},\ and\ \citenamefont
   {Pfleiderer}}]{Rossler2006}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U~K}\ \bibnamefont
-  {R\"{o}ssler}}, \bibinfo {author} {\bibfnamefont {A~N}\ \bibnamefont
-  {Bogdanov}}, \ and\ \bibinfo {author} {\bibfnamefont {C}~\bibnamefont
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.~K.}\ \bibnamefont
+  {R\"{o}ssler}}, \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
+  {Bogdanov}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {Pfleiderer}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Spontaneous
   skyrmion ground states in magnetic metals.}}}\ }\href {\doibase
   10.1038/nature05056} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\
@@ -79,14 +79,14 @@
   {Pfleiderer}, \citenamefont {Rosch}, \citenamefont {Neubauer}, \citenamefont
   {Georgii},\ and\ \citenamefont {B\"{o}ni}}]{Muhlbauer2009}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S}~\bibnamefont
-  {M\"{u}hlbauer}}, \bibinfo {author} {\bibfnamefont {B}~\bibnamefont {Binz}},
-  \bibinfo {author} {\bibfnamefont {F}~\bibnamefont {Jonietz}}, \bibinfo
-  {author} {\bibfnamefont {C}~\bibnamefont {Pfleiderer}}, \bibinfo {author}
-  {\bibfnamefont {A}~\bibnamefont {Rosch}}, \bibinfo {author} {\bibfnamefont
-  {A}~\bibnamefont {Neubauer}}, \bibinfo {author} {\bibfnamefont
-  {R}~\bibnamefont {Georgii}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {P}~\bibnamefont {B\"{o}ni}},\ }\bibfield  {title} {\enquote {\bibinfo
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {M\"{u}hlbauer}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Binz}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Jonietz}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Pfleiderer}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Rosch}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Neubauer}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Georgii}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {B\"{o}ni}},\ }\bibfield  {title} {\enquote {\bibinfo
   {title} {{Skyrmion lattice in a chiral magnet.}}}\ }\href {\doibase
   10.1126/science.1166767} {\bibfield  {journal} {\bibinfo  {journal}
   {Science}\ }\textbf {\bibinfo {volume} {323}},\ \bibinfo {pages} {915}
@@ -138,19 +138,18 @@
   \citenamefont {Kubetzka}, \citenamefont {Wiesendanger}, \citenamefont
   {Bihlmayer},\ and\ \citenamefont {Blugel}}]{Heinze2011}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Stefan}\ \bibnamefont
-  {Heinze}}, \bibinfo {author} {\bibfnamefont {Kirsten}\ \bibnamefont {von
-  Bergmann}}, \bibinfo {author} {\bibfnamefont {Matthias}\ \bibnamefont
-  {Menzel}}, \bibinfo {author} {\bibfnamefont {Jens}\ \bibnamefont {Brede}},
-  \bibinfo {author} {\bibfnamefont {Andre}\ \bibnamefont {Kubetzka}}, \bibinfo
-  {author} {\bibfnamefont {Roland}\ \bibnamefont {Wiesendanger}}, \bibinfo
-  {author} {\bibfnamefont {Gustav}\ \bibnamefont {Bihlmayer}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {Stefan}\ \bibnamefont {Blugel}},\ }\bibfield
-  {title} {\enquote {\bibinfo {title} {{Spontaneous atomic-scale magnetic
-  skyrmion lattice in two dimensions}},}\ }\href {\doibase 10.1038/nphys2045}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nat Phys}\ }\textbf {\bibinfo
-  {volume} {7}},\ \bibinfo {pages} {713--718} (\bibinfo {year}
-  {2011})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Heinze}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {von
+  Bergmann}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Menzel}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Brede}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Kubetzka}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Wiesendanger}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Bihlmayer}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Blugel}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Spontaneous atomic-scale magnetic skyrmion lattice in two
+  dimensions}},}\ }\href {\doibase 10.1038/nphys2045} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume} {7}},\
+  \bibinfo {pages} {713--718} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Seki}\ \emph {et~al.}(2012)\citenamefont {Seki},
   \citenamefont {Yu}, \citenamefont {Ishiwata},\ and\ \citenamefont
   {Tokura}}]{Seki2012}%
@@ -253,25 +252,25 @@
   \citenamefont {Efimkin}, \citenamefont {Zang},\ and\ \citenamefont
   {Galitski}}]{Hurst2015}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hilary~M.}\
-  \bibnamefont {Hurst}}, \bibinfo {author} {\bibfnamefont {Dmitry~K.}\
-  \bibnamefont {Efimkin}}, \bibinfo {author} {\bibfnamefont {Jiadong}\
-  \bibnamefont {Zang}}, \ and\ \bibinfo {author} {\bibfnamefont {Victor}\
-  \bibnamefont {Galitski}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Charged skyrmions on the surface of a topological insulator}},}\ }\href
-  {\doibase 10.1103/PhysRevB.91.060401} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo
-  {pages} {060401} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~M.}\ \bibnamefont
+  {Hurst}}, \bibinfo {author} {\bibfnamefont {D.~K.}\ \bibnamefont {Efimkin}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Zang}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Galitski}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Charged skyrmions on the surface of a
+  topological insulator}},}\ }\href {\doibase 10.1103/PhysRevB.91.060401}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {91}},\ \bibinfo {pages} {060401} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Fert}\ \emph {et~al.}(2013)\citenamefont {Fert},
   \citenamefont {Cros},\ and\ \citenamefont {Sampaio}}]{Fert2013}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Albert}\ \bibnamefont
-  {Fert}}, \bibinfo {author} {\bibfnamefont {Vincent}\ \bibnamefont {Cros}}, \
-  and\ \bibinfo {author} {\bibfnamefont {Joao}\ \bibnamefont {Sampaio}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {Skyrmions on the track},}\
-  }\href {\doibase 10.1038/nnano.2013.29} {\bibfield  {journal} {\bibinfo
-  {journal} {Nat. Nano}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages}
-  {152--156} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Fert}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Cros}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Sampaio}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Skyrmions on the track},}\ }\href
+  {\doibase 10.1038/nnano.2013.29} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nat. Nano}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages} {152--156}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nagaosa}\ and\ \citenamefont
   {Tokura}(2013)}]{Nagaosa2013}%
   \BibitemOpen
@@ -284,7 +283,7 @@
   {pages} {899} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Alicea}(2012)}]{Alicea2012}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jason}\ \bibnamefont
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Alicea}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{New directions
   in the pursuit of Majorana fermions in solid state systems.}}}\ }\href
   {\doibase 10.1088/0034-4885/75/7/076501} {\bibfield  {journal} {\bibinfo
@@ -294,27 +293,27 @@
   \citenamefont {Simon}, \citenamefont {Stern}, \citenamefont {Freedman},\ and\
   \citenamefont {Das~Sarma}}]{Nayak2008}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Chetan}\ \bibnamefont
-  {Nayak}}, \bibinfo {author} {\bibfnamefont {Steven~H.}\ \bibnamefont
-  {Simon}}, \bibinfo {author} {\bibfnamefont {Ady}\ \bibnamefont {Stern}},
-  \bibinfo {author} {\bibfnamefont {Michael}\ \bibnamefont {Freedman}}, \ and\
-  \bibinfo {author} {\bibfnamefont {Sankar}\ \bibnamefont {Das~Sarma}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {Non-abelian anyons and
-  topological quantum computation},}\ }\href {\doibase
-  10.1103/RevModPhys.80.1083} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
-  Mod. Phys.}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages}
-  {1083--1159} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Nayak}}, \bibinfo {author} {\bibfnamefont {S.~H.}\ \bibnamefont {Simon}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Stern}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Freedman}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Das~Sarma}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Non-abelian anyons and topological quantum
+  computation},}\ }\href {\doibase 10.1103/RevModPhys.80.1083} {\bibfield
+  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
+  {80}},\ \bibinfo {pages} {1083--1159} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Garaud}\ \emph {et~al.}(2011)\citenamefont {Garaud},
   \citenamefont {Carlstr\"om},\ and\ \citenamefont {Babaev}}]{Garaud2011}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Julien}\ \bibnamefont
-  {Garaud}}, \bibinfo {author} {\bibfnamefont {Johan}\ \bibnamefont
-  {Carlstr\"om}}, \ and\ \bibinfo {author} {\bibfnamefont {Egor}\ \bibnamefont
-  {Babaev}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Topological
-  solitons in three-band superconductors with broken time reversal symmetry},}\
-  }\href {\doibase 10.1103/PhysRevLett.107.197001} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\
-  \bibinfo {pages} {197001} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Garaud}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Carlstr\"om}},
+  \ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Babaev}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Topological solitons in
+  three-band superconductors with broken time reversal symmetry},}\ }\href
+  {\doibase 10.1103/PhysRevLett.107.197001} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {197001} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nakosai}\ \emph {et~al.}(2013)\citenamefont
   {Nakosai}, \citenamefont {Tanaka},\ and\ \citenamefont
   {Nagaosa}}]{Nakosai2013}%
@@ -331,13 +330,13 @@
 \bibitem [{\citenamefont {Yokoyama}\ and\ \citenamefont
   {Linder}(2015)}]{Yokoyama2015}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Takehito}\
-  \bibnamefont {Yokoyama}}\ and\ \bibinfo {author} {\bibfnamefont {Jacob}\
-  \bibnamefont {Linder}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {Josephson effect through magnetic skyrmions},}\ }\href {\doibase
-  10.1103/PhysRevB.92.060503} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo {pages} {060503}
-  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yokoyama}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Linder}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Josephson effect
+  through magnetic skyrmions},}\ }\href {\doibase 10.1103/PhysRevB.92.060503}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {92}},\ \bibinfo {pages} {060503} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Yu}(1965)}]{Yu}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
@@ -391,14 +390,90 @@
 \bibitem [{\citenamefont {Shytov}\ \emph {et~al.}(2009)\citenamefont {Shytov},
   \citenamefont {Abanin},\ and\ \citenamefont {Levitov}}]{Shytov2009}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Andrei~V.}\
-  \bibnamefont {Shytov}}, \bibinfo {author} {\bibfnamefont {Dmitry~A.}\
-  \bibnamefont {Abanin}}, \ and\ \bibinfo {author} {\bibfnamefont {Leonid~S.}\
-  \bibnamefont {Levitov}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {Long-range interaction between adatoms in graphene},}\ }\href {\doibase
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
+  {Shytov}}, \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont {Abanin}},
+  \ and\ \bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont {Levitov}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Long-range interaction
+  between adatoms in graphene},}\ }\href {\doibase
   10.1103/PhysRevLett.103.016806} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages}
   {016806} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{Note1()}]{Note1}%
+  \BibitemOpen
+  \bibinfo {note} {\label {footnote:Rotation} Note that for the case of a
+  spin-singlet SC given by Eq.~(\ref {ham}), the Bloch and the Neel skyrmions
+  are equivalent since they can be related by a continuous $\pi /2$-rotation
+  around the $z$-axis in the spin space $U = \protect \qopname \relax
+  o{exp}(-i\pi \sigma _z/4)$. In the presence of either the spin-triplet
+  pairing or the spin-orbit interaction, the effects of the two types of
+  skyrmions are different.}\BibitemShut {Stop}%
+\bibitem [{Note2()}]{Note2}%
+  \BibitemOpen
+  \bibinfo {note} {We expect that a different spatial dependency of azimuthal
+  angle (\ref {conf}) will not change the results significantly.}\BibitemShut
+  {Stop}%
+\bibitem [{\citenamefont {Klinovaja}\ \emph {et~al.}(2013)\citenamefont
+  {Klinovaja}, \citenamefont {Stano}, \citenamefont {Yazdani},\ and\
+  \citenamefont {Loss}}]{Klinovaja2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Klinovaja}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Stano}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Yazdani}}, \ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Loss}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Topological Superconductivity and
+  Majorana Fermions in RKKY Systems}},}\ }\href {\doibase
+  10.1103/PhysRevLett.111.186805} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
+  {186805} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{Note3()}]{Note3}%
+  \BibitemOpen
+  \bibinfo {note} {The elegant multipole expansion captures the salient
+  features of the problem. Because of its simplicity, we use the multipole
+  approximation even beyond its formal domain of validity: $R<p_F^{-1}$ and
+  $R\ll \xi _{sc}$. In the end of the paper, we present an exact numerical
+  modeling and find a close agreement with a multipole analytical
+  treatment.}\BibitemShut {Stop}%
+\bibitem [{Note4()}]{Note4}%
+  \BibitemOpen
+  \bibinfo {note} {Note that in the case of the Bloch skyrmion $S_1$ would have
+  a physical meaning of an anapole moment defined as $S_1 = \protect \frac
+  {1}{2}\DOTSI \intop \ilimits@ d^2r \protect \tmspace +\thinmuskip {.1667em}
+  \left \protect \{\left [\protect \bm {S}(\protect \bm {r})-\protect \bm
+  {S}(\infty )\right ] \times \protect \bm {r}\right \protect
+  \}_z$}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {M\'{e}nard}\ \emph {et~al.}()\citenamefont
+  {M\'{e}nard}, \citenamefont {Guissart}, \citenamefont {Brun}, \citenamefont
+  {Pons}, \citenamefont {Stolyarov}, \citenamefont {Debontridder},
+  \citenamefont {Leclerc}, \citenamefont {Janod}, \citenamefont {Cario},
+  \citenamefont {Roditchev}, \citenamefont {Simon},\ and\ \citenamefont
+  {Cren}}]{Menard2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
+  {M\'{e}nard}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Guissart}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Brun}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pons}}, \bibinfo {author}
+  {\bibfnamefont {V.~S.}\ \bibnamefont {Stolyarov}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Debontridder}}, \bibinfo {author}
+  {\bibfnamefont {M.~V.}\ \bibnamefont {Leclerc}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Janod}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Cario}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Roditchev}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Simon}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Cren}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Long range coherent magnetic bound states in superconductors}},}\
+  }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1506.06666}
+  {arXiv:1506.06666} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(2015)\citenamefont {Kim},
+  \citenamefont {Tewari},\ and\ \citenamefont {Tserkovnyak}}]{Kim2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Tewari}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tserkovnyak}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Control and braiding of
+  Majorana fermions bound to magnetic domain walls}},}\ }\href {\doibase
+  10.1103/PhysRevB.92.020412} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. B}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo {pages} {020412}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Brede}\ \emph {et~al.}(2014)\citenamefont {Brede},
   \citenamefont {Atodiresei}, \citenamefont {Caciuc}, \citenamefont {Bazarnik},
   \citenamefont {Al-Zubi}, \citenamefont {Bl\"{u}gel},\ and\ \citenamefont
@@ -442,47 +517,4 @@
   10.1021/acs.nanolett.5b00506} {\bibfield  {journal} {\bibinfo  {journal}
   {Nano Lett.}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {3280}
   (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Klinovaja}\ \emph {et~al.}(2013)\citenamefont
-  {Klinovaja}, \citenamefont {Stano}, \citenamefont {Yazdani},\ and\
-  \citenamefont {Loss}}]{Klinovaja2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Klinovaja}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Stano}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Yazdani}}, \ and\
-  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Loss}},\ }\bibfield
-  {title} {\enquote {\bibinfo {title} {Topological superconductivity and
-  majorana fermions in rkky systems},}\ }\href {\doibase
-  10.1103/PhysRevLett.111.186805} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
-  {186805} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
-\bibitem [{Note1()}]{Note1}%
-  \BibitemOpen
-  \bibinfo {note} {Note that in the case of the Block skyrmion $S_1$ would have
-  a physical meaning of an anapole moment defined as $S_1 = \protect \frac
-  {1}{2}\DOTSI \intop \ilimits@ d^2r \protect \tmspace +\thinmuskip {.1667em}
-  \left \protect \{\left [\protect \bm {S}(\protect \bm {r})-\protect \bm
-  {S}(\infty )\right ] \times \protect \bm {r}\right \protect
-  \}_z$}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {M\'{e}nard}\ \emph {et~al.}()\citenamefont
-  {M\'{e}nard}, \citenamefont {Guissart}, \citenamefont {Brun}, \citenamefont
-  {Pons}, \citenamefont {Stolyarov}, \citenamefont {Debontridder},
-  \citenamefont {Leclerc}, \citenamefont {Janod}, \citenamefont {Cario},
-  \citenamefont {Roditchev}, \citenamefont {Simon},\ and\ \citenamefont
-  {Cren}}]{Menard2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
-  {M\'{e}nard}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Guissart}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Brun}},
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pons}}, \bibinfo {author}
-  {\bibfnamefont {V.~S.}\ \bibnamefont {Stolyarov}}, \bibinfo {author}
-  {\bibfnamefont {F.}~\bibnamefont {Debontridder}}, \bibinfo {author}
-  {\bibfnamefont {M.~V.}\ \bibnamefont {Leclerc}}, \bibinfo {author}
-  {\bibfnamefont {E.}~\bibnamefont {Janod}}, \bibinfo {author} {\bibfnamefont
-  {L.}~\bibnamefont {Cario}}, \bibinfo {author} {\bibfnamefont
-  {D.}~\bibnamefont {Roditchev}}, \bibinfo {author} {\bibfnamefont
-  {P.}~\bibnamefont {Simon}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Cren}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Long range coherent magnetic bound states in superconductors}},}\
-  }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1506.06666}
-  {arXiv:1506.06666} \BibitemShut {NoStop}%
 \end{thebibliography}%
