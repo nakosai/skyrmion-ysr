@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.16)  28 OCT 2015 19:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.16)  30 OCT 2015 15:58
 entering extended mode
 **Skyrmion.tex
 
@@ -406,25 +406,25 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<SkyrmA.pdf, id=35, 302.67287pt x 302.67287pt>
+<SkyrmA.pdf, id=36, 302.67287pt x 302.67287pt>
 File: SkyrmA.pdf Graphic file (type pdf)
  <use SkyrmA.pdf>
 Package pdftex.def Info: SkyrmA.pdf used on input line 45.
 (pdftex.def)             Requested size: 98.3985pt x 98.39522pt.
 
-<SkyrmB.pdf, id=36, 301.91997pt x 301.16702pt>
+<SkyrmB.pdf, id=37, 301.91997pt x 301.16702pt>
 File: SkyrmB.pdf Graphic file (type pdf)
  <use SkyrmB.pdf>
 Package pdftex.def Info: SkyrmB.pdf used on input line 46.
 (pdftex.def)             Requested size: 98.3985pt x 98.15384pt.
 
-<fig1c.pdf, id=37, 303.4258pt x 183.71188pt>
+<fig1c.pdf, id=38, 303.4258pt x 183.71188pt>
 File: fig1c.pdf Graphic file (type pdf)
  <use fig1c.pdf>
 Package pdftex.def Info: fig1c.pdf used on input line 47.
 (pdftex.def)             Requested size: 98.3985pt x 59.57669pt.
 
-<fig2.pdf, id=38, 303.4258pt x 270.29742pt>
+<fig2.pdf, id=39, 303.4258pt x 270.29742pt>
 File: fig2.pdf Graphic file (type pdf)
  <use fig2.pdf>
 Package pdftex.def Info: fig2.pdf used on input line 57.
@@ -457,30 +457,41 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 72.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<fig3a.pdf, id=114, 316.9783pt x 272.55617pt>
+<fig3a.pdf, id=115, 316.22539pt x 272.55617pt>
 File: fig3a.pdf Graphic file (type pdf)
  <use fig3a.pdf>
-Package pdftex.def Info: fig3a.pdf used on input line 110.
-(pdftex.def)             Requested size: 172.19925pt x 148.06812pt.
+Package pdftex.def Info: fig3a.pdf used on input line 101.
+(pdftex.def)             Requested size: 172.19925pt x 148.42163pt.
 
-<fig3b.pdf, id=115, 317.73123pt x 252.98032pt>
+<fig3b.pdf, id=116, 317.73123pt x 252.98032pt>
 File: fig3b.pdf Graphic file (type pdf)
  <use fig3b.pdf>
-Package pdftex.def Info: fig3b.pdf used on input line 111.
+Package pdftex.def Info: fig3b.pdf used on input line 102.
 (pdftex.def)             Requested size: 172.19925pt x 137.10915pt.
  [2 <C:/Users/pershoguba/Dropbox/Research/Skyrmion-Project/skyrmion-ysr/fig2.pd
 f>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 134.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 122.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 134.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 122.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
-Overfull \hbox (2.58748pt too wide) in paragraph at lines 160--160
+Underfull \hbox (badness 1152) in paragraph at lines 143--145
+\OT1/cmr/m/n/10 In Sup-ple-men-tal Ma-te-rial, we solve the Lippmann-
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 147--149
+\OT1/cmr/m/n/10 where we de-fine the Green's func-tion $[](\OML/cmm/m/it/10 !\O
+T1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (2.58748pt too wide) in paragraph at lines 152--152
 [] 
  []
 
@@ -491,28 +502,44 @@ f
 pdfTeX warning: pdflatex (file C:/Users/pershoguba/Dropbox/Research/Skyrmion-Pr
 oject/skyrmion-ysr/fig3b.pdf): PDF inclusion: multiple pdfs with page group inc
 luded in a single page
->] <fig4a.pdf, id=201, 313.96664pt x 251.47447pt>
+>]
+Underfull \hbox (badness 6775) in paragraph at lines 167--168
+\OT1/cmr/m/n/10 ex-hibit char-ac-ter-is-tic os-cil-la-tions at a scale $\OML/cm
+m/m/it/10 []$\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 167--168
+\OT1/cmr/m/n/10 In or-der to un-der-stand this be-hav-ior, con-sider a
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 167--168
+\OT1/cmr/m/n/10 generic wave-func-tion of an im-pu-rity in-duced state
+ []
+
+<fig4a.pdf, id=208, 313.96664pt x 251.47447pt>
 File: fig4a.pdf Graphic file (type pdf)
  <use fig4a.pdf>
-Package pdftex.def Info: fig4a.pdf used on input line 176.
+Package pdftex.def Info: fig4a.pdf used on input line 172.
 (pdftex.def)             Requested size: 105.7782pt x 84.72507pt.
 
-<fig4b.pdf, id=202, 312.4608pt x 249.96864pt>
+<fig4b.pdf, id=209, 312.4608pt x 249.96864pt>
 File: fig4b.pdf Graphic file (type pdf)
  <use fig4b.pdf>
-Package pdftex.def Info: fig4b.pdf used on input line 177.
+Package pdftex.def Info: fig4b.pdf used on input line 173.
 (pdftex.def)             Requested size: 105.7782pt x 84.62204pt.
 
-<fig4c.pdf, id=203, 313.96664pt x 251.47447pt>
+<fig4c.pdf, id=210, 313.96664pt x 251.47447pt>
 File: fig4c.pdf Graphic file (type pdf)
  <use fig4c.pdf>
-Package pdftex.def Info: fig4c.pdf used on input line 178.
+Package pdftex.def Info: fig4c.pdf used on input line 174.
 (pdftex.def)             Requested size: 105.7782pt x 84.72507pt.
 
-<fig4d.pdf, id=204, 313.21371pt x 252.2274pt>
+<fig4d.pdf, id=211, 313.21371pt x 252.2274pt>
 File: fig4d.pdf Graphic file (type pdf)
  <use fig4d.pdf>
-Package pdftex.def Info: fig4d.pdf used on input line 179.
+Package pdftex.def Info: fig4d.pdf used on input line 175.
 (pdftex.def)             Requested size: 105.7782pt x 85.17888pt.
  [4 <C:/Users/pershoguba/Dropbox/Research/Skyrmion-Project/skyrmion-ysr/fig4a.p
 df> <C:/Users/pershoguba/Dropbox/Research/Skyrmion-Project/skyrmion-ysr/fig4b.p
@@ -544,75 +571,73 @@ Missing character: There is no ü in font cmr9!
 Missing character: There is no ü in font cmr9!
 Missing character: There is no ö in font cmr9!
 
-Underfull \hbox (badness 1122) in paragraph at lines 218--225
+Underfull \hbox (badness 1122) in paragraph at lines 244--251
  \OT1/cmr/m/n/9 B. Wolter, K. von Bergmann, A. Ku-bet-zka,  and
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 245--253
+Underfull \hbox (badness 1331) in paragraph at lines 271--279
  []\OT1/cmr/m/n/9 N. Rom-ming, A. Ku-bet-zka, C. Han-neken, K. von
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 324--331
+Underfull \hbox (badness 1668) in paragraph at lines 350--357
  []\OT1/cmr/m/n/9 S. Nako-sai, Y. Tanaka,  and N. Na-gaosa, ``Two-
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 384--391
+Underfull \hbox (badness 1033) in paragraph at lines 410--417
  []\OT1/cmr/m/n/9 N. Y. Yao, L. I. Glaz-man, E. A. Dem-ler, M. D.
  []
 
-Missing character: There is no – in font cmr9!
-[5]) [6]
-Overfull \hbox (0.70506pt too wide) in paragraph at lines 293--293
+[5])
+Overfull \hbox (11.08005pt too wide) in paragraph at lines 243--243
 [] 
  []
 
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
 
 (C:\Users\pershoguba\Dropbox\Research\Skyrmion-Project\skyrmion-ysr\Skyrmion.au
 x)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 Package rerunfilecheck Info: File `Skyrmion.out' has not changed.
-(rerunfilecheck)             Checksum: AA6122180F19386E4E276EC42A93089C;263.
+(rerunfilecheck)             Checksum: D214CCFFC5BC51442BEEB94522F0ED1B;263.
  ) 
 Here is how much of TeX's memory you used:
- 8133 strings out of 493921
- 113825 string characters out of 3147267
- 242407 words of memory out of 3000000
- 11244 multiletter control sequences out of 15000+200000
+ 8115 strings out of 493921
+ 113599 string characters out of 3147267
+ 226128 words of memory out of 3000000
+ 11237 multiletter control sequences out of 15000+200000
  14639 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 32i,12n,28p,1392b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,12n,28p,1496b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Skyrmion.pdf (7 pages, 1187149 bytes).
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti9.pfb>
+Output written on Skyrmion.pdf (6 pages, 1165656 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

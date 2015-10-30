@@ -294,7 +294,7 @@ and Blugel, S.},
 }
 
 @Article{Klinovaja2013,
-  Title                    = {Topological Superconductivity and Majorana Fermions in RKKY Systems},
+  Title                    = {{Topological Superconductivity and Majorana Fermions in RKKY Systems}},
   Author                   = {Klinovaja, J. and Stano, P. and Yazdani, A. and Loss, D.},
   Journal                  = {Phys. Rev. Lett.},
   Year                     = {2013},
@@ -308,6 +308,23 @@ and Blugel, S.},
   Numpages                 = {5},
   Publisher                = {American Physical Society},
   Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.111.186805}
+}
+
+@Article{Saxena2013,
+  Title                    = {Particle model for skyrmions in metallic chiral magnets: Dynamics, pinning, and creep},
+  Author                   = {Lin, S.-Z. and Reichhardt, C. and Batista, C. D. and Saxena, A.},
+  Journal                  = {Phys. Rev. B},
+  Year                     = {2013},
+
+  Month                    = {Jun},
+  Pages                    = {214419},
+  Volume                   = {87},
+
+  Doi                      = {10.1103/PhysRevB.87.214419},
+  Issue                    = {21},
+  Numpages                 = {8},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevB.87.214419}
 }
 
 @Article{Menard2015,
