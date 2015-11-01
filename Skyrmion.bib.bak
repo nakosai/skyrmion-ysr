@@ -58,6 +58,23 @@
   Url                      = {http://link.aps.org/doi/10.1103/RevModPhys.78.373}
 }
 
+@Article{Beenakker,
+  Title                    = {Random-matrix theory of Majorana fermions and topological superconductors},
+  Author                   = {Beenakker, C. W. J.},
+  Journal                  = {Rev. Mod. Phys.},
+  Year                     = {2015},
+
+  Month                    = {Sep},
+  Pages                    = {1037},
+  Volume                   = {87},
+
+  Doi                      = {10.1103/RevModPhys.87.1037},
+  Issue                    = {3},
+  Numpages                 = {30},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/RevModPhys.87.1037}
+}
+
 @Article{Bergmann2014,
   Title                    = {{Interface-induced chiral domain walls, spin spirals and skyrmions revealed by spin-polarized scanning tunneling microscopy}},
   Author                   = {von Bergmann, K. and Kubetzka, A. and Pietzsch, O. and Wiesendanger, R.},
@@ -576,6 +593,18 @@ and Tokura, Y.},
   Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.103.016806}
 }
 
+@Article{Skyrme,
+  Title                    = {A non-linear field theory},
+  Author                   = {Skyrme, T. H.},
+  Journal                  = {Proc. R. Soc. Lond. Ser. A},
+  Year                     = {1961},
+  Pages                    = {127},
+  Volume                   = {260},
+
+  Owner                    = {pershoguba},
+  Timestamp                = {2015.11.01}
+}
+
 @Article{Sonntag2014,
   Title                    = {{Thermal Stability of an Interface-Stabilized Skyrmion Lattice}},
   Author                   = {Sonntag, A. and Hermenau, J. and Krause, S. and Wiesendanger, R.},
@@ -661,5 +690,22 @@ and Tokura, Y.},
   ISSN                     = {1476-1122},
   Publisher                = {Nature Publishing Group},
   Url                      = {http://dx.doi.org/10.1038/nmat2916}
+}
+
+@Article{Zang2011,
+  Title                    = {Dynamics of Skyrmion Crystals in Metallic Thin Films},
+  Author                   = {Zang, J. and Mostovoy, M. and Han, J. H. and Nagaosa, N.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2011},
+
+  Month                    = {Sep},
+  Pages                    = {136804},
+  Volume                   = {107},
+
+  Doi                      = {10.1103/PhysRevLett.107.136804},
+  Issue                    = {13},
+  Numpages                 = {5},
+  Publisher                = {American Physical Society},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.107.136804}
 }
 

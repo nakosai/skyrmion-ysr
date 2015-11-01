@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{36}%
+\begin{thebibliography}{38}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,6 +50,13 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Skyrme}(1961)}]{Skyrme}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~H.}\ \bibnamefont
+  {Skyrme}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A non-linear
+  field theory},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proc. R. Soc. Lond. Ser. A}\ }\textbf {\bibinfo {volume} {260}},\ \bibinfo
+  {pages} {127} (\bibinfo {year} {1961})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Bogdanov}\ and\ \citenamefont
   {Yablonskii}(1989)}]{Bogdanov1989}%
   \BibitemOpen
@@ -274,19 +281,6 @@
   10.1103/PhysRevLett.114.177203} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {114}},\ \bibinfo {pages}
   {177203} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Hurst}\ \emph {et~al.}(2015)\citenamefont {Hurst},
-  \citenamefont {Efimkin}, \citenamefont {Zang},\ and\ \citenamefont
-  {Galitski}}]{Hurst2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~M.}\ \bibnamefont
-  {Hurst}}, \bibinfo {author} {\bibfnamefont {D.~K.}\ \bibnamefont {Efimkin}},
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Zang}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {V.}~\bibnamefont {Galitski}},\ }\bibfield  {title}
-  {\enquote {\bibinfo {title} {{Charged skyrmions on the surface of a
-  topological insulator}},}\ }\href {\doibase 10.1103/PhysRevB.91.060401}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
-  {volume} {91}},\ \bibinfo {pages} {060401} (\bibinfo {year}
-  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Fert}\ \emph {et~al.}(2013)\citenamefont {Fert},
   \citenamefont {Cros},\ and\ \citenamefont {Sampaio}}]{Fert2013}%
   \BibitemOpen
@@ -307,6 +301,19 @@
   {http://dx.doi.org/10.1038/nnano.2013.243} {\bibfield  {journal} {\bibinfo
   {journal} {Nat. Nanotechnol.}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo
   {pages} {899} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hurst}\ \emph {et~al.}(2015)\citenamefont {Hurst},
+  \citenamefont {Efimkin}, \citenamefont {Zang},\ and\ \citenamefont
+  {Galitski}}]{Hurst2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~M.}\ \bibnamefont
+  {Hurst}}, \bibinfo {author} {\bibfnamefont {D.~K.}\ \bibnamefont {Efimkin}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Zang}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Galitski}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Charged skyrmions on the surface of a
+  topological insulator}},}\ }\href {\doibase 10.1103/PhysRevB.91.060401}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {91}},\ \bibinfo {pages} {060401} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Alicea}(2012)}]{Alicea2012}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
@@ -315,6 +322,15 @@
   {\doibase 10.1088/0034-4885/75/7/076501} {\bibfield  {journal} {\bibinfo
   {journal} {Rep. Prog. Phys.}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo
   {pages} {076501} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Beenakker}(2015)}]{Beenakker}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.~J.}\
+  \bibnamefont {Beenakker}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Random-matrix theory of Majorana fermions and topological
+  superconductors}},}\ }\href {\doibase 10.1103/RevModPhys.87.1037} {\bibfield
+  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
+  {87}},\ \bibinfo {pages} {1037} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Nayak}\ \emph {et~al.}(2008)\citenamefont {Nayak},
   \citenamefont {Simon}, \citenamefont {Stern}, \citenamefont {Freedman},\ and\
   \citenamefont {Das~Sarma}}]{Nayak2008}%
@@ -329,40 +345,6 @@
   {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
   {80}},\ \bibinfo {pages} {1083--1159} (\bibinfo {year} {2008})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Garaud}\ \emph {et~al.}(2011)\citenamefont {Garaud},
-  \citenamefont {Carlstr\"om},\ and\ \citenamefont {Babaev}}]{Garaud2011}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Garaud}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Carlstr\"om}},
-  \ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Babaev}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {Topological solitons in
-  three-band superconductors with broken time reversal symmetry},}\ }\href
-  {\doibase 10.1103/PhysRevLett.107.197001} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
-  {pages} {197001} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Nakosai}\ \emph {et~al.}(2013)\citenamefont
-  {Nakosai}, \citenamefont {Tanaka},\ and\ \citenamefont
-  {Nagaosa}}]{Nakosai2013}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Nakosai}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tanaka}}, \
-  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Nagaosa}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Two-dimensional p-wave
-  superconducting states with magnetic moments on a conventional s-wave
-  superconductor}},}\ }\href {\doibase 10.1103/PhysRevB.88.180503} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {88}},\ \bibinfo {pages} {180503} (\bibinfo {year} {2013})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Yokoyama}\ and\ \citenamefont
-  {Linder}(2015)}]{Yokoyama2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Yokoyama}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Linder}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Josephson effect
-  through magnetic skyrmions},}\ }\href {\doibase 10.1103/PhysRevB.92.060503}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
-  {volume} {92}},\ \bibinfo {pages} {060503} (\bibinfo {year}
-  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Yu}(1965)}]{Yu}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
@@ -424,6 +406,40 @@
   10.1103/PhysRevLett.103.016806} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages}
   {016806} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Garaud}\ \emph {et~al.}(2011)\citenamefont {Garaud},
+  \citenamefont {Carlstr\"om},\ and\ \citenamefont {Babaev}}]{Garaud2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Garaud}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Carlstr\"om}},
+  \ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Babaev}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Topological solitons in
+  three-band superconductors with broken time reversal symmetry},}\ }\href
+  {\doibase 10.1103/PhysRevLett.107.197001} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {197001} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nakosai}\ \emph {et~al.}(2013)\citenamefont
+  {Nakosai}, \citenamefont {Tanaka},\ and\ \citenamefont
+  {Nagaosa}}]{Nakosai2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Nakosai}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tanaka}}, \
+  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Nagaosa}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Two-dimensional p-wave
+  superconducting states with magnetic moments on a conventional s-wave
+  superconductor}},}\ }\href {\doibase 10.1103/PhysRevB.88.180503} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {88}},\ \bibinfo {pages} {180503} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Yokoyama}\ and\ \citenamefont
+  {Linder}(2015)}]{Yokoyama2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yokoyama}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Linder}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Josephson effect
+  through magnetic skyrmions},}\ }\href {\doibase 10.1103/PhysRevB.92.060503}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {92}},\ \bibinfo {pages} {060503} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 \bibitem [{Note1()}]{Note1}%
   \BibitemOpen
   \bibinfo {note} {\label {footnote:Rotation} Note that for the case of a
