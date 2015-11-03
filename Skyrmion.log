@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.16)  1 NOV 2015 18:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.9.16)  3 NOV 2015 18:00
 entering extended mode
 **Skyrmion.tex
 
@@ -457,13 +457,13 @@ Underfull \hbox (badness 1521) in paragraph at lines 78--79
 \OT1/cmr/m/n/10 film with the mag-ne-ti-za-tion de-scribed by a three-
  []
 
-<fig3a.pdf, id=119, 316.22539pt x 272.55617pt>
+<fig3a.pdf, id=120, 316.22539pt x 272.55617pt>
 File: fig3a.pdf Graphic file (type pdf)
  <use fig3a.pdf>
 Package pdftex.def Info: fig3a.pdf used on input line 108.
 (pdftex.def)             Requested size: 172.19925pt x 148.42163pt.
 
-<fig3b.pdf, id=120, 317.73123pt x 252.98032pt>
+<fig3b.pdf, id=121, 317.73123pt x 252.98032pt>
 File: fig3b.pdf Graphic file (type pdf)
  <use fig3b.pdf>
 Package pdftex.def Info: fig3b.pdf used on input line 109.
@@ -503,9 +503,9 @@ pdfTeX warning: pdflatex (file C:/Users/pershoguba/Dropbox/Research/Skyrmion-Pr
 oject/skyrmion-ysr/fig3b.pdf): PDF inclusion: multiple pdfs with page group inc
 luded in a single page
 >]
-Underfull \hbox (badness 6775) in paragraph at lines 174--175
-\OT1/cmr/m/n/10 ex-hibit char-ac-ter-is-tic os-cil-la-tions at a scale $\OML/cm
-m/m/it/10 []$\OT1/cmr/m/n/10 .
+Underfull \hbox (badness 3240) in paragraph at lines 174--175
+\OT1/cmr/m/n/10 ex-hibit char-ac-ter-is-tic os-cil-la-tions at the scale $\OML/
+cmm/m/it/10 []$\OT1/cmr/m/n/10 .
  []
 
 
@@ -518,25 +518,25 @@ Underfull \hbox (badness 1960) in paragraph at lines 174--175
 \OT1/cmr/m/n/10 generic wave-func-tion of an im-pu-rity in-duced state
  []
 
-<fig4a.pdf, id=213, 313.96664pt x 251.47447pt>
+<fig4a.pdf, id=212, 313.96664pt x 251.47447pt>
 File: fig4a.pdf Graphic file (type pdf)
  <use fig4a.pdf>
 Package pdftex.def Info: fig4a.pdf used on input line 179.
 (pdftex.def)             Requested size: 105.7782pt x 84.72507pt.
 
-<fig4b.pdf, id=214, 312.4608pt x 249.96864pt>
+<fig4b.pdf, id=213, 312.4608pt x 249.96864pt>
 File: fig4b.pdf Graphic file (type pdf)
  <use fig4b.pdf>
 Package pdftex.def Info: fig4b.pdf used on input line 180.
 (pdftex.def)             Requested size: 105.7782pt x 84.62204pt.
 
-<fig4c.pdf, id=215, 313.96664pt x 251.47447pt>
+<fig4c.pdf, id=214, 313.96664pt x 251.47447pt>
 File: fig4c.pdf Graphic file (type pdf)
  <use fig4c.pdf>
 Package pdftex.def Info: fig4c.pdf used on input line 181.
 (pdftex.def)             Requested size: 105.7782pt x 84.72507pt.
 
-<fig4d.pdf, id=216, 313.21371pt x 252.2274pt>
+<fig4d.pdf, id=215, 313.21371pt x 252.2274pt>
 File: fig4d.pdf Graphic file (type pdf)
  <use fig4d.pdf>
 Package pdftex.def Info: fig4d.pdf used on input line 182.
@@ -606,13 +606,13 @@ Package rerunfilecheck Info: File `Skyrmion.out' has not changed.
 (rerunfilecheck)             Checksum: 95C855B1557409CF63D238DE348573F2;263.
  ) 
 Here is how much of TeX's memory you used:
- 8125 strings out of 493921
- 113751 string characters out of 3147267
- 228186 words of memory out of 3000000
- 11245 multiletter control sequences out of 15000+200000
+ 8123 strings out of 493921
+ 113731 string characters out of 3147267
+ 229186 words of memory out of 3000000
+ 11243 multiletter control sequences out of 15000+200000
  14639 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 32i,12n,28p,1496b,599s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,12n,28p,1496b,590s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKT
@@ -629,16 +629,15 @@ les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX
 /type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/symbols/msam10.pfb>
-Output written on Skyrmion.pdf (6 pages, 1177538 bytes).
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb>
+Output written on Skyrmion.pdf (6 pages, 1169323 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
+ 441 PDF objects out of 1000 (max. 8388607)
  79 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
