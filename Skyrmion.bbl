@@ -442,18 +442,17 @@
   {2015})}\BibitemShut {NoStop}%
 \bibitem [{Note1()}]{Note1}%
   \BibitemOpen
-  \bibinfo {note} {\label {footnote:Rotation} Note that for the case of a
-  spin-singlet SC given by Eq.~(\ref {ham}), the Bloch and the Neel skyrmions
-  are equivalent since they can be related by a continuous $\pi /2$-rotation
-  around the $z$-axis in the spin space $U = \protect \qopname \relax
-  o{exp}(-i\pi \sigma _z/4)$. In the presence of either the spin-triplet
-  pairing or the spin-orbit interaction, the effects of the two types of
-  skyrmions are different.}\BibitemShut {Stop}%
+  \bibinfo {note} {Note that for the case of a spin-singlet SC given by
+  Eq.~(\ref {ham}), the Bloch and the Neel skyrmions are equivalent since they
+  can be related by a continuous $\pi /2$-rotation around the $z$-axis in the
+  spin space $U = \protect \qopname \relax o{exp}(-i\pi \sigma _z/4)$. In the
+  presence of either the spin-triplet pairing or the spin-orbit interaction,
+  the effects of the two types of skyrmions are different.}\BibitemShut {Stop}%
 \bibitem [{Note2()}]{Note2}%
   \BibitemOpen
-  \bibinfo {note} {We expect that a different spatial dependency of azimuthal
-  angle (\ref {conf}) will not change the results significantly.}\BibitemShut
-  {Stop}%
+  \bibinfo {note} {We expect that a different spatial dependency of the
+  azimuthal angle (\ref {conf}) will not change the results
+  significantly.}\BibitemShut {Stop}%
 \bibitem [{\citenamefont {Klinovaja}\ \emph {et~al.}(2013)\citenamefont
   {Klinovaja}, \citenamefont {Stano}, \citenamefont {Yazdani},\ and\
   \citenamefont {Loss}}]{Klinovaja2013}%
@@ -484,7 +483,7 @@
   {Stop}%
 \bibitem [{Note5()}]{Note5}%
   \BibitemOpen
-  \bibinfo {note} {The inverse $I_\psi ^{-1}$ is commonly referred to as the
+  \bibinfo {note} {The function $I_\psi ^{-1}$ is commonly referred to as the
   inverse participation ratio.}\BibitemShut {Stop}%
 \bibitem [{\citenamefont {M\'{e}nard}\ \emph {et~al.}()\citenamefont
   {M\'{e}nard}, \citenamefont {Guissart}, \citenamefont {Brun}, \citenamefont
