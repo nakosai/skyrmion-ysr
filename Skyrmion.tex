@@ -66,7 +66,7 @@ In parallel, there has been a significant interest in superconductor-ferromagnet
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-Below, we consider a FM film with a skyrmion proximity coupled to SC as shown in Fig.~\ref{fig:skyrmion}. We search for the states in SC localized around a skyrmion in a series of approximations. First, consider a limit of a small skyrmion, i.e. $R\ll \xi_{\rm sc}$.  In this case, the approximation of the skyrmion field as a point magnetic moment is valid. Using this simplified model, we perform an analytical T-matrix calculation and find that skyrmion induces a bound state in the SC in a close analogy with the well-known Yu-Shiba-Rusinov states \cite{Yu,Shiba,Rusinov,Balatsky2006}. The SBS induces a resonance with a finite spectral width in a spin-polarized local density of states (SP LDOS). In contrast with the conventional YSR states, which are short-range, the SBS state is a long-range state with a power law decay. Therefore, in the presence of multiple skyrmions, the SC could mediate an effective long-range interaction between the skyrmions \cite{Yao2014,Shytov2009} when the SBS states overlap. Subsequently, we relax the requirement $R\ll \xi_{sc}$ and calculate the LDOS and wavefunctions for $R\sim \xi_{sc}$ numerically. We find that the SBS peak is populated by the multiple quasilocalized states corresponding to different angular momenta.
+Below, we consider a FM film with a skyrmion proximity coupled to SC as shown in Fig.~\ref{fig:skyrmion}. We search for the states in SC localized around a skyrmion in a series of approximations. First, consider a limit of a small skyrmion, i.e. $R\ll \xi_{\rm sc}$.  In this case, the approximation of the skyrmion field as a point magnetic moment is valid. Using this simplified model, we perform an analytical T-matrix calculation and find that skyrmion induces a bound state in the SC in a close analogy with the well-known Yu-Shiba-Rusinov states \cite{Yu,Shiba,Rusinov,Balatsky2006}. The SBS induces a resonance with a finite spectral width in a spin-polarized local density of states (SP LDOS). In contrast with the conventional YSR states, which are short-range, the SBS state is a long-range state with a power law decay. Therefore, in the presence of multiple skyrmions, the SC could mediate an effective long-range interaction between the skyrmions \cite{Yao2014} when the SBS states overlap. Subsequently, we relax the requirement $R\ll \xi_{sc}$ and calculate the LDOS and wavefunctions for $R\sim \xi_{sc}$ numerically. We find that the SBS peak is populated by the multiple quasilocalized states corresponding to different angular momenta.
 
 We also note that a few earlier papers have considered skyrmions in the context of superconductivity to some extent. Reference~\cite{Garaud2011} studied the skyrmion-like solitons in the multiband superfluids and SCs. Paper~\cite{Nakosai2013} discussed a possibility of realizing a topological SC using a skyrmion lattice. The Josephson current through a magnetic skyrmion structure was considered in Ref.~\cite{Yokoyama2015}. None of the papers up-to-date have addressed the conceptually simplest case of interaction between a single skyrmion and SC. This is the subject of the present paper.
 
@@ -96,7 +96,7 @@ Here, $\xi(\bm p)$ describes the kinetic energy and $\Delta$ - the self-consiste
 	\bm S(\bm r) &= S\left[ \cos\phi(\bm r) \sin\theta(\bm r),\, \sin\phi(\bm r)\sin\theta(\bm r),\,\cos\theta(\bm r)\right],\nonumber  \\
 	\phi(\bm r) &= \arctan(y/x),\quad \theta(\bm r) = \pi \left[ 1-\exp\left( -\frac{r^2}{R^2} \right) \right], \label{conf}
 \end{align}
-where $R$ defines an effective radius of the skyrmion \footnote{We expect that a different spatial dependency of the azimuthal angle (\ref{conf}) will not change the results significantly.}. Let us compare the relevant spatial scales of the problem: the SC coherence length $\xi_{\rm sc} \approx v_F/\Delta$, the skyrmion radius $R$, and the Fermi length $p_F^{-1}$. Both the scales $\xi_{\rm sc}$ and $R$ can vary from tens of nanometers to a micron depending on a specific material, whereas the Fermi length $p_F^{-1}$ is typically smaller than the other two scales. In the regime $R\gg \xi_{\rm sc}$, the skyrmion can be viewed as a large FM domain pointing in the direction opposite to the rest of the system. Such a regime could be interesting in the context of topological SC~\cite{Alicea2012}. For instance, it was recently shown \cite{Klinovaja2013} that a helical texture of spins in a one-dimensional (1D) chain of magnetic atoms on a surface of a SC generates an effective Rashba-like spin-orbit interaction responsible for the Majorana edge modes. Similar effective spin-orbit interaction is generated near a skyrmion and could give rise to non-trivial edge states localized at the edge of the skyrmion. We leave the discussion of this  case for future works. In the current paper, we focus on the case of relatively small skyrmions, i.e. $R\lesssim \xi_{sc}$.
+where $R$ defines an effective radius of the skyrmion \footnote{We expect that a different spatial dependency of the azimuthal angle (\ref{conf}) will not change the results significantly.}. Let us compare the relevant spatial scales of the problem: the SC coherence length $\xi_{\rm sc} \approx v_F/\Delta$, the skyrmion radius $R$, and the Fermi length $p_F^{-1}$. Both the scales $\xi_{\rm sc}$ and $R$ can vary from tens of nanometers to a micron depending on a specific material, whereas the Fermi length $p_F^{-1}$ is typically smaller than the other two scales. In the regime $R\gg \xi_{\rm sc}$, the skyrmion can be viewed as a large FM domain pointing in the direction opposite to the rest of the system. Such a regime could be interesting in the context of topological SC~\cite{Alicea2012}. For instance, it was recently shown \cite{Braunecker2013,Klinovaja2013,Vazifeh2013} that a helical texture of spins in a one-dimensional (1D) chain of magnetic atoms on a surface of a SC generates an effective Rashba-like spin-orbit interaction responsible for the Majorana edge modes. Similar effective spin-orbit interaction is generated near a skyrmion and could give rise to non-trivial edge states localized at the edge of the skyrmion. We leave the discussion of this  case for future works. In the current paper, we focus on the case of relatively small skyrmions, i.e. $R\lesssim \xi_{sc}$.
 
 
 
@@ -129,7 +129,7 @@ By performing the T-matrix calculation, we solve the model given by Eqs.~(\ref{h
  \begin{align}
 	 g_{0}(\omega)  =-\pi\rho_0\sum_{\lambda = \pm 1} \frac{1+\lambda\sigma_z}{2}\,\frac{\omega-\lambda S+\Delta\tau_x}{\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}},  \label{grf}
 \end{align}
-where $\rho_0 = m/2\pi$ is the density of states. This Green's function describes a SC subject to a uniform background magnetization $-\hat{\bm z} S$ that shifts the spin subbands as shown with the dashed lines in Fig.~\ref{fig:LDOS}.  The density of states contains two interior and two exterior coherence peaks at the energies $\pm(\Delta-S)$ and $\pm(\Delta+S)$ correspondingly.  Using Green's function~(\ref{grf}) we calculate the T-matrix in the presence of a point magnetic moment $V(\bm r)=-S_0\,\sigma_z \delta^2(\bm r)$ representing the skyrmion
+where $\rho = m/2\pi$ is the density of states. This Green's function describes a SC subject to a uniform background magnetization $-\hat{\bm z} S$ that shifts the spin subbands as shown with the dashed lines in Fig.~\ref{fig:LDOS}.  The density of states contains two interior and two exterior coherence peaks at the energies $\pm(\Delta-S)$ and $\pm(\Delta+S)$ correspondingly.  Using Green's function~(\ref{grf}) we calculate the T-matrix in the presence of a point magnetic moment $V(\bm r)=-S_0\,\sigma_z \delta^2(\bm r)$ representing the skyrmion
 \begin{align}
 	T(\omega) =   \frac{-S_0\sigma_z}{1+S_0\sigma_zg_{0}(\omega)}. \label{tm}
 \end{align}
@@ -138,7 +138,7 @@ The poles of T-matrix give the energies of the skyrmion-induced bound states (SB
 	E^\pm_{\rm SBS} = \pm\left[S+\Delta \frac{1-\left( \pi\rho S_0 \right)^2}{1+\left( \pi\rho S_0 \right)^2}\right].
 	\label{energy}
 \end{align}
-Let us track the SBS energies as a function of increasing $S_0$, which is an implicit function of $S$ and $R$ according to Eq.~(\ref{S0}). For vanishing $S_0$, the SBS states lie at the outer coherence peaks at the energies $\pm (\Delta+S)$. With further increase of $S_0$, the SBS states split from the outer coherence peak and move to the inner coherence peaks \footnote{Although Eq.~(\ref{energy}) suggests that the SBS states may go inside the actual gap for large enough  $S_0$, i.e. $|E^\pm_{\rm SBS}|<\Delta-S$, the multipole approximation of a skyrmion (\ref{vr}) is no-longer valid in this regime and, thus, does not give a reliable estimate of the SBS energy. In practice, by performing a numerical modeling, we never observe the SBS peaks inside the actual spectral gap, i.e. in the window of energies $|E^\pm_{\rm SBS}|<\Delta-S$.}. The spin-polarization of the SBS states is determined by the spin-polarization of the bulk bands that they split from: the positive (negative) SBS state is ``up'' (``down'') spin-polarized. The SBS states resemble closely the well-known Yu-Shiba-Rusinov (YSR) states \cite{Yu,Shiba,Rusinov,Balatsky2006} localized around magnetic impurities in SC. The main difference is that the YSR energies reside inside the actual spectral gap, whereas the SBS energies lie in the window of energies $\Delta+S>|E^\pm_{\rm SBS}|>\Delta-S$, which is also filled with a continuum of delocalized states of the opposite spin polarization.
+Let us trace the SBS energies as a function of increasing $S_0$, which is an implicit function of $S$ and $R$ according to Eq.~(\ref{S0}). For small $S_0$, the SBS states lie at the outer coherence peaks at the energies $\pm (\Delta+S)$. With further increase of $S_0$, the SBS states split from the outer coherence peak and move to the inner coherence peaks \footnote{Although Eq.~(\ref{energy}) suggests that the SBS states may go inside the actual gap for large enough  $S_0$, i.e. $|E^\pm_{\rm SBS}|<\Delta-S$, the multipole approximation of a skyrmion (\ref{vr}) is no-longer valid in this regime and, thus, does not give a reliable estimate of the SBS energy. In practice, by performing a numerical modeling, we never observe the SBS peaks inside the actual spectral gap, i.e. in the window of energies $|E^\pm_{\rm SBS}|<\Delta-S$.}. The spin-polarization of the SBS states is determined by the spin-polarization of the bulk bands that they split from: the positive (negative) SBS state is ``up'' (``down'') spin-polarized. The SBS states resemble closely the well-known Yu-Shiba-Rusinov (YSR) states \cite{Yu,Shiba,Rusinov,Balatsky2006} localized around magnetic impurities in SC. The main difference is that the YSR energies reside inside the actual spectral gap, whereas the SBS energies lie in the window of energies $\Delta+S>|E^\pm_{\rm SBS}|>\Delta-S$, which is also filled with a continuum of delocalized states of the opposite spin polarization.
 
 Now let us show that SBS gives a resonance of finite spectral width due to the coupling with the continuum of delocalized states. Indeed, the skyrmion has in-plane spins at $r\approx R$ that couple the spin-up and spin-down sectors of the Hamiltonian. In order to capture this effect we append the multipole expansion (\ref{vr}) with a next order term  representing the radial in-plane spins of the skyrmion.
 \begin{align}
@@ -169,10 +169,12 @@ So far we have analyzed the skyrmion using the analytical multipole approximatio
 	I_\psi =\frac{1}{\sum_{\bm r} |\psi(\bm r)|^4},
 	\label{I}
 \end{equation}
-where the sum is carried over all lattice sites $\bm r$. The function $I_\psi$ characterizes a degree of a localization of the wavefunction $\psi(\bm r)$ \footnote{The function $I_\psi^{-1}$ is commonly referred to as the inverse participation ratio.}. The function is small $I_\psi \sim 1$ for an extremely localized wavefunction and large $I_\psi \sim N^2$ for a delocalized wavefunction. For each numerical BdG wavefunction $\psi(\bm r)$, we plot $I_\psi$ against the eigenenergy in Fig.~\ref{fig:LDOSNumerics}(b) and superpose it with SP LDOS shown in panel (a). We observe a number of distinct quasilocalized states that stand out from the rest of states as emphasized by the red rectangle in Fig.~\ref{fig:LDOSNumerics}(b). These states have the energy of the SBS peak, and their number grows with a skyrmion size. We visualize the spatial profile of the electron part of the BdG wavefunction $|\Psi(\bm r)|^2 = |u_{\uparrow}(\bm r)|^2+|u_{\downarrow}(\bm r)|^2$  for a few of these states in Fig.~\ref{fig:wavefunction}. In contrast with the analytical results, we find a wavefunction with multiple lobes corresponding to a higher angular momentum state, shown in panel (a), as well as a state with a single peak, shown in panel (d). It is known that higher angular momentum states do form bound states. Analytic solution presented above is based on the on-site T matrix and is not sufficient to capture the higher-angular-momentum bound states.
+where the sum is carried over all lattice sites $\bm r$. The function $I_\psi$ characterizes a degree of a localization of the wavefunction $\psi(\bm r)$ \footnote{The function $I_\psi^{-1}$ is commonly referred to as the inverse participation ratio in the literature on localization phenomena.}. The function is small $I_\psi \sim 1$ for an extremely localized wavefunction and large $I_\psi \sim N^2$ for a delocalized wavefunction. For each numerical BdG wavefunction $\psi(\bm r)$, we plot $I_\psi$ against the eigenenergy in Fig.~\ref{fig:LDOSNumerics}(b) and superpose it with SP LDOS shown in panel (a). We observe a number of distinct quasilocalized states that stand out from the rest of states as emphasized by the red rectangle in Fig.~\ref{fig:LDOSNumerics}(b). These states have the energy of the SBS peak, and their number grows with a skyrmion size. We visualize the spatial profile of the electron part of the BdG wavefunction $|\Psi(\bm r)|^2 = |u_{\uparrow}(\bm r)|^2+|u_{\downarrow}(\bm r)|^2$  for a few of these states in Fig.~\ref{fig:wavefunction}. In contrast with the analytical results, we find a wavefunction with multiple lobes corresponding to a higher angular momentum state, shown in panel (a), as well as a state with a single peak, shown in panel (d). It is known that higher angular momentum states do form bound states. Analytic solution presented above is based on the on-site T matrix and is not sufficient to capture the higher-angular-momentum bound states.
 
-We also observe that all wavefunctions in Fig.~\ref{fig:wavefunction} exhibit characteristic oscillations at the scale $\xi_{\rm sc}$. In order to understand this behavior, consider a generic wavefunction of an impurity induced state ${\Psi_\lambda(\bm r) \sim e^{ip_Fr-r\sqrt{\Delta^2-(\omega - \lambda S)^2}/v_F}/\sqrt{r}}$, where $\lambda$ denotes the eigenvalues of $\sigma_z$ operator. The terms in the exponent term describe behavior at two scales $p_F^{-1}$ as well as $\xi_{\rm sc}$. For clarity, let us focus on the positive SBS state, i.e. $\omega = E^{+}_{\rm SBS}$. From the point of view of spin-up subband, i.e. $\lambda = 1$, the SBS is a subgap state, i.e. $|\omega- S|<\Delta$, and so the square root term in $\Psi_+(\bm r)$ gives an exponentially localized wavefunction. However from the point of view of spin-down subband, i.e. $\lambda = -1$, the SBS is a supragap state, i.e. $\omega+S>\Delta$, and, so, the square root in $\Psi_-(\bm r)$ gives oscillations  at the scale of $\xi_{sc}$ superimposed with a long-range $1/\sqrt{r}$ decay. These oscillations as well the long-range behavior can be seen in Fig.~\ref{fig:wavefunction}. In such a way, we show that the SBS are long-range quasilocalized states in stark contrast with the exponentially localized YSR states.
+We also observe that all wavefunctions in Fig.~\ref{fig:wavefunction} exhibit characteristic oscillations at the scale $\xi_{\rm sc}$. In order to understand this behavior, consider a generic wavefunction of an impurity induced state ${\Psi_\lambda(\bm r) \sim e^{ip_Fr-r\sqrt{\Delta^2-(\omega - \lambda S)^2}/v_F}/\sqrt{r}}$, where $\lambda$ denotes the eigenvalues of $\sigma_z$ operator. The terms in the exponent term describe behavior at two scales $p_F^{-1}$ as well as $\xi_{\rm sc}$. For clarity, let us focus on the positive SBS state, i.e. $\omega = E^{+}_{\rm SBS}$. From the point of view of spin-up subband, i.e. $\lambda = 1$, the SBS is a subgap state, i.e. $|\omega- S|<\Delta$, and so the square root term in $\Psi_+(\bm r)$ gives an exponentially localized wavefunction. However from the point of view of spin-down subband, i.e. $\lambda = -1$, the SBS is a supragap state, i.e. $\omega+S>\Delta$, and, so, the square root in $\Psi_-(\bm r)$ gives oscillations  at the scale of $\xi_{sc}$ superimposed with a long-range $1/\sqrt{r}$ decay. These oscillations as well the long-range behavior can be seen in Fig.~\ref{fig:wavefunction}.
 
+
+Recently, a new YSR mechanism of interaction between magnetic impurities mediated by a superconductor was proposed \cite{Yao2014}. If the impurities a close enough, the wavefunctions of the corresponding YSR states overlap. The hybridization between the YSR states has an energetic cost and defines an effective interaction between impurities that could even be stronger than the conventional RKKY interaction. Similar reasoning could be used for the case of multiple skyrmions. In this case, an overlap of the power-law SBS wavefunctions will result in an effective long-range interaction between distinct skyrmions. We estimate a magnitude of this interaction in the Supplemental Material. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure} \centering
@@ -193,11 +195,13 @@ We also observe that all wavefunctions in Fig.~\ref{fig:wavefunction} exhibit ch
 
 In this paper, we predict the new skyrmion bound state (SBS) in SC proximity coupled to the FM film with a skyrmion texture. We calculate SP LDOS and show the signatures of SBS in the tunneling spectrum that could be measured by the spin-polarized scanning tunneling microscopy (SP STM). The skyrmion induces a resonance in between the spin-split coherence peaks corresponding to the opposite spin polarizations. We show that the wavefunction of SBS is quasilocalized, i.e., decays as $1/\sqrt{r}$. Thus in the case of the two skyrmions, their SBS wavefunctions will overlap and induce a long-range interaction between the skyrmions \cite{Yao2014,Menard2015}. The details of the long-range interaction will be explored in a subsequent publication.
 
-We hope that the current paper will be a first step in studying SC-skyrmion heterostructures and there is a number intriguing questions to explore. For instance, SC could induce an effective Dzyaloshinkii-Moriya interaction between ferromagnetic spin especially in non-centrosymmetric materials and, thus, stabilize the skyrmion phase. It would also be interesting to consider the connection with the topological SC hybrid systems \cite{Alicea2012,Nakosai2013}. Superconductivity could potentially endow skyrmions with a non-trivial statistics if skyrmions captivate Majorana fermions \cite{Kim2015}.
+We hope that the current paper will be a first step in studying SC-skyrmion heterostructures and there is a number intriguing questions to explore. For instance, SC could induce an effective Dzyaloshinkii-Moriya interaction between ferromagnetic spin especially in non-centrosymmetric materials and, thus, stabilize the skyrmion phase. It would also be interesting to consider the connection with the topological SC hybrid systems \cite{Alicea2012,Nakosai2013}. 
 
-We thank  R.~Wiesendanger, S.~Fujimoto, J.~Wiebe, J.~Zang, A.~Saxena, H. Hurst, and Y. Tserkovnyak for valuable discussions and comments. This work was supported by the Grant-in-Aid for Research Activity Start-up (No.~15H06858) and US DOE BES E304.
+After this manuscript was submitted, we learned of further theoretical studies \cite{Yang2016,Hals2016} of the hybrid skyrmion-SC heterostructures. Authors of Ref.~\cite{Yang2016} found the Majorana bound state solution in the vicinity of the skyrmions of higher winding numbers. Authors of Ref.~\cite{Hals2016} studied an interaction between a skyrmion and vortex in a type-II superconductor. 
 
-\newpage
+We thank  R.~Wiesendanger, S.~Fujimoto, J.~Wiebe, J.~Zang, A.~Saxena, H. Hurst, Y. Tserkovnyak, S. Lin and L. Bulaevskii for valuable discussions and comments. This work was supported by US DOE BES E304 (S.S.P. and A.V.B.) and by the Grant-in-Aid for Research Activity Start-up (No.~15H06858) (S.N.).
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliography{Skyrmion}
@@ -206,6 +210,9 @@ We thank  R.~Wiesendanger, S.~Fujimoto, J.~Wiebe, J.~Zang, A.~Saxena, H. Hurst, 
 
 \appendix
 
+
+
+\begin{widetext}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{T-matrix derivation} \label{sec:appendixTMatrix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -218,37 +225,163 @@ In this section, we provide details on the derivation of the T-matrix~(\ref{tm1}
 \end{equation}
 Using Eq.~(\ref{vp}) and the bare Green's function~(\ref{grf}), we write the Lippmann-Schwinger integral equation for the T-matrix
 \begin{align}
-	T\left(\bm p^{1},\bm p^{2}\right) &= V \left(\bm p^{1}-\bm p^{2}\right) \nonumber \\
-	& +\int \frac{d^2 p'}{\left( 2\pi \right)^2}\, V\left(\bm p^{1}-\bm p'\right) g(\omega,\bm p')  T\left(\bm p',\bm p^{2}\right).
+	T\left(\bm p^{\rm out},\bm p^{\rm in}\right) &= V \left(\bm p^{\rm out}-\bm p^{\rm in}\right) +\int \frac{d^2 p'}{\left( 2\pi \right)^2}\, V\left(\bm p^{\rm out}-\bm p'\right) g(\omega,\bm p')  T\left(\bm p',\bm p^{\rm in}\right).
 	\label{integEq}
 \end{align}
-Since in the case of the superconductivity we are interested in the scatterings close to the Fermi surface, we use $\bm p^{1} = p_F\, \bm n^{1}$ and $\bm p^{2} = p_F \,\bm n^{2}$, where the in-plane unit vectors $\bm n^{1}$ and $\bm n^{2}$ determine the direction of scattering on the Fermi surface.  Then, we seek the T-matrix in the following form
+Since in the case of the superconductivity we are interested in the scatterings close to the Fermi surface, we use $\bm p^{\rm out} = p_F\, \bm n^{\rm out}$ and $\bm p^{\rm in} = p_F \,\bm n^{\rm in}$, where the in-plane unit vectors $\bm n^{\rm out}$ and $\bm n^{\rm in}$ determine the direction of scattering on the Fermi surface.  Then, we seek the T-matrix in the following form
 \begin{align}
-	T\left(\bm n^{1},\bm n^{2}\right) &= A + B_i n^{1}_i + C_i n^{2}_j + D_{ij} n^{1}_i n^{2}_j, \label{ansatz}
+	T\left(\bm n^{\rm out},\bm n^{\rm in}\right) &= T^0 + T^1_i n^{\rm out}_i + {T^1_j}^\dagger n^{\rm in}_j + T^2_{ij}\, n^{\rm out}_i n^{\rm in}_j, \label{ansatz}
 \end{align}
-where  $A,B_i,C_i$ and $D_{ij}$ are the 4-by-4 matrices in the space $\sigma\otimes\tau$. We substitute ansatz~(\ref{ansatz}) in the integral Eq.~(\ref{integEq}), solve for the unknown matrices $A,B_i,C_i,D_{ij}$ and finally obtain the T-matrix
-\begin{widetext}
-\begin{equation}
-	T\left(\bm n^{1},\bm n^{2}\right) = \frac{-S_0\sigma_z+S^2_1p_F^2\bar g_{0}(\omega)+i\,S_1\,p_F \,  \bm \sigma\cdot(\bm n^{2}- \bm n^{1}) +S^2_1\, p^2_F \, \bar g_{0}(\omega)\,\left(\bm \sigma\cdot\bm n^{2}\right)\,\left(\bm \sigma\cdot \bm n^{1}\right)}{1+S_0\sigma_zg_{0}-S^2_1p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)}. \label{TM}
-\end{equation}
-\end{widetext}
-For brevity, $\bar g_0(\omega) = \frac{1}{2}\sum_{j=x,y} \sigma_j g_0(\omega) \sigma_j $ denotes the Green's function obtained from $g_{0}$ by replacing $\sigma_z \rightarrow - \sigma_z$. The density of states per spin is denoted as $\rho_0 = m/2\pi$. So, in the presence of the skyrmion, the Green's function becomes
+where  $T,T^1_i,T^2_{ij}$ are the 4-by-4 matrices in the $\sigma\otimes\tau$ space, which give the expansion of the T-matrix in vectors $n^{\rm out}_i$ and $n^{\rm in}_j$. We substitute the ansatz~(\ref{ansatz}) in Eq.~(\ref{integEq}) and rewrite the integral equation as 
 \begin{align}
-	G(\omega,\bm p^1,\bm p^2) =& g(\omega,\bm p^1)\,(2\pi)^2\delta(\bm p^1-\bm p^2) \nonumber \\
-	          &  +g(\omega,\bm p^1) T(\bm p^1,\bm p^2) g(\omega,\bm p^2),
+	T\left(\bm n^{\rm out},\bm n^{\rm in}\right) &=  -S_0\,\sigma_z +  i \,S_1p_F \, \sigma_i \left(  n^{\rm out}_i-n^{\rm in}_i \right)   
+	\\&+ \int d\bm n' \left[ -S_0\,\sigma_z +  i \,S_1p_F \, \sigma_i \left(  n^{\rm out}_i-n'_i \right) \right] g_0(\omega) \left[ T^0 + T^1_j n'_j + {T^1_j}^\dagger n^{\rm in}_j + T^2_{kj}\, n'_k n^{\rm in}_j \right],
+	\label{integEq1}
+\end{align}
+where after an integration in the radial direction $p'$ the Green's function in the momentum space $g(\omega,\bm p')$ transforms into an on-site matrix of the Green's functions $g_0(\omega)$. Next, we take an integral over the angular variable $\bm n'$, i.e. $\int d\bm n'\, n'_i\, = 0$ and $\int d\bm n'\, n'_in'_j\, = \delta_{ij}/2$, and obtain a closed set of equations for the unknown matrices
+\begin{align}
+	T^0 &= -S_0\sigma_z-S_0\sigma_zg_0\,T^0-\frac12 iS_1p_F\,\sigma_ig_0\,T^1_i, \label{eq0} \\
+	T^1_i &= iS_1p_F\,\sigma_i\left[1+g_0(\omega)\,T^0\right], \label{eq1} \\
+	T^2_{ij} &= iS_1p_F\,\sigma_ig_0(\omega)\,{T^1_j}^\dagger. \label{eq2}
+\end{align}
+Solution of the Eqs.~(\ref{eq0})-(\ref{eq2}) gives
+\begin{align}
+	T^0 = &\left[ -S_0\sigma_z+S_1^2p_F^2\bar g_0(\omega) \right] D ,\qquad T^1_i = iS_0p_F\,\sigma_i\,D,\qquad T^2_{ij} = S_1^2p_F^2\,\sigma_ig_0D\sigma_j,  \label{TM} \\
+	& {\rm where}\,D = \left[ 1+S_0\sigma_zg_{0}-S^2_1p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega) \right]^{-1}. \nonumber
+\end{align}
+Note that the relative order of the matrices in Eq.~(\ref{TM}) is important because the spin Pauli matrices do not commute. For brevity, $\bar g_0(\omega) = \frac{1}{2}\sum_{j=x,y} \sigma_j g_0(\omega) \sigma_j $ denotes the Green's function obtained from $g_{0}$ by replacing $\sigma_z \rightarrow - \sigma_z$. So, in the presence of the skyrmion, the Green's function becomes
+\begin{align}
+	G(\omega,\bm p^1,\bm p^2) =& g(\omega,\bm p^1)\,(2\pi)^2\delta(\bm p^1-\bm p^2) + g(\omega,\bm p^1) T(\bm p^1,\bm p^2) g(\omega,\bm p^2),
 	\label{G}
 \end{align}
-using which the spin-polarized local density of states (LDOS) can be expressed
+using which the spin-polarized local density of states (SP-LDOS) can be expressed
 \begin{align}
-	\rho_s(\omega,\bm r) = -&\frac{1}{\pi}\,{\rm Im}\lim_{\omega\rightarrow \omega+i\delta}{\rm\,Tr} \left[ \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2} \right. \label{rhor} \\
-	&\left.\int \frac{d^2p^1\,d^2p^2}{\left( 2\pi \right)^4} e^{i\left( \bm p^1-\bm p^2 \right)\bm r} G(\omega,\bm p^1,\bm p^2)\right]\, \nonumber
+	\rho_s(\omega,\bm r) = -&\frac{1}{\pi}\,{\rm Im}\lim_{\omega\rightarrow \omega+i\delta}{\rm\,Tr} \left[ \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2} \int \frac{d^2p^1\,d^2p^2}{\left( 2\pi \right)^4} e^{i\left( \bm p^1-\bm p^2 \right)\bm r} G(\omega,\bm p^1,\bm p^2)\right] \label{rhor}
 \end{align}
-where $s=x,y,z$ denotes the spin quantization axis. It can be easily evaluated for instance at the skyrmion core, i.e. at $\bm r=0$,
+where $s=x,y,z$ denotes the spin quantization axis. At the skyrmion core, i.e. at $\bm r=0$, only the $T^0$ part of the T-matrix contributes to local density of states 
 \begin{align}
-	& \rho_s(\omega,0) = -\frac{1}{\pi}\,{\rm Im}\lim_{\omega\rightarrow \omega+i\delta}{\rm \,Tr} \left\{  \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2}  \right. \label{spldos} \\
-	&\left.\left[g_0(\omega)+g_0(\omega)  \frac{-S_0\sigma_z+S^2_1p_F^2\bar g_{0}(\omega)}{1+S_0\sigma_zg_{0}(\omega)-S^2_1p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)} g_0(\omega)  \right]\right\}\, \nonumber
+	& \rho_s(\omega,0) = -\frac{1}{\pi}\,{\rm Im}\lim_{\omega\rightarrow \omega+i\delta}{\rm \,Tr} \left\{  \frac{1+\tau_z}{2}\,\frac{1+\sigma_s}{2}  \left[g_0(\omega)+g_0(\omega)  \frac{-S_0\sigma_z+S^2_1p_F^2\bar g_{0}(\omega)}{1+S_0\sigma_zg_{0}(\omega)-S^2_1p_F^2\,\bar g_{0}(\omega)\, g_{0}(\omega)} g_0(\omega)  \right]\right\}\,  \label{spldos}
 \end{align}
-which gives the expression in Eq.~(\ref{tm1}).
+whereas  $T^1$ and $T^2$ drop out. Equation~(\ref{spldos}) gives the expression in Eq.~(12).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Interaction between skyrmions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure} \centering
+	\includegraphics[width=0.35\linewidth]{fig5}	
+	\caption{(color online) Spin-polarized local density of states in the absence of the in-plane spins, i.e. at $S_1 = 0$. The localized skyrmion bound states (SBS) do not couple to the delocalized states of the opposite spin-polarization and are described by the sharp poles given by Eq.~(\ref{tmat}). Blue and red colors encode the up and down spin polarizaion.} \label{fig:SPLDOS}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In this section, we address the question of interaction between skyrmions mediated by a superconductor. Let us list a few recent works relevant for the discussion below. It was generally believed that the YSR states are localized on an atomic scale \cite{Balatsky2006}. However, it was demonstrated recently that, in the case of a quasi-2D superconductor, the YSR states are rather extended and survive at a scale of superconducting coherence length \cite{Menard2015}. This demonstrates for the first time the extended nature of the YSR states and hints that the long-range power-law SBS wavefunctions, predicted in the current work, could, in principle, be measured using STM. Authors of Ref.~\cite{Yao2014} suggested a new mechanism by which a superconducting host could mediate an effective interaction between embedded impurities whenever the YSR states associated with the distinct impurities overlap. They argued that the YSR interaction could even dominate the conventional RKKY interaction, where the YSR states are sufficiently close to the center of superconducting gap. To sum up, we base our claim of interaction between the skyrmion on these to works \cite{Menard2015,Yao2014}. First, the YSR states are extended object as was demonstrated in Ref.~\cite{Menard2015}. Second, superconductivity mediates an effective interaction between magnetic impurities, when the corresponding YSR wavefunctions overlap. Analogously, since the SBS states have long-range power-law decay, the superconductivity should mediate a long-range interaction.
+
+
+In order to estimate the superconductivity-induced interaction between skyrmions we use the formalism of TGTG formula frequently discussed in the context of Casimir interaction. It was also used to describe the interaction mediated by electrons between impurities in graphene~\cite{Shytov2009} and topological insulators~\cite{Abanin2011}. At zero temperature $T=0$, the free energy interaction between the skyrmions can be conveniently expressed as  
+\begin{equation}
+	U_{\rm int}(r) = \frac{1}{\pi}\int_{-\infty}^0 d\omega\,\, {\rm Im\,Tr\, Log\,} \left[ 1- g_{\bm r}(\omega) T_1(\omega) g_{-\bm r}(\omega) T_2(\omega) \right],
+	\label{interaction}
+\end{equation}
+where integral is taken over all negative energies, i.e. filled states, in the Bogolyubov-de Gennes formulation. The derivation of formula \ref{interaction} as well as equivalence to the approach of Ref.~\cite{Yao2014} are shown in Sec.~\ref{sec:TGTG}. In Eq.~(\ref{interaction}), $T_1$ and $T_2$ are the T-matrices corresponding to individual skyrmions, and the Green's function $g_{\bm r}$ is calculated in the real space for large $r\gtrsim\xi_{\rm sc}\gg p_F^{-1}$ 
+\begin{equation}
+	g_{\bm r}(\omega) = - \sqrt{\frac{2\pi}{p_Fr}}\sum_{\lambda = \pm 1} \frac{1+\lambda\sigma_z}{2}\,\left[ \tau_z\cos\left( p_Fr+\frac{\pi}{4} \right) +\frac{\omega-\lambda S+\Delta\tau_x}{\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}}\sin\left( p_Fr+\frac{\pi}{4} \right) \right]\, \rho_0\, e^{-r\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}/v_F}.
+	\label{grfunc}
+\end{equation}
+Here, the projector $ \frac{1+\lambda\sigma_z}{2}$ selects the spin-up and down sectors of the Hamiltonian, which are shifted in energy due to the constant FM field $-S\,\hat{\bm z}$ as discussed in the paper. Note a square root term in the exponent of Eq.~(\ref{grfunc}). For $|\omega-\lambda S|<\Delta$, the exponent produces an exponential decay at the scale of $r \sim v_F/\sqrt{\Delta^2-\left( \omega-\lambda S \right)^2}$. In contrast, the square root becomes purely imaginary $-i\,{\rm sgn}(\omega-\lambda S) \sqrt{\left( \omega-\lambda S \right)^2-\Delta^2}$ for $|\omega-\lambda S|>\Delta$, and so the exponential term gives periodic oscillations rather than exponential decay. This observation motivates the explanation of the long-range coupling: the SBS states couple to the delocalized states of the opposite spin polarization, for which the square root is imaginary. Then the Green's function, which has a long-range power-law behavior, can propagate between the skyrmions at large distances $r>\xi$ and, thus, couple their SBS states and generate an effective interaction between skyrmions. 
+
+The T-matrix given in Eq.~(\ref{TM}) has a quite involved form. For simplicity, let us demonstrate the long-range interaction between skyrmions perturbatively in $S_1$. First, at $S_1 = 0$, i.e. where the in-plane scattering is neglected, the T-matrix~(\ref{TM}) reduces to a simpler Eq.~(8) of the main text. The corresponding SP LDOS is shown in Fig.~(\ref{fig:SPLDOS}). The SBS states are represented by sharp peaks in the density of states which lie in the energy windows between the Zeeman split coherence peaks, i.e. $\Delta+S>|E^\pm_{\rm SBS}|>\Delta-S$. In this approximation, the scattering by the in-plane spins is absent, and, therefore, the SBS states do not couple to the delocalized states of the opposite spin-polarization. Now, we consider the higher-order order terms of the T-matrix expansion in $S_1$. We look for the terms that would couple the SBS states to the delocalized states of the opposite spin polarization. In the second-order in $S_1$, there is one such term generated by the contribution $T^2_{ij}$ in Eq.~(\ref{TM}). So, in the vicinity of the energy close to the SBS states, the relevant part of the T-matrix can be written as 
+\begin{equation}
+	T(\bm n^{\rm out},\bm n^{\rm in}) \rightarrow \sigma_i n_i^{\rm out}\left[S_1^2\,\sum_{\lambda=\pm 1} \frac{1+\lambda\tau_x}{2}\frac{1+\lambda\sigma_z}{2} \,\,\frac{\alpha}{\omega-E^{\lambda}_{\rm SBS}}\right] \sigma_j n_j^{\rm in}
+	\label{tmat}
+\end{equation}
+where the terms $\frac{1+\lambda\tau_x}{2}$ and $\frac{1+\lambda\sigma_z}{2}$ are the projectors in the Nambu and spin space, whereas constant $\alpha$ gives a strength of the SBS poles. Observe that Eq.~(\ref{tmat})  is dressed with the in-plane Pauli matrices $\sigma_i$ on both sides of the expression. The in-plane Pauli matrices $\sigma_i=(\sigma_x,\sigma_y)$ flip the spin $\sigma_z$ and, thus, couple the SBS poles to the background delocalized states. Then, we substitute Eqs.~(\ref{grfunc}) and (\ref{tmat}) in Eq.~(\ref{interaction}). The integral in Eq.~(\ref{interaction}) is dominated by the poles in the T-matrix, so we approximate the integrand
+\begin{align}
+	{\rm Im\,Tr\, Log\,} \left[ 1-   \beta\frac{S_1^4}{p_Fr} \sum_{\lambda = \pm 1} \frac{1+\lambda\sigma_z}{2} \frac{1}{\left(\omega-E^{-\lambda}_{\rm SBS}\right)^2} e^{-i\lambda r\sqrt{\left( E^{-\lambda}_{\rm SBS}-\lambda S \right)^2-\Delta^2}/v_F} \right],
+	\label{tgtg}
+\end{align}
+where $\beta$ is a constant absorbing other parameters. Observe, that the argument in the exponent is imaginary. Since the integral in Eq.~(\ref{interaction}) runs over negative energies, $\lambda=1$ dominates the integral and we focus only at the vicinity of $\omega$ around $E^{-}_{\rm SBS}$. So, after shifting the integration variable $\omega-E^{-}_{\rm SBS}\rightarrow\omega$, and reexpressing the imaginary part of the logarithm, we rewrite the integral as  
+\begin{align}
+	U_{\rm int}(r) = \frac{1}{\pi}\int_{-\infty}^\infty d\omega\, {\rm atan}\left[\frac{\sin \kappa r}{\frac{p_Fr}{\beta S_1^4}\omega^2-\cos \kappa r}  \right] = S_1^2\sqrt{\frac{\beta}{p_Fr}} I(\kappa r), 	\label{ur},
+\end{align}
+where $\kappa = \sqrt{\left( E^{-}_{\rm SBS}-S \right)^2-\Delta^2}/v_F$, and $I(r)=\frac{1}{\pi}\int_{-\infty}^\infty dx\, {\rm atan}\left[\frac{\sin \kappa r}{x^2-\cos \kappa r}  \right]$ is a periodic function of $\kappa r$: $I(\kappa r)= 2 \cos\left( \frac{\kappa r}{2} \right)$ for $4\pi n+2\pi>\kappa r>4\pi n$, and $I(\kappa r)= - 2 \cos\left( \frac{\kappa r}{2} \right)$ for $4\pi n+4\pi>\kappa r>4\pi n + 2\pi$. So, we find that interaction between skyrmions~(\ref{ur}) decays as $1/\sqrt{r}$ and oscillates at a scale of $1/\kappa$. In colloquial terms, the oscillating long-range SBS wavefunctions corresponding to distinct skyrmions determine the effective interaction between skyrmions. Note that, we have calculated the contribution to the energy only due to the subgap states, and neglected the supragap states. The full analysis using Eqs.~(\ref{TM}) and (\ref{interaction}) will be given in a subsequent work.   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Derivation of the TGTG formula (\ref{interaction}).} \label{sec:TGTG}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The TGTG formula~(\ref{interaction}) has been used extensively for calculation of Casimir forces. Authors~\cite{Shytov2009,Abanin2011} also used it to calculate the electron-mediated interaction between impurities in graphene and topological insulators. For completeness, we give a derivation of the TGTG formula in the context of superconductivity. 
+
+Impurities (or any other local perturbation) brought in a superconductor modify the density of states $\delta \rho(\omega)$ and cause an overall energy shift \cite{Yao2014}
+\begin{align}
+	U = \int_{-\infty}^0 d\omega\, \omega\,\delta\rho(\omega). \label{u1}
+\end{align}
+The density of states can be reexpressed using the bare Green's function $g$ and T-matrix $T$
+\begin{align}
+	\delta\rho = -\frac{1}{\pi}{\rm Im\,Tr\,}\left[ g T g \right] =  -\frac{1}{\pi}{\rm Im\,Tr\,}\left[ g\, V\left( 1-gV \right)^{-1} g \right],
+\end{align}
+where $V$ describes the effect of two (or arbitrary number of) impurities. Using the cyclic permutations within trace, we bring the two Green's functions together, use an identity $\frac{\partial g}{\partial\omega} = -g^2$ and finally obtain as follows
+\begin{align}
+	\delta\rho = -\frac{1}{\pi}{\rm Im\,Tr\,}\left[ g^2\, V\left( 1-gV \right)^{-1}  \right] =  \frac{1}{\pi}{\rm Im\,Tr\,}\left[ \frac{\partial g}{\partial\omega}\, V\left( 1-gV \right)^{-1}  \right] = -\frac{\partial}{\partial\omega}\, \frac{1}{\pi}{\rm Im\,Tr\,Log\,} \left( 1-gV \right). \label{u3}
+\end{align}
+We substitute Eq.~(\ref{u3}) in Eq.~(\ref{u1}) integrate by parts and obtain
+\begin{align}
+	U = \frac{1}{\pi}\int_{-\infty}^0 d\omega\, {\rm Im\,Tr\,Log\,} \left( 1-gV \right). \label{u4}
+\end{align}
+For two impurities, the expression within a logarithm is a 2-by-2 matrix
+\begin{align}
+	1-gV  =  \begin{pmatrix} 
+		               1 & 0\\ 
+			       0 & 1 
+	         \end{pmatrix} - 
+		 \begin{pmatrix} 
+			g_{11} & g_{12} \\ 
+			g_{21} & g_{22}  
+	         \end{pmatrix} 
+		 \begin{pmatrix}
+			V_{1} &   0   \\ 
+			0     &  V_{2}   
+		\end{pmatrix},  \label{u5}
+\end{align}
+where $V_1$ and $V_2$ describe the perturbations due to individual impurities. Equation~(\ref{u5}) can be conveniently reexpressed via the on-site T-matrices.
+\begin{align}
+	1-gV  =  \begin{pmatrix} 
+		        1-g_{11}V_1 & 0\\ 
+			0 & 1-g_{22}V_2 
+	         \end{pmatrix} 
+		 \begin{pmatrix} 
+			 1 & -g_{12} T_2\\ 
+			-g_{21} T_1 & 1 
+	\end{pmatrix},{\,\,\rm where\,\,} T_i = V_i\,(1-g_{ii}V_i)^{-1}.  \label{u6}
+\end{align}
+We substitute the product~(\ref{u6}) in Eq.~(\ref{u4}) and find that the energy splits into two contributions $U = U_{\rm self}+U_{\rm int}$
+\begin{align}
+        U_{\rm self} = \frac{1}{\pi}\int_{-\infty}^0 d\omega\, {\rm Im\,Tr\,Log\,} \begin{pmatrix} 
+		        1-g_{11}V_1 & 0\\ 
+			0 & 1-g_{22}V_2 
+	         \end{pmatrix},\qquad 
+		      U_{\rm int} = \frac{1}{\pi}\int_{-\infty}^0 d\omega\, {\rm Im\,Tr\,Log\,} \begin{pmatrix} 
+			 1 & -g_{12} T_2\\ 
+			-g_{21} T_1 & 1 
+	\end{pmatrix}.
+\end{align}
+The first contribution $U_{\rm self}$ gives the self-energy of the individual impurities, whereas the second contribution $U_{\rm int}$ describes the interaction between impurities and vanishes for large separation between impuritites where $g_{12}\rightarrow 0$. Further, we simplify  the logarithm in the expression for the interaction energy 
+\begin{align} 
+		{\rm Tr\, Log\,} 
+		      \begin{pmatrix} 
+			 1 & -g_{12} T_2\\ 
+			-g_{21} T_1 & 1 
+		      \end{pmatrix} =  
+		{\rm Log\,Det\,} 
+		      \begin{pmatrix} 
+			 1 & -g_{12} T_2\\ 
+			-g_{21} T_1 & 1 
+		\end{pmatrix} = {\rm Log\,Det\,} \left( 1- g_{12} T_2 g_{21} T_1 \right)
+\end{align}
+where the property of determinants of Bloch matrices was used in the last equation. So, finally we obtain 
+\begin{align}
+		      U_{\rm int} = \frac{1}{\pi}\int_{-\infty}^0 d\omega\,\, {\rm Im\,Tr\, Log\,} \left( 1- g_{12} T_2 g_{21} T_1 \right),
+\end{align}
+where trace is now taken only in the space of indices of the Green's function.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{figure*} \centering
 %	(a)\includegraphics[width=0.25\linewidth]{ApLDOSa} \hspace{0.1cm}
@@ -308,5 +441,6 @@ which gives the expression in Eq.~(\ref{tm1}).
 %The first term describes fast Friedel oscillations, whereas second term - behavior at a scale of the superconducting coherence length $\xi_{sc}$. For the state inside the superconducting gap, i.e. for $|\omega_\lambda|<\Delta$, the latter term the exponential decay. In contrast for the state inside the continuum, i.e. for $|\omega_\lambda|>\Delta$, $p_\lambda$ becomes imaginary, i.e. $p_\lambda = -i\sqrt{\omega^2_\lambda-\Delta^2}/v_F$, and therefore the last exponential term in Eq.~(\ref{asym}) describes periodic oscillations with a period $\Delta r \sim 1/\xi_{sc}$.
 
 %The polarized SBS state discussed above lies inside the continuum of states corresponding to the opposite spin polarization. Moreover, the last term in Eq.~(\ref{pwf1}) describes the coupling of the state to the continuum of the background delocalized states. Thus, the SBS is expected to have an oscillating power-law rather than decaying behavior as also supported by the numerics.
+\end{widetext}
 
 \end{document}

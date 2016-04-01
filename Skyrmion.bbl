@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{38}%
+\begin{thebibliography}{42}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -395,17 +395,6 @@
   10.1103/PhysRevLett.113.087202} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo {pages}
   {087202} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Shytov}\ \emph {et~al.}(2009)\citenamefont {Shytov},
-  \citenamefont {Abanin},\ and\ \citenamefont {Levitov}}]{Shytov2009}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
-  {Shytov}}, \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont {Abanin}},
-  \ and\ \bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont {Levitov}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {Long-range interaction
-  between adatoms in graphene},}\ }\href {\doibase
-  10.1103/PhysRevLett.103.016806} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages}
-  {016806} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Garaud}\ \emph {et~al.}(2011)\citenamefont {Garaud},
   \citenamefont {Carlstr\"om},\ and\ \citenamefont {Babaev}}]{Garaud2011}%
   \BibitemOpen
@@ -453,6 +442,17 @@
   \bibinfo {note} {We expect that a different spatial dependency of the
   azimuthal angle (\ref {conf}) will not change the results
   significantly.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Braunecker}\ and\ \citenamefont
+  {Simon}(2013)}]{Braunecker2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Braunecker}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Simon}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Interplay between
+  classical magnetic moments and superconductivity in quantum one-dimensional
+  conductors: Toward a self-sustained topological majorana phase},}\ }\href
+  {\doibase 10.1103/PhysRevLett.111.147202} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo
+  {pages} {147202} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Klinovaja}\ \emph {et~al.}(2013)\citenamefont
   {Klinovaja}, \citenamefont {Stano}, \citenamefont {Yazdani},\ and\
   \citenamefont {Loss}}]{Klinovaja2013}%
@@ -466,6 +466,16 @@
   10.1103/PhysRevLett.111.186805} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
   {186805} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vazifeh}\ and\ \citenamefont
+  {Franz}(2013)}]{Vazifeh2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~M.}\ \bibnamefont
+  {Vazifeh}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Franz}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Self-organized
+  topological state with majorana fermions},}\ }\href {\doibase
+  10.1103/PhysRevLett.111.206802} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
+  {206802} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{Note3()}]{Note3}%
   \BibitemOpen
   \bibinfo {note} {The domain of applicability can also be extended to
@@ -484,8 +494,9 @@
 \bibitem [{Note5()}]{Note5}%
   \BibitemOpen
   \bibinfo {note} {The function $I_\psi ^{-1}$ is commonly referred to as the
-  inverse participation ratio.}\BibitemShut {Stop}%
-\bibitem [{\citenamefont {M\'{e}nard}\ \emph {et~al.}()\citenamefont
+  inverse participation ratio in the literature on localization
+  phenomena.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {M\'{e}nard}\ \emph {et~al.}(2015)\citenamefont
   {M\'{e}nard}, \citenamefont {Guissart}, \citenamefont {Brun}, \citenamefont
   {Pons}, \citenamefont {Stolyarov}, \citenamefont {Debontridder},
   \citenamefont {Leclerc}, \citenamefont {Janod}, \citenamefont {Cario},
@@ -504,18 +515,52 @@
   {D.}~\bibnamefont {Roditchev}}, \bibinfo {author} {\bibfnamefont
   {P.}~\bibnamefont {Simon}}, \ and\ \bibinfo {author} {\bibfnamefont
   {T.}~\bibnamefont {Cren}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Long range coherent magnetic bound states in superconductors}},}\
-  }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1506.06666}
-  {arXiv:1506.06666} \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(2015)\citenamefont {Kim},
-  \citenamefont {Tewari},\ and\ \citenamefont {Tserkovnyak}}]{Kim2015}%
+  {{Coherent long-range magnetic bound states in a superconductor}},}\ }\href
+  {http://dx.doi.org/10.1038/nphys3508} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume} {advance online
+  publication}} (\bibinfo {year} {2015})},\ \bibinfo {note}
+  {letter}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Yang}}\ \emph {et~al.}()\citenamefont {{Yang}},
+  \citenamefont {{Stano}}, \citenamefont {{Klinovaja}},\ and\ \citenamefont
+  {{Loss}}}]{Yang2016}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont
-  {Kim}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Tewari}}, \ and\
-  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tserkovnyak}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Control and braiding of
-  Majorana fermions bound to magnetic domain walls}},}\ }\href {\doibase
-  10.1103/PhysRevB.92.020412} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. B}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo {pages} {020412}
-  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Yang}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{Stano}}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Klinovaja}}}, \ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Loss}}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Majorana bound states in magnetic
+  skyrmions}},}\ }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1602.00968}
+  {arXiv:1602.00968} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Hals}}\ \emph {et~al.}()\citenamefont {{Hals}},
+  \citenamefont {{Schecter}},\ and\ \citenamefont {{Rudner}}}]{Hals2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~M.~D.}\
+  \bibnamefont {{Hals}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Schecter}}}, \ and\ \bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
+  {{Rudner}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Composite
+  topological excitations in ferromagnet-superconductor heterostructures}},}\
+  }\href@noop {} {\ }\Eprint {http://arxiv.org/abs/1603.07550}
+  {arXiv:1603.07550} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shytov}\ \emph {et~al.}(2009)\citenamefont {Shytov},
+  \citenamefont {Abanin},\ and\ \citenamefont {Levitov}}]{Shytov2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
+  {Shytov}}, \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont {Abanin}},
+  \ and\ \bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont {Levitov}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Long-range interaction
+  between adatoms in graphene},}\ }\href {\doibase
+  10.1103/PhysRevLett.103.016806} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages}
+  {016806} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abanin}\ and\ \citenamefont
+  {Pesin}(2011)}]{Abanin2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Abanin}}\ and\ \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Pesin}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Ordering of
+  magnetic impurities and tunable electronic properties of topological
+  insulators},}\ }\href {\doibase 10.1103/PhysRevLett.106.136802} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {106}},\ \bibinfo {pages} {136802} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
 \end{thebibliography}%
